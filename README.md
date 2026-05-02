@@ -1,6 +1,6 @@
-# 🚤 Lava Boat Clutch Fix
+# Lava Boat Clutch Fix
 
-> Restores the classic lava boat clutch mechanic removed in Minecraft 1.21.5.
+> Restores the classic lava boat clutch mechanic which was removed in Minecraft 1.21.5.
 
 [![Modrinth](https://img.shields.io/modrinth/v/lava-boat-clutch-fix?logo=modrinth&label=Modrinth&color=00AF5C)](https://modrinth.com/mod/lava-boat-clutch-fix)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
