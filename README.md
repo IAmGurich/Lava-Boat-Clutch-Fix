@@ -38,8 +38,8 @@ Open the config screen via **Mod Menu → Lava Boat Clutch Fix → Config**.
 |---|---|---|
 | `Enable Mod` | `true` | Toggle the entire mod on/off |
 | `Immunity Ticks` | `3` | How many ticks the boat is protected on first lava contact |
-| `Bounce Mode` | `Vanilla` | `Vanilla` — random X/Z bounce; `Custom` — fixed X/Y/Z velocity |
-| `Bounce Y` | `0.15` | Upward velocity of the dropped item (Custom mode) |
+| `Bounce Mode` | `Vanilla` | `Vanilla` — vanilla behavior; `Custom` — custom X/Y/Z velocity |
+| `Bounce Y` | `0.0` | Upward velocity of the dropped item (Custom mode) |
 | `Bounce X/Z` | `0.0` | Horizontal velocity of the dropped item (Custom mode) |
 
 ---
