@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "com/lavaboatclutch/mixin/BoatEntityMixin": {
+      "tick": "Lnet/minecraft/class_10255;method_5773()V"
+    },
+    "com/lavaboatclutch/mixin/VehicleEntityMixin": {
+      "Lnet/minecraft/entity/vehicle/VehicleEntity;dropStack(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/ItemEntity;": "Lnet/minecraft/class_8836;method_5775(Lnet/minecraft/class_3218;Lnet/minecraft/class_1799;)Lnet/minecraft/class_1542;",
+      "damage(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/damage/DamageSource;F)Z": "Lnet/minecraft/class_8836;method_64397(Lnet/minecraft/class_3218;Lnet/minecraft/class_1282;F)Z",
+      "killAndDropItem(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/item/Item;)V": "Lnet/minecraft/class_8836;method_54298(Lnet/minecraft/class_3218;Lnet/minecraft/class_1792;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/lavaboatclutch/mixin/BoatEntityMixin": {
+        "tick": "Lnet/minecraft/class_10255;method_5773()V"
+      },
+      "com/lavaboatclutch/mixin/VehicleEntityMixin": {
+        "Lnet/minecraft/entity/vehicle/VehicleEntity;dropStack(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/entity/ItemEntity;": "Lnet/minecraft/class_8836;method_5775(Lnet/minecraft/class_3218;Lnet/minecraft/class_1799;)Lnet/minecraft/class_1542;",
+        "damage(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/damage/DamageSource;F)Z": "Lnet/minecraft/class_8836;method_64397(Lnet/minecraft/class_3218;Lnet/minecraft/class_1282;F)Z",
+        "killAndDropItem(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/item/Item;)V": "Lnet/minecraft/class_8836;method_54298(Lnet/minecraft/class_3218;Lnet/minecraft/class_1792;)V"
+      }
+    }
+  }
+}
