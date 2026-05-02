@@ -89,6 +89,8 @@ Bug reports and pull requests are welcome! Please open an [Issue](https://github
 
 Special thanks to [Minecraft Curios Animations](https://www.youtube.com/@MinecraftCuriosAnimations) for mod image.
 
+---
+
 ## 📄 License
 
 [MIT](LICENSE) © 2026 IAmGurich
