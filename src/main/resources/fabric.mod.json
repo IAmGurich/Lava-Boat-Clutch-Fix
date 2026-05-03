@@ -29,7 +29,7 @@
   },
   "suggests": {
     "modmenu": "*"
-  }
+  },
   "custom": {
     "modmenu": {
       "links": {
