@@ -87,7 +87,10 @@ Bug reports and pull requests are welcome! Please open an [Issue](https://github
 
 ## ❤️ Gratitude
 
-Special thanks to [Minecraft Curios Animations](https://www.youtube.com/@MinecraftCuriosAnimations) for mod image.
+Special thanks to:
+
+- [Minecraft Curios Animations](https://www.youtube.com/@MinecraftCuriosAnimations) for mod image.
+- [ClaudeAI](https://claude.com) for helping me :)
 
 ---
 
