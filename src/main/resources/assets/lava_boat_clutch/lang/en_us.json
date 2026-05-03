@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Fixes lava boat clutch mechanic, I guess",
+
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restores lava boat clutch mechanic that got fixed in 1.21.5.\n\nOn first lava contact the boat gets a short immunity time, so player can land on its hitbox.\n\nNow you can do lava clutches like Dream but in newer versions!",
+
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Settings",
+
+  "config.lava_boat_clutch.category.general": "General",
+
+  "config.lava_boat_clutch.enable_mod": "Enable Mod",
+
+  "config.lava_boat_clutch.immunity_ticks": "Immunity Ticks",
+
+  "config.lava_boat_clutch.bounce_drop_mode": "Bounce Mode",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Default",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Custom",
+
+  "config.lava_boat_clutch.bounce_drop_y": "Velocity Y",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocity X",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocity Z"
+}
