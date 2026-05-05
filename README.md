@@ -2,16 +2,17 @@
 
 > Restores the classic lava boat clutch mechanic which was removed in Minecraft 1.21.5.
 
-[![Modrinth](https://img.shields.io/modrinth/v/lava-boat-clutch-fix?logo=modrinth&label=Modrinth&color=00AF5C)](https://modrinth.com/mod/lava-boat-clutch-fix)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Fabric](https://img.shields.io/badge/Mod_Loader-Fabric-dbb36e)](https://fabricmc.net)
-[![MC](https://img.shields.io/badge/Minecraft-1.21.5%20–%201.21.11-62b47a)](https://minecraft.net)
+[![CurseForge](https://cf.way2muchnoise.eu/1532732.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/lava-boat-clutch-fix)
+[![Modrinth](https://img.shields.io/modrinth/dt/fTrw5Ati?badge_style=for_the_badge)](https://modrinth.com/mod/lava-boat-clutch-fix)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Fabric](https://img.shields.io/badge/Mod_Loader-Fabric-dbb36e?style=for-the-badge)](https://fabricmc.net)
+[![MC](https://img.shields.io/badge/Minecraft-1.21.5%20–%201.21.11-62b47a?style=for-the-badge)](https://minecraft.net)
 
 ---
 
 ## 📖 What is this?
 
-In Minecraft 1.21.5, Mojang fixed the bug that allowed boats to briefly survive on lava — the mechanic behind the legendary **lava boat clutch** (famously used by Dream in Manhunt).
+In Minecraft 1.21.5, Mojang fixed the bug that allowed boats to briefly survive on lava — the mechanic behind the legendary **lava boat clutch** (famously used by **Dream** in Manhunt).
 
 This mod restores it. When a boat first touches lava, it receives a short immunity window so the player can land on the hitbox and survive the fall — exactly like in older versions.
 
@@ -94,6 +95,13 @@ Special thanks to:
 
 ---
 
+## ❤️ Support me ❤️
+
+- Subscribe to my [youtube](https://www.youtube.com/@IAmGurich)
+- Send [donation](https://dalink.to/iamgurich)
+
+---
+  
 ## 📄 License
 
 [MIT](LICENSE) © 2026 IAmGurich
