@@ -12,7 +12,7 @@
 
 ## 📖 What is this?
 
-In Minecraft 1.21.5, Mojang fixed the bug that allowed boats to briefly survive on lava — the mechanic behind the legendary **lava boat clutch** (famously used by Dream in Manhunt).
+In Minecraft 1.21.5, Mojang fixed the bug that allowed boats to briefly survive on lava — the mechanic behind the legendary **lava boat clutch** (famously used by **Dream** in Manhunt).
 
 This mod restores it. When a boat first touches lava, it receives a short immunity window so the player can land on the hitbox and survive the fall — exactly like in older versions.
 
@@ -95,6 +95,13 @@ Special thanks to:
 
 ---
 
+## ❤️ Support me ❤️
+
+- Subscribe to my [youtube](https://www.youtube.com/@IAmGurich)
+- Send [donation](https://dalink.to/iamgurich)
+
+---
+  
 ## 📄 License
 
 [MIT](LICENSE) © 2026 IAmGurich
