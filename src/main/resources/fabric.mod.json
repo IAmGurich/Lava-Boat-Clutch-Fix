@@ -29,5 +29,13 @@
   },
   "suggests": {
     "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.modrinth": "https://modrinth.com/mod/lava-boat-clutch-fix",
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/lava-boat-clutch-fix"
+      }
+    }
   }
 }
