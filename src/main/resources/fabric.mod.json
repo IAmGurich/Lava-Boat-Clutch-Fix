@@ -6,7 +6,7 @@
   "description": "Restores the classic lava boat clutch mechanic that got fixed in 1.21.5 - boats briefly survive on lava so the player can land on the hitbox.\nNow you can do lava boat clutches like Dream but in newer versions!",
   "authors": ["IAmGurich"],
 "contact": {
-  "homepage": "https://github.com/IAmGurich/Lava-Boat-Clutch-Fix.git",
+  "homepage": "https://modrinth.com/mod/lava-boat-clutch-fix",
   "sources": "https://github.com/IAmGurich/Lava-Boat-Clutch-Fix",
   "issues": "https://github.com/IAmGurich/Lava-Boat-Clutch-Fix/issues"
 },
