@@ -6,7 +6,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/lava-boat-clutch-fix?style=for-the-badge&logo=modrinth&label=modrinth&color=35d07f)](https://modrinth.com/mod/lava-boat-clutch-fix)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Fabric](https://img.shields.io/badge/Mod_Loader-Fabric-dbb36e?style=for-the-badge)](https://fabricmc.net)
-[![MC](https://img.shields.io/badge/Minecraft-1.21.5%20–%201.21.11-62b47a?style=for-the-badge)](https://minecraft.net)
+[![MC](https://img.shields.io/badge/Minecraft-1.21.5%20–%2026.1.x-62b47a?style=for-the-badge)](https://minecraft.net)
 
 ---
 
