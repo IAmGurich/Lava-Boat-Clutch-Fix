@@ -13,10 +13,10 @@ public class LavaBoatClutchConfigScreen {
     private static int   toSlider(float f) { return Math.round(f * 100f); }
     private static float fromSlider(int i)  { return i / 100f; }
 
-    private static final int SLIDER_Y_MIN  = toSlider(LavaBoatClutchConfig.MIN_BOUNCE_DROP);   //   0
-    private static final int SLIDER_Y_MAX  = toSlider(LavaBoatClutchConfig.MAX_BOUNCE_DROP);   //  50
-    private static final int SLIDER_XZ_MIN = toSlider(LavaBoatClutchConfig.MIN_BOUNCE_HORIZ);  // -50
-    private static final int SLIDER_XZ_MAX = toSlider(LavaBoatClutchConfig.MAX_BOUNCE_HORIZ);  // +50
+    private static final int SLIDER_Y_MIN  = toSlider(LavaBoatClutchConfig.MIN_BOUNCE_DROP);
+    private static final int SLIDER_Y_MAX  = toSlider(LavaBoatClutchConfig.MAX_BOUNCE_DROP);
+    private static final int SLIDER_XZ_MIN = toSlider(LavaBoatClutchConfig.MIN_BOUNCE_HORIZ);
+    private static final int SLIDER_XZ_MAX = toSlider(LavaBoatClutchConfig.MAX_BOUNCE_HORIZ);
 
     public static Screen create(Screen parent) {
         LavaBoatClutchConfig cfg = LavaBoatClutchMod.getConfig();
@@ -40,9 +40,6 @@ public class LavaBoatClutchConfigScreen {
                         Text.translatable("config.lava_boat_clutch.enable_mod"),
                         cfg.enableMod)
                 .setDefaultValue(true)
-                .setTooltip(
-                        Text.translatable("config.lava_boat_clutch.enable_mod.tooltip"),
-                        Text.translatable("config.lava_boat_clutch.enable_mod.tooltip.2"))
                 .setSaveConsumer(val -> cfg.enableMod = val)
                 .build());
 
@@ -53,9 +50,6 @@ public class LavaBoatClutchConfigScreen {
                         LavaBoatClutchConfig.MIN_IMMUNITY_TICKS,
                         LavaBoatClutchConfig.MAX_IMMUNITY_TICKS)
                 .setDefaultValue(LavaBoatClutchConfig.DEFAULT_IMMUNITY_TICKS)
-                .setTooltip(
-                        Text.translatable("config.lava_boat_clutch.immunity_ticks.tooltip"),
-                        Text.translatable("config.lava_boat_clutch.immunity_ticks.tooltip.2"))
                 .setSaveConsumer(val -> cfg.lavaImmunityTicks = val)
                 .build());
 
@@ -67,9 +61,6 @@ public class LavaBoatClutchConfigScreen {
                 .setYesNoTextSupplier(val -> val
                         ? Text.translatable("config.lava_boat_clutch.bounce_drop_mode.custom")
                         : Text.translatable("config.lava_boat_clutch.bounce_drop_mode.default"))
-                .setTooltip(
-                        Text.translatable("config.lava_boat_clutch.bounce_drop_mode.tooltip"),
-                        Text.translatable("config.lava_boat_clutch.bounce_drop_mode.tooltip.2"))
                 .setSaveConsumer(val -> cfg.bounceDropCustom = val)
                 .build();
 
@@ -85,9 +76,6 @@ public class LavaBoatClutchConfigScreen {
                         SLIDER_Y_MAX)
                 .setDefaultValue(toSlider(LavaBoatClutchConfig.DEFAULT_BOUNCE_DROP))
                 .setTextGetter(val -> Text.literal(String.format("%.2f", fromSlider(val))))
-                .setTooltip(
-                        Text.translatable("config.lava_boat_clutch.bounce_drop_y.tooltip"),
-                        Text.translatable("config.lava_boat_clutch.bounce_drop_y.tooltip.2"))
                 .setSaveConsumer(val -> cfg.bounceDrop = fromSlider(val))
                 .setRequirement(customModeActive)
                 .build());
@@ -100,9 +88,6 @@ public class LavaBoatClutchConfigScreen {
                         SLIDER_XZ_MAX)
                 .setDefaultValue(toSlider(LavaBoatClutchConfig.DEFAULT_BOUNCE_HORIZ))
                 .setTextGetter(val -> Text.literal(String.format("%+.2f", fromSlider(val))))
-                .setTooltip(
-                        Text.translatable("config.lava_boat_clutch.bounce_drop_x.tooltip"),
-                        Text.translatable("config.lava_boat_clutch.bounce_drop_x.tooltip.2"))
                 .setSaveConsumer(val -> cfg.bounceDropX = fromSlider(val))
                 .setRequirement(customModeActive)
                 .build());
@@ -115,9 +100,6 @@ public class LavaBoatClutchConfigScreen {
                         SLIDER_XZ_MAX)
                 .setDefaultValue(toSlider(LavaBoatClutchConfig.DEFAULT_BOUNCE_HORIZ))
                 .setTextGetter(val -> Text.literal(String.format("%+.2f", fromSlider(val))))
-                .setTooltip(
-                        Text.translatable("config.lava_boat_clutch.bounce_drop_z.tooltip"),
-                        Text.translatable("config.lava_boat_clutch.bounce_drop_z.tooltip.2"))
                 .setSaveConsumer(val -> cfg.bounceDropZ = fromSlider(val))
                 .setRequirement(customModeActive)
                 .build());
