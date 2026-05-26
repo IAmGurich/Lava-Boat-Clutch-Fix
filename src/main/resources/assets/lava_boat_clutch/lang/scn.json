@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Aggiusta u meccanismu di clutch di la varca di lava, credo",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Ripristina u meccanismu di clutch di la varca di lava chi fu aggiustatu in 1.21.5.\n\nAu primu cuntatti cû lava, la varca otteni un tempu d'immunità curtu, accussì u giocaturi pò attirizzari supra u so hitbox.\n\nOra puoi fari lava clutches comu Dream ma nni li versioni cchiù novi!",
+  "config.lava_boat_clutch.title": "Impostazziunn di Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Ginirali",
+  "config.lava_boat_clutch.enable_mod": "Attiva Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Attiva o disattiva u meccanismu di clutch di la varca di lava.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick d'Immunità",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "U numiru di tick in cui la varca nun brucia nta la lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modalità Drop Bounce",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Predefinitu",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Pirsunalizatu",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Casuali",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Predefinitu: usa la velocità vanilla\nPirsunalizatu: usa la velocità configurabili.\nCasuali: usa la velocità casuali.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocità Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocità virsô l'àutu applicata â caduta di la varca dopu chi brucia nta la lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocità X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocità laterali lûngu l'assi X applicata â caduta di la varca dopu chi brucia nta la lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocità Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocità laterali lûngu l'assi Z applicata â caduta di la varca dopu chi brucia nta la lava."
+}

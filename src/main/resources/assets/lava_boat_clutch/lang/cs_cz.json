@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Opravuje mechaniku chytání člunu v lávě, asi tak",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Obnovuje mechaniku chytání člunu v lávě, která byla opravena ve verzi 1.21.5.\n\nPři prvním kontaktu s lávou člun získá krátkou dobu imunity, aby na něj hráč mohl přistát na jeho hitboxu.\n\nTeď můžeš dělat clutche v lávě jako Dream, ale v novějších verzích!",
+  "config.lava_boat_clutch.title": "Nastavení Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Obecné",
+  "config.lava_boat_clutch.enable_mod": "Povolit Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Zapíná nebo vypíná mechaniku chytání člunu v lávě.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticků Imunity",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Počet ticků, po které člun nehoří v lávě.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Režim Odrazu Pádu",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Výchozí",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Vlastní",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Náhodný",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Výchozí: používá vanilla rychlost\nVlastní: používá nastavitelnou rychlost.\nNáhodný: náhodná rychlost.",
+  "config.lava_boat_clutch.bounce_drop_y": "Rychlost Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Rychlost směrem nahoru aplikovaná na pád člunu po shoření v lávě.",
+  "config.lava_boat_clutch.bounce_drop_x": "Rychlost X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Boční rychlost podél osy X aplikovaná na pád člunu po shoření v lávě.",
+  "config.lava_boat_clutch.bounce_drop_z": "Rychlost Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Boční rychlost podél osy Z aplikovaná na pád člunu po shoření v lávě."
+}

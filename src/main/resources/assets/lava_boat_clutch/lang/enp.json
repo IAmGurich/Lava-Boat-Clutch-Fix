@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Mends the lava boat grasp workings, methinks",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Brings back the lava boat grasp workings that got mended in 1.21.5.\n\nOn first lava touch the boat gets a short warding time, so the player can land on its hitbox.\n\nNow you can do lava grasps like Dream but in newer builds!",
+  "config.lava_boat_clutch.title": "Lava Boat Grasp Mend Settings",
+  "config.lava_boat_clutch.category.general": "Main",
+  "config.lava_boat_clutch.enable_mod": "Switch On Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Switches on or off the lava boat grasp workings.",
+  "config.lava_boat_clutch.immunity_ticks": "Warding Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "The tally of ticks wherein the boat does not burn in the lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop Bounce Mode",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Inborn",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Handmade",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Random",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Inborn: uses inborn speed\nHandmade: uses settable speed.\nRandom: uses randumz velocity.",
+  "config.lava_boat_clutch.bounce_drop_y": "Speed Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Upward speed put on the boat's drop after boat burn in lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Speed X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Sideways speed along the X shaft put on the boat's drop after boat burn in lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Speed Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Sideways speed along the Z shaft put on the boat's drop after boat burn in lava."
+}

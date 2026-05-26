@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Nahtana i nóreva ciryamekanik, uan istin",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Entuluva i nóreva ciryamekanik i nahtanë ya hirne asambar 1.21.5 nossë.\n\nI minya naitë nóreva cirya cé canta luinë rávëa, i castamir polë lëa tel hitboxenna.\n\nSí pole carë nóreva nahtë ve Dream nan i anyanwa norë!",
+  "config.lava_boat_clutch.title": "Lava Cirya Nóre Fix Turyë",
+  "config.lava_boat_clutch.category.general": "Ilúvë",
+  "config.lava_boat_clutch.enable_mod": "Cuivina Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Cuivina hya ualë i nóreva ciryamekanik.",
+  "config.lava_boat_clutch.immunity_ticks": "Rávëa Ticki",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "I nótë i ticki yassen cirya umir yúla nóreva.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Lanta Holta Nótë",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Hauta",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Mistarë",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Random",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Hauta: anta vanilla tirmë\nMistarë: anta turya tirmë.\nRandom: quetta lúmessë.",
+  "config.lava_boat_clutch.bounce_drop_y": "Tirmë Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Ala tirmë antaina lantanna ciryao epe yúla nóreva.",
+  "config.lava_boat_clutch.bounce_drop_x": "Tirmë X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Hyarma tirmë X-axë arta antaina lantanna ciryao epe yúla nóreva.",
+  "config.lava_boat_clutch.bounce_drop_z": "Tirmë Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Hyarma tirmë Z-axë arta antaina lantanna ciryao epe yúla nóreva."
+}

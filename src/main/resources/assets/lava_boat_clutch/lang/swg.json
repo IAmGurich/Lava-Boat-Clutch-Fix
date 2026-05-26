@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Fixt dr Lava-Boot-Clutch-Mechanismus, glaub i",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Stellt dr Lava-Boot-Clutch-Mechanismus wieder her, wo in 1.21.5 gfixt worre isch.\n\nBeim erschte Lavakontakt kriagt s Boot e kurzi Immunität, damit dr Spieler uff seine Hitbox landa ka.\n\nJetzt kasch Lava-Clutches macha wia Dream, aber in nearere Versiona!",
+  "config.lava_boat_clutch.title": "Lava Boot Clutch Fix Eistellunge",
+  "config.lava_boat_clutch.category.general": "Allgemoi",
+  "config.lava_boat_clutch.enable_mod": "Mod aktiviera",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiviert oder deaktiviert dr Lava-Boot-Clutch-Mechanismus.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitäts-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "D Azahl vo Ticks, wo s Boot net in dr Lava brennt.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Absprung-Modus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standard",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Benutzerdefiniert",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Zufällig",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standard: nimmt Vanilla-Gschwindigkeit\nBenutzerdefiniert: nimmt konfigurierbare Gschwindigkeit.\nZufällig: nimmt zufälligi Gschwindigkeit.",
+  "config.lava_boat_clutch.bounce_drop_y": "Gschwindigkeit Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Uffwärts-Gschwindigkeit beim Falla vom Boot nach em Verbrennen in dr Lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Gschwindigkeit X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Seitliche Gschwindigkeit entlang dr X-Achse beim Falla vom Boot nach em Verbrennen in dr Lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Gschwindigkeit Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Seitliche Gschwindigkeit entlang dr Z-Achse beim Falla vom Boot nach em Verbrennen in dr Lava."
+}

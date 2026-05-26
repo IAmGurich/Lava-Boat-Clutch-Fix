@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Ceartaíonn meicníocht ghreim báid laibhe, is dóigh liom",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Aischuireann meicníocht ghreim báid laibhe a ceartaíodh in 1.21.5.\n\nAr an gcéad teagmháil leis an laibhe, faigheann an bád tréimhse ghearr imdhíonachta ionas go mbeidh an imreoir in ann tuirlingt ar a hitbox.\n\nAnois is féidir leat greim laibhe a dhéanamh cosúil le Dream ach i leaganacha níos nuaí!",
+  "config.lava_boat_clutch.title": "Socruithe Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Ginearálta",
+  "config.lava_boat_clutch.enable_mod": "Cumasaigh Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Cumasaíonn nó díchumasaíonn meicníocht ghreim báid laibhe.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticeanna Imdhíonachta",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Líon na dticeanna nach ndónn an bád sa laibhe.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mód Preabtha Titim",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Réamhshocraithe",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Saincheaptha",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Randamach",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Réamhshocraithe: úsáideann luas vanilla\nSaincheaptha: úsáideann luas inchumraithe.\nRandamach: luas randamach.",
+  "config.lava_boat_clutch.bounce_drop_y": "Luas Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Luas suas a chuirtear i bhfeidhm ar thitim an bháid tar éis dó dó sa laibhe.",
+  "config.lava_boat_clutch.bounce_drop_x": "Luas X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Luas taobhánach feadh an ais X a chuirtear i bhfeidhm ar thitim an bháid tar éis dó dó sa laibhe.",
+  "config.lava_boat_clutch.bounce_drop_z": "Luas Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Luas taobhánach feadh an ais Z a chuirtear i bhfeidhm ar thitim an bháid tar éis dó dó sa laibhe."
+}

@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Fixt de Lava-Boot-Kopplung-Mekanik, glööv ik",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Stellt de Lava-Boot-Kopplung-Mekanik wedder her, de in 1.21.5 fixt wurrn is.\n\nBi'n eersten Kontak mit Lava kriegt dat Boot en korte Immunitätstied, so dat de Speler op sinen Hitbox landen kann.\n\nNü kannst du Lava-Clutches maken as Dream, aver in nüere Versionen!",
+  "config.lava_boat_clutch.title": "Lava Boot Kopplung Fix Instellungen",
+  "config.lava_boat_clutch.category.general": "Allgemeen",
+  "config.lava_boat_clutch.enable_mod": "Mod anstellen",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiviert oder deaktiviert de Lava-Boot-Kopplung-Mekanik.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitäts-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "De Tahl vun de Ticks, in de dat Boot in de Lava nich verbrennt.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Rückstoot-Modus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standard",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Eegen",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Zufällig",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standard: bruukt Vanilla-Snelligkeit\nEegen: bruukt konfigurierbore Snelligkeit.\nZufällig: zufällige Snelligkeit.",
+  "config.lava_boat_clutch.bounce_drop_y": "Snelligkeit Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Noh-baven-Snelligkeit op'n Boot-Drop na't Verbrennen in de Lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Snelligkeit X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Sietlicke Snelligkeit längs de X-Aß op'n Boot-Drop na't Verbrennen in de Lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Snelligkeit Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Sietlicke Snelligkeit längs de Z-Aß op'n Boot-Drop na't Verbrennen in de Lava."
+}

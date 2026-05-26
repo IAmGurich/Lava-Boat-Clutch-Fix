@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Fixes lava boat clutch mechanic, I reckon",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restores lava boat clutch mechanic that got fixed in 1.21.5.\n\nOn first lava contact the boat gets a short immunity time, so player can land on its hitbox.\n\nNow you can do lava clutches like Dream but in newer versions!",
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Settings",
+  "config.lava_boat_clutch.category.general": "General",
+  "config.lava_boat_clutch.enable_mod": "Enable Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Enables or disables the lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunity Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "The number of ticks in which the boat does not burn in the lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop Bounce Mode",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Default",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Custom",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Random",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Default: uses vanilla velocity\nCustom: uses configurable velocity.\nRandom: uses random velocity.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocity Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Upward velocity applied to the boat's drop after boat burn in lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocity X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Lateral velocity along the X axis applied to the boat's drop after boat burn in lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocity Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Lateral velocity along the Z axis applied to the boat's drop after boat burn in lava."
+}

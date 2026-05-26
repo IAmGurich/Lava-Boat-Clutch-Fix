@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "ssǝnƃ I ʼɔᴉuɐɥɔǝɯ ɥɔʇnlɔ ʇɐoq ɐʌɐl sǝxᴉℲ",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "¡suoᴉsɹǝʌ ɹǝʍǝu uᴉ ʇnq ɯɐǝɹp ǝʞᴉl sǝɥɔʇnlɔ ɐʌɐl op uɐɔ noʎ ʍoN\n\n˙xoqʇᴉɥ sʇᴉ uo puɐl uɐɔ ɹǝʎɐld os ʼǝɯᴉʇ ʎʇᴉunɯɯᴉ ʇɹoɥs ɐ sʇǝƃ ʇɐoq ǝɥʇ ʇɔɐʇuoɔ ɐʌɐl ʇsɹᴉɟ uO\n\n˙ϛ˙Ɩᄅ˙Ɩ uᴉ pǝxᴉɟ ʇoƃ ʇɐɥʇ ɔᴉuɐɥɔǝɯ ɥɔʇnlɔ ʇɐoq ɐʌɐl sǝɹoʇsǝɹ",
+  "config.lava_boat_clutch.title": "sƃuᴉʇʇǝS xᴉℲ ɥɔʇnlƆ ʇɐoᗺ ɐʌɐ˥",
+  "config.lava_boat_clutch.category.general": "lɐɹǝuǝפ",
+  "config.lava_boat_clutch.enable_mod": "poW ǝlqɐuƎ",
+  "config.lava_boat_clutch.enable_mod.tooltip": "˙ɔᴉuɐɥɔǝɯ ɥɔʇnlɔ ʇɐoq ɐʌɐl ǝɥʇ sǝlqɐsᴉp ɹo sǝlqɐuƎ",
+  "config.lava_boat_clutch.immunity_ticks": "sʞɔᴉ┴ ʎʇᴉunɯɯI",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "˙ɐʌɐl ǝɥʇ uᴉ uɹnq ʇou sǝop ʇɐoq ǝɥʇ ɥɔᴉɥʍ uᴉ sʞɔᴉʇ ɟo ɹǝqɯnu ǝɥ┴",
+  "config.lava_boat_clutch.bounce_drop_mode": "ǝpoW ǝɔunoᗺ doɹp",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "ʇlnɐɟǝp",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "ɯoʇsnƆ",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "ɯopuɐɹ",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "˙ʎʇᴉɔolǝʌ ǝlqɐɹnƃᴉɟuoɔ sǝsn :ɯoʇsnƆ\nʎʇᴉɔolǝʌ ɐllᴉuɐʌ sǝsn :ʇlnɐɟǝp\nɯopuɐɹ: sǝsn ɯopuɐɹ ʎʇıɔolǝʌ˙",
+  "config.lava_boat_clutch.bounce_drop_y": "⅄ ʎʇᴉɔolǝΛ",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "˙ɐʌɐl uᴉ uɹnq ʇɐoq ɹǝʇɟɐ doɹp s'ʇɐoq ǝɥʇ oʇ pǝᴉlddɐ ʎʇᴉɔolǝʌ pɹɐʍd∩",
+  "config.lava_boat_clutch.bounce_drop_x": "X ʎʇᴉɔolǝΛ",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "˙ɐʌɐl uᴉ uɹnq ʇɐoq ɹǝʇɟɐ doɹp s'ʇɐoq ǝɥʇ oʇ pǝᴉlddɐ sᴉxɐ X ǝɥʇ ƃuolɐ ʎʇᴉɔolǝʌ lɐɹǝʇɐ˥",
+  "config.lava_boat_clutch.bounce_drop_z": "Z ʎʇᴉɔolǝΛ",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "˙ɐʌɐl uᴉ uɹnq ʇɐoq ɹǝʇɟɐ doɹp s'ʇɐoq ǝɥʇ oʇ pǝᴉlddɐ sᴉxɐ Z ǝɥʇ ƃuolɐ ʎʇᴉɔolǝʌ lɐɹǝʇɐ˥"
+}

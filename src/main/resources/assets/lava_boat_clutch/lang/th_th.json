@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "แก้ไขกลไกการคว้าเรือในลาวา คิดว่านะ",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "คืนค่ากลไกการคว้าเรือในลาวาที่ถูกแก้ไขในเวอร์ชัน 1.21.5\n\nเมื่อสัมผัสลาวาครั้งแรก เรือจะได้รับเวลาภูมิคุ้มกันสั้นๆ เพื่อให้ผู้เล่นสามารถลงจอดบนฮิตบ็อกซ์ได้\n\nตอนนี้คุณสามารถทำ lava clutch แบบ Dream ได้แล้ว แต่ในเวอร์ชันใหม่กว่า!",
+  "config.lava_boat_clutch.title": "การตั้งค่า Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "ทั่วไป",
+  "config.lava_boat_clutch.enable_mod": "เปิดใช้งาน Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "เปิดหรือปิดกลไกการคว้าเรือในลาวา",
+  "config.lava_boat_clutch.immunity_ticks": "ภูมิคุ้มกัน Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "จำนวน ticks ที่เรือไม่ไหม้ในลาวา",
+  "config.lava_boat_clutch.bounce_drop_mode": "โหมดกระเด้งการตก",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "ค่าเริ่มต้น",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "กำหนดเอง",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "สุ่ม",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "ค่าเริ่มต้น: ใช้ความเร็วแบบวานิลลา\nกำหนดเอง: ใช้ความเร็วที่ตั้งค่าได้\nสุ่ม: ความเร็วสุ่ม.",
+  "config.lava_boat_clutch.bounce_drop_y": "ความเร็ว Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "ความเร็วขึ้นที่ใช้กับการตกของเรือหลังจากเรือไหม้ในลาวา",
+  "config.lava_boat_clutch.bounce_drop_x": "ความเร็ว X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "ความเร็วด้านข้างตามแกน X ที่ใช้กับการตกของเรือหลังจากเรือไหม้ในลาวา",
+  "config.lava_boat_clutch.bounce_drop_z": "ความเร็ว Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "ความเร็วด้านข้างตามแกน Z ที่ใช้กับการตกของเรือหลังจากเรือไหม้ในลาวา"
+}

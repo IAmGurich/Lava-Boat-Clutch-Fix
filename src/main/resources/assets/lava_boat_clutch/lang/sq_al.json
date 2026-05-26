@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Rregullon mekanikën e kapjes së varkës në lavë, supozoj",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Rikthen mekanikën e kapjes së varkës në lavë që u rregullua në versionin 1.21.5.\n\nNë kontaktin e parë me lavën, varka merr një kohë të shkurtër imuniteti, që lojtari të mund të ulë në hitbox-in e saj.\n\nTani mund të bësh kapje në lavë si Dream, por në versione të reja!",
+  "config.lava_boat_clutch.title": "Cilësimet e Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Të Përgjithshme",
+  "config.lava_boat_clutch.enable_mod": "Aktivizo Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktivizon ose çaktivizon mekanikën e kapjes së varkës në lavë.",
+  "config.lava_boat_clutch.immunity_ticks": "Tike Imuniteti",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Numri i tikeve gjatë të cilave varka nuk digjet në lavë.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modaliteti i Kërcimit të Rënies",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "I parazgjedhur",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "I personalizuar",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Rastësor",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "I parazgjedhur: përdor shpejtësinë vanilla\nI personalizuar: përdor shpejtësi të konfigurueshme.\nRastësor: shpejtësi rastësore.",
+  "config.lava_boat_clutch.bounce_drop_y": "Shpejtësia Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Shpejtësia lart e aplikuar në rënien e varkës pas djegies në lavë.",
+  "config.lava_boat_clutch.bounce_drop_x": "Shpejtësia X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Shpejtësia anësore përgjatë boshtit X e aplikuar në rënien e varkës pas djegies në lavë.",
+  "config.lava_boat_clutch.bounce_drop_z": "Shpejtësia Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Shpejtësia anësore përgjatë boshtit Z e aplikuar në rënien e varkës pas djegies në lavë."
+}

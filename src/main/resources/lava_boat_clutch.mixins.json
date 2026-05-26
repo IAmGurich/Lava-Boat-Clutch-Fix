@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.lavaboatclutch.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BoatEntityMixin",
+    "VehicleEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

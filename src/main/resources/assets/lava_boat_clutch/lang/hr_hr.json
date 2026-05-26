@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Popravlja mehaniku hvatanja čamca u lavi, pretpostavljam",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Vraća mehaniku hvatanja čamca u lavi koja je popravljena u verziji 1.21.5.\n\nPri prvom kontaktu s lavom čamac dobiva kratko imunitetno vrijeme kako bi igrač mogao sletjeti na njegovu hitbox.\n\nSada možeš raditi hvatanja u lavi poput Dreama, ali u novijim verzijama!",
+  "config.lava_boat_clutch.title": "Postavke Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Općenito",
+  "config.lava_boat_clutch.enable_mod": "Uključi Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Uključuje ili isključuje mehaniku hvatanja čamca u lavi.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks Imuniteta",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Broj ticks-a u kojima čamac ne gori u lavi.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Način Odskoka Pada",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Zadano",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Prilagođeno",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Nasumično",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Zadano: koristi vanilla brzinu\nPrilagođeno: koristi konfigurabilnu brzinu.\nNasumično: nasumična brzina.",
+  "config.lava_boat_clutch.bounce_drop_y": "Brzina Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Brzina prema gore primijenjena na pad čamca nakon što izgori u lavi.",
+  "config.lava_boat_clutch.bounce_drop_x": "Brzina X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Bočna brzina duž osi X primijenjena na pad čamca nakon što izgori u lavi.",
+  "config.lava_boat_clutch.bounce_drop_z": "Brzina Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Bočna brzina duž osi Z primijenjena na pad čamca nakon što izgori u lavi."
+}
