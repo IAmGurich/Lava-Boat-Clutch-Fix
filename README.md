@@ -1,4 +1,5 @@
 # Lava Boat Clutch Fix
+> Restores the classic lava boat clutch mechanic which was removed in Minecraft 1.21.5.
 
 [![CurseForge](https://cf.way2muchnoise.eu/1532732.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/lava-boat-clutch-fix)
 [![Modrinth](https://img.shields.io/modrinth/dt/lava-boat-clutch-fix?style=for-the-badge&logo=modrinth&label=modrinth&color=35d07f)](https://modrinth.com/mod/lava-boat-clutch-fix)
@@ -20,12 +21,13 @@ This mod restores it. When a boat first touches lava, it receives a short immuni
 
 ## ✨ Features
 - <img src="assets/lava_bucket.png" width="22"> **Lava immunity** — boats survive on lava for a configurable number of ticks (default: 3)
-- <img src="assets/shield.png" width="22"> **Fire damage protection** — no fire damage to the boat during the immunity window
+- <img src="assets/shield.png" width="15"> **Fire damage protection** — no fire damage to the boat during the immunity window
 - <img src="assets/oak_boat.png" width="22"> **Item drop bounce** — the dropped boat item bounces upward out of the lava so it doesn't burn
 - <img src="https://minecraft.wiki/images/Fire.gif" width="22"> **No fire flicker** — fire particles are suppressed on the client for the first 4 ticks, eliminating visual glitches
 - ⚙️ **Fully configurable** — adjust everything via the in-game config screen (requires Cloth Config + Mod Menu)
 - <img src="assets/lever.png" width="22"> **Toggle on/off** — disable the mod at any time without removing it
-Also supports a lot of languages!
+<p>Also, this mod supports a lot of languages!</p>
+
 ---
 
 ## ⚙️ Configuration
