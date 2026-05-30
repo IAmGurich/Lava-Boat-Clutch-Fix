@@ -58,6 +58,6 @@ jobs:
             1.21.6
           java: 21
           dependencies: |
-            fabric-api | required
-            cloth-config | required
-            modmenu | optional
+            fabric-api(required)
+            cloth-config(required)
+            modmenu(optional)
