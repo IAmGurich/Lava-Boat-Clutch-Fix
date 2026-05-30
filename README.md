@@ -26,7 +26,8 @@ This mod restores it. When a boat first touches lava, it receives a short immuni
 - <img src="https://minecraft.wiki/images/Fire.gif" width="22"> **No fire flicker** — fire particles are suppressed on the client for the first 4 ticks, eliminating visual glitches
 - ⚙️ **Fully configurable** — adjust everything via the in-game config screen (requires Cloth Config + Mod Menu)
 - <img src="assets/lever.png" width="22"> **Toggle on/off** — disable the mod at any time without removing it
-<p>Also, this mod supports a lot of languages!</p>
+  
+**<p>Also, this mod supports a lot of languages!</p>**
 
 ---
 
@@ -38,7 +39,7 @@ Open the config screen via **Mod Menu → Lava Boat Clutch Fix → Config**.
 |---|---|---|
 | `Enable Mod` | `true` | Toggle the entire mod on/off |
 | `Immunity Ticks` | `3` | How many ticks the boat is protected on first lava contact |
-| `Bounce Mode` | `Vanilla` | `Vanilla` — vanilla behavior; `Custom` — custom X/Y/Z velocity |
+| `Bounce Mode` | `Vanilla` | `Vanilla` — vanilla behavior; `Custom` — custom X/Y/Z velocity; <p>`Random` - random  X/Y/Z velocity</p>|
 | `Bounce Y` | `0.0` | Upward velocity of the dropped item (Custom mode) |
 | `Bounce X/Z` | `0.0` | Horizontal velocity of the dropped item (Custom mode) |
 
@@ -73,7 +74,7 @@ Each branch corresponds to a range of supported Minecraft versions:
 git clone https://github.com/IAmGurich/Lava-Boat-Clutch-Fix.git
 cd Lava-Boat-Clutch-Fix
 git checkout <branch>
-./gradlew build
+./gradlew clean build --parallel
 ```
 
 The output JAR will be in `build/libs/`.
