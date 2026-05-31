@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Inaweka sawa mekanika ya kushika mashua kwenye lava, nadhani",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Inarejesha mekanika ya kushika mashua kwenye lava iliyorekebishwa katika 1.21.5.\n\nKwa mguso wa kwanza na lava, mashua inapata muda mfupi wa kinga ili mchezaji aweze kutua kwenye hitbox yake.\n\nSasa unaweza kufanya kushika lava kama Dream lakini katika matoleo mapya!",
+  "config.lava_boat_clutch.title": "Mipangilio ya Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Jumla",
+  "config.lava_boat_clutch.enable_mod": "Wezesha Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Huwezesha au hulemaza mekanika ya kushika mashua kwenye lava.",
+  "config.lava_boat_clutch.immunity_ticks": "Tiki za Kinga",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Idadi ya tiki ambazo mashua haichomeki kwenye lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Hali ya Kuruka kwa Anguko",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Chaguo-msingi",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Maalum",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Nasibu",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Chaguo-msingi: hutumia kasi ya vanilla\nMaalum: hutumia kasi inayoweza kusanidiwa.\nNasibu: kasi ya nasibu.",
+  "config.lava_boat_clutch.bounce_drop_y": "Kasi Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Kasi ya juu inayotumiwa kwa anguko la mashua baada ya kuungua kwenye lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Kasi X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Kasi ya pembeni kando ya mhimili X inayotumiwa kwa anguko la mashua baada ya kuungua kwenye lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Kasi Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Kasi ya pembeni kando ya mhimili Z inayotumiwa kwa anguko la mashua baada ya kuungua kwenye lava."
+}

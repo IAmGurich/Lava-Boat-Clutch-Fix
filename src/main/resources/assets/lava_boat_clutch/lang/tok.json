@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "ona li pona e nasin pi alasa tomo telo lawa, mi pilin e ni",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "ona li awen e nasin pi alasa tomo telo lawa. nasin ni li pakala lon 1.21.5.\n\nlon tenpo kama pi lawa nanpa wan, tomo telo li jo e tenpo lili pi awen pona, lon ni la jan li ken kama anpa lon sitelen lon nasin.\n\ntan ni la sina ken alasa lawa sama jan Dream, taso lon lipu sin!",
+  "config.lava_boat_clutch.title": "nasin pi pona lawa tomo telo",
+  "config.lava_boat_clutch.category.general": "ale",
+  "config.lava_boat_clutch.enable_mod": "open ilo",
+  "config.lava_boat_clutch.enable_mod.tooltip": "ona li open anu li pini e nasin pi alasa tomo telo lawa.",
+  "config.lava_boat_clutch.immunity_ticks": "tenpo pi awen pona",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "nanpa tenpo pi tomo telo li ala e seli lawa.",
+  "config.lava_boat_clutch.bounce_drop_mode": "nasin pi telo lon kama anpa",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "nanpa wan",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "jan li wile e ni",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "nasa",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "nanpa wan: telo pi mute vanilla\njan li wile e ni: telo pi mute ante.\nnasa: telo nasa.",
+  "config.lava_boat_clutch.bounce_drop_y": "telo Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "telo sewi lon kama anpa tomo telo weka seli lawa.",
+  "config.lava_boat_clutch.bounce_drop_x": "telo X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "telo poka X lon kama anpa tomo telo weka seli lawa.",
+  "config.lava_boat_clutch.bounce_drop_z": "telo Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "telo poka Z lon kama anpa tomo telo weka seli lawa."
+}

@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Lavada qayıq tutma mexanikanı düzəldir, deyəsən",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5-də düzəldilən lavada qayıq tutma mexanikanı bərpa edir.\n\nLava ilə ilk təmasda qayıq qısa müddətlik immunitet vaxtı alır ki, oyunçu onun hitbox-una enə bilsin.\n\nArtıq Dream kimi lavada tutmalar edə bilərsən, amma daha yeni versiyalarda!",
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Ayarları",
+  "config.lava_boat_clutch.category.general": "Ümumi",
+  "config.lava_boat_clutch.enable_mod": "Modu Aktivləşdir",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Lavada qayıq tutma mexanikanı aktivləşdirir və ya deaktivləşdirir.",
+  "config.lava_boat_clutch.immunity_ticks": "İmmunitet Tikləri",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Qayığın lavada yanmadığı tiklərin sayı.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Düşmə Sıçrama Rejimi",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standart",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Xüsusi",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Təsadüfi",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standart: vanilla sürətindən istifadə edir\nXüsusi: konfiqurasiya edilə bilən sürətdən istifadə edir.\nTəsadüfi: təsadüfi sürət.",
+  "config.lava_boat_clutch.bounce_drop_y": "Sürət Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Qayığın lavada yanmasından sonra düşmə zamanı tətbiq edilən yuxarı sürət.",
+  "config.lava_boat_clutch.bounce_drop_x": "Sürət X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Qayığın lavada yanmasından sonra düşmə zamanı X oxu boyunca tətbiq edilən yan sürət.",
+  "config.lava_boat_clutch.bounce_drop_z": "Sürət Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Qayığın lavada yanmasından sonra düşmə zamanı Z oxu boyunca tətbiq edilən yan sürət."
+}

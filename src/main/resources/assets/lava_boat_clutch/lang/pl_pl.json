@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Naprawia mechanikę chwytania łódki w lawie, chyba",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Przywraca mechanikę chwytania łódki w lawie, która została naprawiona w wersji 1.21.5.\n\nPrzy pierwszym kontakcie z lawą łódka otrzymuje krótki czas immunitet, aby gracz mógł wylądować na jej hitboxie.\n\nTeraz możesz robić chwytania w lawie jak Dream, ale w nowszych wersjach!",
+  "config.lava_boat_clutch.title": "Ustawienia Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Ogólne",
+  "config.lava_boat_clutch.enable_mod": "Włącz Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Włącza lub wyłącza mechanikę chwytania łódki w lawie.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticki Odporności",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Liczba ticków, w których łódka nie pali się w lawie.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Tryb Odbicia Upadku",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Domyślny",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Własny",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Losowy",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Domyślny: używa prędkości vanilla\nWłasny: używa konfigurowalnej prędkości.\nLosowy: losowa prędkość.",
+  "config.lava_boat_clutch.bounce_drop_y": "Prędkość Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Prędkość w górę zastosowana do spadku łódki po spaleniu w lawie.",
+  "config.lava_boat_clutch.bounce_drop_x": "Prędkość X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Boczna prędkość wzdłuż osi X zastosowana do spadku łódki po spaleniu w lawie.",
+  "config.lava_boat_clutch.bounce_drop_z": "Prędkość Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Boczna prędkość wzdłuż osi Z zastosowana do spadku łódki po spaleniu w lawie."
+}

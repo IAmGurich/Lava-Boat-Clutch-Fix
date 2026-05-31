@@ -13,17 +13,19 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-
 @Mixin(AbstractBoatEntity.class)
 public abstract class BoatEntityMixin implements LbcBoatImmunity {
 
-    @Unique private int     lbc_immunityTicks     = 0;
-    @Unique private boolean lbc_wasInLavaLastTick = false;
+    @Unique private int     lbc_immunityTicks             = 0;
+    @Unique private boolean lbc_wasInLavaLastTick         = false;
 
+    /** Ticks remaining during which the fire-render should be suppressed (client-side). */
     @Unique private int     lbc_fireParticleSuppressTicks = 0;
 
-    @Unique private boolean lbc_wasInLavaLastTickClient = false;
+    /** Separate lava-tracking flag for the client thread (avoids races with server state). */
+    @Unique private boolean lbc_wasInLavaLastTickClient   = false;
 
+    // ── Interface implementation ───────────────────────────────────────────────
     @Override public int     lbc_getImmunityTicks()              { return lbc_immunityTicks; }
     @Override public void    lbc_setImmunityTicks(int t)         { lbc_immunityTicks = t; }
     @Override public boolean lbc_wasInLavaLastTick()             { return lbc_wasInLavaLastTick; }
@@ -38,9 +40,11 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
 
         AbstractBoatEntity self = (AbstractBoatEntity)(Object)this;
 
+        // ── Client side: update fire-particle suppression only ─────────────────
         if (self.getEntityWorld().isClient()) {
             boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
             if (inLavaNow && !lbc_wasInLavaLastTickClient) {
+                // Rising edge: boat just entered lava — suppress the fire flash for a few ticks
                 lbc_fireParticleSuppressTicks = 4;
             } else if (lbc_fireParticleSuppressTicks > 0) {
                 lbc_fireParticleSuppressTicks--;
@@ -49,7 +53,7 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
             return;
         }
 
-
+        // ── Server side: immunity + velocity fix ───────────────────────────────
         boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
 
         if (!inLavaNow && lbc_immunityTicks == 0) {
@@ -58,6 +62,7 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
         }
 
         if (inLavaNow && !lbc_wasInLavaLastTick) {
+            // Rising edge: start immunity window
             lbc_immunityTicks = cfg.lavaImmunityTicks;
             LavaBoatClutchMod.LOGGER.debug(
                 "[LavaBoatClutch] Lava contact — immunity {} ticks", lbc_immunityTicks);
@@ -70,6 +75,7 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
             lbc_immunityTicks--;
         }
 
+        // Cancel downward velocity so the boat rests on the lava surface
         if (inLavaNow) {
             Vec3d vel = self.getVelocity();
             if (vel.y < 0.0) {

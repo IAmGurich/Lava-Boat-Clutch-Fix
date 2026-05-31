@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Labean txaluparen heltze-mekanika konpontzen du, uste dut",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5 bertsioan konpondutako labean txaluparen heltze-mekanika berreskuratzen du.\n\nLabarekin lehen kontaktuan, txalupariak immunitate-denbora laburra jasotzen du, jokalariak bere hitbox-ean lurreratu ahal izateko.\n\nOrain laba-heltzeak egin ditzakezu Dream bezala, baina bertsio berriagoekin!",
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Ezarpenak",
+  "config.lava_boat_clutch.category.general": "Orokorra",
+  "config.lava_boat_clutch.enable_mod": "Moda Gaitu",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Labean txaluparen heltze-mekanika gaitzen edo desgaitzen du.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitate Tickak",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Txalupa labean ez den tick-kopurua.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Jaitsiera Errebotemodus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Lehenetsia",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Pertsonalizatua",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Ausazko",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Lehenetsia: vanilla abiadura erabiltzen du\nPertsonalizatua: konfiguragarria den abiadura erabiltzen du.\nAusazko: ausazko abiadura.",
+  "config.lava_boat_clutch.bounce_drop_y": "Abiadura Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Txalupa labean erre ondoren jaistean aplikatutako gorantz abiadura.",
+  "config.lava_boat_clutch.bounce_drop_x": "Abiadura X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "X ardatzetik jaistean txalupak labean erre ondoren aplikatutako alboko abiadura.",
+  "config.lava_boat_clutch.bounce_drop_z": "Abiadura Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Z ardatzetik jaistean txalupak labean erre ondoren aplikatutako alboko abiadura."
+}

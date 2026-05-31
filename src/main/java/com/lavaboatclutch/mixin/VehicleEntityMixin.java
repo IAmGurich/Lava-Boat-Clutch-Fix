@@ -3,7 +3,6 @@ package com.lavaboatclutch.mixin;
 import com.lavaboatclutch.LavaBoatClutchMod;
 import com.lavaboatclutch.config.LavaBoatClutchConfig;
 import com.lavaboatclutch.util.LbcBoatImmunity;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.vehicle.AbstractBoatEntity;
@@ -26,9 +25,17 @@ import java.util.concurrent.ThreadLocalRandom;
 @Mixin(VehicleEntity.class)
 public abstract class VehicleEntityMixin {
 
+    /** Holds the ItemEntity dropped by killAndDropItem so the TAIL inject can modify it. */
     @Unique
     private @Nullable ItemEntity lbc_pendingDrop = null;
 
+    // ── Fire damage immunity ───────────────────────────────────────────────────
+
+    /**
+     * Cancels fire damage to a boat that is still within its lava immunity window.
+     * This prevents the boat from being destroyed immediately on lava contact,
+     * giving the player time to land on its hitbox.
+     */
     @Inject(
         method = "damage(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/damage/DamageSource;F)Z",
         at = @At("HEAD"),
@@ -51,6 +58,12 @@ public abstract class VehicleEntityMixin {
         }
     }
 
+    // ── Drop capture ───────────────────────────────────────────────────────────
+
+    /**
+     * Captures the ItemEntity reference produced by {@code dropStack} so the
+     * TAIL inject below can apply bounce velocity to it.
+     */
     @Redirect(
         method = "killAndDropItem(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/item/Item;)V",
         at = @At(
@@ -66,6 +79,23 @@ public abstract class VehicleEntityMixin {
         return ie;
     }
 
+    // ── Drop bounce ────────────────────────────────────────────────────────────
+
+    /**
+     * After the boat item has been dropped into the lava, applies an upward
+     * velocity kick (and optional horizontal drift) so the drop pops above the
+     * lava surface rather than sinking and burning.
+     *
+     * <p>Three modes are supported, controlled by {@link LavaBoatClutchConfig#dropBounceMode}:</p>
+     * <ul>
+     *   <li><b>DEFAULT</b> — mimics vanilla: Y = {@value LavaBoatClutchConfig#VANILLA_BOUNCE_DROP},
+     *       X/Z ∈ [-0.1, 0.1] (uniform random).</li>
+     *   <li><b>CUSTOM</b> — user-defined fixed X, Y, Z velocities from the config.</li>
+     *   <li><b>RANDOM</b> — fully randomised on every drop:
+     *       Y ∈ [{@value LavaBoatClutchConfig#MIN_BOUNCE_DROP}, {@value LavaBoatClutchConfig#MAX_BOUNCE_DROP}),
+     *       X/Z ∈ [{@value LavaBoatClutchConfig#MIN_BOUNCE_HORIZ}, {@value LavaBoatClutchConfig#MAX_BOUNCE_HORIZ}).</li>
+     * </ul>
+     */
     @Inject(
         method = "killAndDropItem(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/item/Item;)V",
         at = @At("TAIL")
@@ -79,54 +109,69 @@ public abstract class VehicleEntityMixin {
         LavaBoatClutchConfig cfg = LavaBoatClutchMod.getConfig();
         if (cfg == null || !cfg.enableMod) return;
 
-        float bounceY = cfg.getEffectiveBounce();
-        if (bounceY <= 0.0f) return;
+        LavaBoatClutchConfig.DropBounceMode mode = cfg.dropBounceMode;
+
+        // In CUSTOM mode: respect user setting of Y ≤ 0 as "no bounce"
+        if (mode == LavaBoatClutchConfig.DropBounceMode.CUSTOM && cfg.bounceDrop <= 0.0f) return;
 
         LbcBoatImmunity immunity = (LbcBoatImmunity)(Object)this;
         if (!immunity.lbc_wasInLavaLastTick()) return;
 
         if (ie == null || ie.isRemoved()) return;
 
-        boolean vanillaMode = cfg.isVanillaMode();
-        float cfgBounceX = vanillaMode ? 0f : cfg.bounceDropX;
-        float cfgBounceZ = vanillaMode ? 0f : cfg.bounceDropZ;
-
         double safeY = boat.getY() + 0.5;
 
         LavaBoatClutchMod.LOGGER.debug(
-            "[LavaBoatClutch] killAndDropItem — applying bounce " +
-            "(bounceY={}, X={}, Z={}, safeY={}, mode={})",
-            bounceY, cfgBounceX, cfgBounceZ, safeY,
-            vanillaMode ? "vanilla" : "custom");
+            "[LavaBoatClutch] killAndDropItem — applying bounce (mode={}, safeY={})",
+            mode, safeY);
 
-        lbc_applyBounce(ie, bounceY, cfgBounceX, cfgBounceZ, safeY, vanillaMode);
+        lbc_applyBounce(ie, cfg, mode, safeY);
 
         LavaBoatClutchMod.LOGGER.debug(
             "[LavaBoatClutch] Bounce applied at {},{},{}",
             (int)boat.getX(), (int)boat.getY(), (int)boat.getZ());
     }
 
-
     @Unique
-    private static void lbc_applyBounce(ItemEntity ie, float bounceY,
-                                         float cfgBounceX, float cfgBounceZ,
-                                         double safeY, boolean vanillaMode) {
+    private static void lbc_applyBounce(ItemEntity ie,
+                                         LavaBoatClutchConfig cfg,
+                                         LavaBoatClutchConfig.DropBounceMode mode,
+                                         double safeY) {
+        ThreadLocalRandom rng = ThreadLocalRandom.current();
+        final double velX, velY, velZ;
 
-        if (vanillaMode) {
-            ThreadLocalRandom rng = ThreadLocalRandom.current();
-            double randX = rng.nextDouble() * 0.2 - 0.1;
-            double randZ = rng.nextDouble() * 0.2 - 0.1;
-            ie.setVelocity(randX, bounceY, randZ);
-        } else {
-            ie.setVelocity(cfgBounceX, bounceY, cfgBounceZ);
+        switch (mode) {
+            case CUSTOM -> {
+                velX = cfg.bounceDropX;
+                velY = cfg.bounceDrop;
+                velZ = cfg.bounceDropZ;
+            }
+            case RANDOM -> {
+                // Each axis independently randomised across the full configured range
+                velY = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_DROP,
+                                      LavaBoatClutchConfig.MAX_BOUNCE_DROP);
+                velX = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_HORIZ,
+                                      LavaBoatClutchConfig.MAX_BOUNCE_HORIZ);
+                velZ = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_HORIZ,
+                                      LavaBoatClutchConfig.MAX_BOUNCE_HORIZ);
+            }
+            default -> {
+                // DEFAULT — small random horizontal drift, fixed upward kick (vanilla behaviour)
+                velX = rng.nextDouble() * 0.2 - 0.1;
+                velY = LavaBoatClutchConfig.VANILLA_BOUNCE_DROP;
+                velZ = rng.nextDouble() * 0.2 - 0.1;
+            }
         }
+
+        ie.setVelocity(velX, velY, velZ);
         ie.velocityModified = true;
 
-
+        // Teleport the item above the lava surface so it cannot sink back in
         if (ie.getY() < safeY) {
             ie.setPos(ie.getX(), safeY, ie.getZ());
         }
 
+        // Negative fire ticks = fire immunity duration (vanilla mechanic)
         ie.setFireTicks(-80);
     }
 }

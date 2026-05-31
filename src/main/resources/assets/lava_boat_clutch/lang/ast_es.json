@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Arregla la mecánica de agarrar el barcu en llava, supongo",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura la mecánica de agarrar el barcu en llava que s'arregló en 1.21.5.\n\nAl primer contautu cola llava el barcu recibe un tiempu d'inmunidá curtiu, pa que'l xugador pueda aterrizar nel so hitbox.\n\n¡Agora pues facer agarres na llava como Dream, pero en versiones más nueves!",
+  "config.lava_boat_clutch.title": "Axustes de Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Xeneral",
+  "config.lava_boat_clutch.enable_mod": "Activar el Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva la mecánica de agarrar el barcu en llava.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks d'Inmunidá",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "El númberu de ticks nel que'l barcu nun arde na llava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mou de Rebote de Caída",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Predetermináu",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizáu",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Aleatoriu",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Predetermináu: usa la velocidá vanilla\nPersonalizáu: usa velocidá configurable.\nAleatoriu: velocidá aleatoria.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocidá Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocidá hacia arriba aplicada a la caída del barcu tres arder na llava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocidá X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocidá lateral al exe X aplicada a la caída del barcu tres arder na llava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocidá Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocidá lateral al exe Z aplicada a la caída del barcu tres arder na llava."
+}

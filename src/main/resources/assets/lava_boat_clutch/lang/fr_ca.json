@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Corrige la mécanique d'agrippement du bateau en lave, je suppose",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Rétablit la mécanique d'agrippement du bateau en lave qui avait été corrigée dans la version 1.21.5.\n\nAu premier contact avec la lave, le bateau obtient un court temps d'immunité afin que le joueur puisse atterrir sur sa hitbox.\n\nMaintenant tu peux faire des agrippements en lave comme Dream mais dans les versions plus récentes!",
+  "config.lava_boat_clutch.title": "Paramètres de Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Général",
+  "config.lava_boat_clutch.enable_mod": "Activer le Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Active ou désactive la mécanique d'agrippement du bateau en lave.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks d'Immunité",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Le nombre de ticks pendant lesquels le bateau ne brûle pas dans la lave.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mode de Rebond de Chute",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Par défaut",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personnalisé",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Aléatoire",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Par défaut: utilise la vitesse vanilla\nPersonnalisé: utilise une vitesse configurable.\nAléatoire: vitesse aléatoire.",
+  "config.lava_boat_clutch.bounce_drop_y": "Vitesse Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Vitesse vers le haut appliquée à la chute du bateau après avoir brûlé dans la lave.",
+  "config.lava_boat_clutch.bounce_drop_x": "Vitesse X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Vitesse latérale le long de l'axe X appliquée à la chute du bateau après avoir brûlé dans la lave.",
+  "config.lava_boat_clutch.bounce_drop_z": "Vitesse Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Vitesse latérale le long de l'axe Z appliquée à la chute du bateau après avoir brûlé dans la lave."
+}

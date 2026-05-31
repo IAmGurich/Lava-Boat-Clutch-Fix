@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Waxay hagaajisaa xeerka qabashada doontida lavada, u malaynayaa",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Waxay soo celisaa xeerka qabashada doontida lavada ee lagu hagaajiyay 1.21.5.\n\nMarki ugu horraynta ee lavada la xiriirto, doontidu waxay helaysaa wakhti gaaban oo difaac ah si ciyaaryahanka ugu soo degi karo hitbox-keeda.\n\nHadda waad yeelan kartaa qabashada lavada sida Dream laakiin noocyada cusub!",
+  "config.lava_boat_clutch.title": "Goobaha Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Guud",
+  "config.lava_boat_clutch.enable_mod": "Shaqaynsi Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Shaqaynsiyaa ama joojiyaa xeerka qabashada doontida lavada.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick-yada Difaaca",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Tirada tick-yada ee doontidu ku gutaan lavada.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Habka Xoogga Dhicista",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Caadiga",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Gaar",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Random",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Caadiga: isticmaalaa xawaaraha vanilla\nGaar: isticmaalaa xawaare la habeyn karo.\nRandom: xawaare random.",
+  "config.lava_boat_clutch.bounce_drop_y": "Xawaaarka Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Xawaaraha kor u socda ee loo adeegsado dhicista doontida kadib gubashadii lavada.",
+  "config.lava_boat_clutch.bounce_drop_x": "Xawaaarka X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Xawaaraha dhinacyada ee xuddunta X ee loo adeegsado dhicista doontida kadib gubashadii lavada.",
+  "config.lava_boat_clutch.bounce_drop_z": "Xawaaarka Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Xawaaraha dhinacyada ee xuddunta Z ee loo adeegsado dhicista doontida kadib gubashadii lavada."
+}

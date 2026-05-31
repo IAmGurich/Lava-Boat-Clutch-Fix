@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Be fixin' the lava boat clutch mechanic, arr, I reckon!",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restores the lava boat clutch mechanic that them scallywags fixed in 1.21.5.\n\nOn first contact wit' the lava, the boat gets a short immunity, so ye can land on its hitbox, arr!\n\nNow ye can do lava clutches like Dream but in newer versions, yarr!",
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Settings, Arr!",
+  "config.lava_boat_clutch.category.general": "The Crew",
+  "config.lava_boat_clutch.enable_mod": "Hoist the Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Enables or disables the lava boat clutch mechanic, arr.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunity Plunks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "The number of plunks in which the boat not be burnin' in the lava, yarr.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop Bounce Mode",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Vanilla Seas",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Pirate's Choice",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Random",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Vanilla Seas: uses vanilla velocity, arr\nPirate's Choice: uses configurable velocity, yarr.\nRandom: random velocity, arr.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocity Y, Arr",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Upward velocity applied to the boat's drop after boat burn in lava, yarr.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocity X, Arr",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Lateral velocity along the X axis applied to the boat's drop after boat burn in lava, arr.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocity Z, Arr",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Lateral velocity along the Z axis applied to the boat's drop after boat burn in lava, yarr."
+}

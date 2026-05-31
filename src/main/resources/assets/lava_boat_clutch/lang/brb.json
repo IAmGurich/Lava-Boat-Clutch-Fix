@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Fixt de lava-boot-koppelingsmechaniek, denk ik zoe",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Brengt de lava-boot-koppelingsmechaniek trug die gefixt was in 1.21.5.\n\nBij het eerste contact met lava krijgt het boot ne korte immuniteitstijd, zodanig dat de speuler op z'n hitbox kan lande.\n\nNu kunste lava-clutches doen zo as Dream, maar in nieuwere versies!",
+  "config.lava_boat_clutch.title": "Lava Boot Koppeling Fix Instellinge",
+  "config.lava_boat_clutch.category.general": "Algemeen",
+  "config.lava_boat_clutch.enable_mod": "Mod Inschakele",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Schakelt de lava-boot-koppelingsmechaniek in of uit.",
+  "config.lava_boat_clutch.immunity_ticks": "Immuniteits-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Het aantal ticks waorin het boot nit brandt in de lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Stuitermodus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standerd",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Eigenste",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Random",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standerd: gebruikt vanilla-snelheid\nEigenste: gebruikt instelbare snelheid.\nRandom: random velocity.",
+  "config.lava_boat_clutch.bounce_drop_y": "Snelheid Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Opwaartse snelheid op de val van het boot na verbranding in de lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Snelheid X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Zijdelingse snelheid langs de X-as op de val van het boot na verbranding in de lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Snelheid Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Zijdelingse snelheid langs de Z-as op de val van het boot na verbranding in de lava."
+}

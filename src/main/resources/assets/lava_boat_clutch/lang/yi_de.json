@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "פאַרריכט דעם לאַווע שיף כאַפּן מעכאַניזם, איך גלייב",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "שטעלט אָפּ דעם לאַווע שיף כאַפּן מעכאַניזם וועלכן איז פאַרריכט געווארן אין 1.21.5.\n\nביים ערשטן קאָנטאַקט מיט לאַווע, קריגט דאָס שיף אַ קורצע צייט פון אימוניטעט, כדי דער שפּילער זאָל קענען לאַנדן אויף זיין היטבאָקס.\n\nאַצינד קענסטו מאַכן לאַווע-כאַפּן ווי Dream, נאָר אין נייערע ווערסיעס!",
+  "config.lava_boat_clutch.title": "סעטינגס פון Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "אַלגעמיין",
+  "config.lava_boat_clutch.enable_mod": "שאַלט אַיין מאָד",
+  "config.lava_boat_clutch.enable_mod.tooltip": "שאַלט אַיין אָדער אויס דעם לאַווע שיף כאַפּן מעכאַניזם.",
+  "config.lava_boat_clutch.immunity_ticks": "אימוניטעט טיקס",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "די צאָל טיקס וועלכע דאָס שיף ברענט נישט אין לאַווע.",
+  "config.lava_boat_clutch.bounce_drop_mode": "פאַל-שפּרינג מאָד",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "שטאַנדאַרד",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "אייגן",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Random",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "שטאַנדאַרד: נוצט vanilla גיכקייט\nאייגן: נוצט קאָנפיגורירבאַרע גיכקייט.\nRandom: tsufelike geshvindikayt.",
+  "config.lava_boat_clutch.bounce_drop_y": "גיכקייט Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "אַרויפֿגיין גיכקייט צוגעלייגט צום שיפס פאַל נאָך ברענען אין לאַווע.",
+  "config.lava_boat_clutch.bounce_drop_x": "גיכקייט X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "זייטיקע גיכקייט לענגס X אַקס צוגעלייגט צום שיפס פאַל נאָך ברענען אין לאַווע.",
+  "config.lava_boat_clutch.bounce_drop_z": "גיכקייט Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "זייטיקע גיכקייט לענגס Z אַקס צוגעלייגט צום שיפס פאַל נאָך ברענען אין לאַווע."
+}

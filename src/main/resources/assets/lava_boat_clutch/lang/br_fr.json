@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Daskarg ar mekanik grasp bag e lava, me gredan",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Adkaser ar mekanik grasp bag e lava bet rakizet e 1.21.5.\n\nDiouzh an darempred kentañ gant an lava, e vez kaset ur poell imunelezh berr d'ar bag, evit ma c'hello ar c'hoarier lec'hiañ war e hitbox.\n\nBremañ e c'hellit ober graspoù lava evel Dream, met en handelioù nevesoc'h!",
+  "config.lava_boat_clutch.title": "Kefluniadurioù Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Hollek",
+  "config.lava_boat_clutch.enable_mod": "Gweredekaat ar Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Gweredekaat pe zilac'hañ ar mekanik grasp bag e lava.",
+  "config.lava_boat_clutch.immunity_ticks": "Tikkoù Imunelezh",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Niver tikkoù ma n'a ket losket ar bag er lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mod Stankin Diskenn",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Dre Ziouer",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personelaet",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Dre zegouezh",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Dre Ziouer: implijout tizh vanilla\nPersonelaet: implijout tizh kefluniadek.\nDre zegouezh: stankder dre zegouezh.",
+  "config.lava_boat_clutch.bounce_drop_y": "Tizh Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Tizh uhel lakaet war ziskenn ar bag goude ma vez losket er lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Tizh X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Tizh kostez war ar roudenn X lakaet war ziskenn ar bag goude ma vez losket er lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Tizh Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Tizh kostez war ar roudenn Z lakaet war ziskenn ar bag goude ma vez losket er lava."
+}

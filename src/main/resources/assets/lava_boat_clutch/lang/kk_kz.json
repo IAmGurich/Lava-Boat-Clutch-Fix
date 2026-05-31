@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Лавадағы қайықты ұстап алу механикасын түзетеді, ойлаймын",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5 нұсқасында түзетілген лавадағы қайықты ұстап алу механикасын қалпына келтіреді.\n\nЛавамен бірінші байланыста қайық қысқа уақытқа иммунитет алады, сондықтан ойыншы оның хитбоксына қона алады.\n\nЕнді Dream сияқты лавада ұстап алуларды жаңа нұсқаларда жасай аласың!",
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Параметрлері",
+  "config.lava_boat_clutch.category.general": "Жалпы",
+  "config.lava_boat_clutch.enable_mod": "Модты Қосу",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Лавадағы қайықты ұстап алу механикасын қосады немесе өшіреді.",
+  "config.lava_boat_clutch.immunity_ticks": "Иммунитет Тіктері",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Қайықтың лавада жанбайтын тіктер саны.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Түсу Секіру Режимі",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Әдепкі",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Реттелетін",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Кездейсоқ",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Әдепкі: vanilla жылдамдығын пайдаланады\nРеттелетін: конфигурацияланатын жылдамдықты пайдаланады.\nКездейсоқ: кездейсоқ жылдамдық.",
+  "config.lava_boat_clutch.bounce_drop_y": "Жылдамдық Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Қайық лавада жанғаннан кейін түсуге қолданылатын жоғары қарай жылдамдық.",
+  "config.lava_boat_clutch.bounce_drop_x": "Жылдамдық X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Қайық лавада жанғаннан кейін түсуге X осі бойынша қолданылатын бүйірлік жылдамдық.",
+  "config.lava_boat_clutch.bounce_drop_z": "Жылдамдық Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Қайық лавада жанғаннан кейін түсуге Z осі бойынша қолданылатын бүйірлік жылдамдық."
+}

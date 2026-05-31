@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "용암 보트 클러치 메커니즘을 수정합니다, 아마도",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5에서 수정된 용암 보트 클러치 메커니즘을 복원합니다.\n\n용암과의 첫 접촉 시 보트는 짧은 무적 시간을 얻어 플레이어가 히트박스 위에 착지할 수 있습니다.\n\n이제 Dream처럼 용암 클러치를 할 수 있습니다, 최신 버전에서도!",
+  "config.lava_boat_clutch.title": "용암 보트 클러치 Fix 설정",
+  "config.lava_boat_clutch.category.general": "일반",
+  "config.lava_boat_clutch.enable_mod": "모드 활성화",
+  "config.lava_boat_clutch.enable_mod.tooltip": "용암 보트 클러치 메커니즘을 활성화하거나 비활성화합니다.",
+  "config.lava_boat_clutch.immunity_ticks": "무적 틱",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "보트가 용암에서 타지 않는 틱 수.",
+  "config.lava_boat_clutch.bounce_drop_mode": "드롭 바운스 모드",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "기본값",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "사용자 지정",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "무작위",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "기본값: 바닐라 속도 사용\n사용자 지정: 설정 가능한 속도 사용.\n무작위: 무작위 속도 사용.",
+  "config.lava_boat_clutch.bounce_drop_y": "속도 Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "보트가 용암에서 타고 난 후 드롭에 적용되는 위쪽 속도.",
+  "config.lava_boat_clutch.bounce_drop_x": "속도 X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "보트가 용암에서 타고 난 후 드롭에 적용되는 X축 방향 측면 속도.",
+  "config.lava_boat_clutch.bounce_drop_z": "속도 Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "보트가 용암에서 타고 난 후 드롭에 적용되는 Z축 방향 측면 속도."
+}
