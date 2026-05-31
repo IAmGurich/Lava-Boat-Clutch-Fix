@@ -12,6 +12,10 @@ import java.nio.file.Path;
 
 public class LavaBoatClutchConfig {
 
+    public enum BounceDropMode {
+        DEFAULT, CUSTOM, RANDOM
+    }
+
     public static final int MIN_IMMUNITY_TICKS     = 1;
     public static final int MAX_IMMUNITY_TICKS     = 20;
     public static final int DEFAULT_IMMUNITY_TICKS = 3;
@@ -37,8 +41,7 @@ public class LavaBoatClutchConfig {
 
     public int lavaImmunityTicks = DEFAULT_IMMUNITY_TICKS;
 
-
-    public boolean bounceDropCustom = false;
+    public BounceDropMode bounceDropMode = BounceDropMode.DEFAULT;
 
     public float bounceDrop = DEFAULT_BOUNCE_DROP;
 
@@ -47,11 +50,19 @@ public class LavaBoatClutchConfig {
     public float bounceDropZ = DEFAULT_BOUNCE_HORIZ;
 
     public float getEffectiveBounce() {
-        return bounceDropCustom ? bounceDrop : VANILLA_BOUNCE_DROP;
+        return bounceDropMode == BounceDropMode.CUSTOM ? bounceDrop : VANILLA_BOUNCE_DROP;
     }
 
-    public boolean isVanillaMode() {
-        return !bounceDropCustom;
+    public boolean isDefaultMode() {
+        return bounceDropMode == BounceDropMode.DEFAULT;
+    }
+
+    public boolean isCustomMode() {
+        return bounceDropMode == BounceDropMode.CUSTOM;
+    }
+
+    public boolean isRandomMode() {
+        return bounceDropMode == BounceDropMode.RANDOM;
     }
 
     public static LavaBoatClutchConfig load() {
@@ -60,6 +71,7 @@ public class LavaBoatClutchConfig {
                 String json = Files.readString(CONFIG_PATH);
                 LavaBoatClutchConfig cfg = GSON.fromJson(json, LavaBoatClutchConfig.class);
                 if (cfg != null) {
+                    if (cfg.bounceDropMode == null) cfg.bounceDropMode = BounceDropMode.DEFAULT;
                     cfg.clamp();
                     return cfg;
                 }
@@ -85,6 +97,7 @@ public class LavaBoatClutchConfig {
     }
 
     public void clamp() {
+        if (bounceDropMode == null) bounceDropMode = BounceDropMode.DEFAULT;
         lavaImmunityTicks = Math.max(MIN_IMMUNITY_TICKS,
                             Math.min(MAX_IMMUNITY_TICKS, lavaImmunityTicks));
         bounceDrop  = Math.max(MIN_BOUNCE_DROP,   Math.min(MAX_BOUNCE_DROP,   bounceDrop));

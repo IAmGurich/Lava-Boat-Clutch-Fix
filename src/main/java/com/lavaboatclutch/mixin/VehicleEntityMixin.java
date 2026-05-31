@@ -80,27 +80,29 @@ public abstract class VehicleEntityMixin {
         LavaBoatClutchConfig cfg = LavaBoatClutchMod.getConfig();
         if (cfg == null || !cfg.enableMod) return;
 
-        float bounceY = cfg.getEffectiveBounce();
-        if (bounceY <= 0.0f) return;
-
         LbcBoatImmunity immunity = (LbcBoatImmunity)(Object)this;
         if (!immunity.lbc_wasInLavaLastTick()) return;
 
         if (ie == null || ie.isRemoved()) return;
 
-        boolean vanillaMode = cfg.isVanillaMode();
-        float cfgBounceX = vanillaMode ? 0f : cfg.bounceDropX;
-        float cfgBounceZ = vanillaMode ? 0f : cfg.bounceDropZ;
+        // Random mode bypasses the bounceY <= 0 check since Y will be randomized
+        if (!cfg.isRandomMode()) {
+            float bounceY = cfg.getEffectiveBounce();
+            if (bounceY <= 0.0f) return;
+        }
+
+        float cfgBounceX = cfg.isCustomMode() ? cfg.bounceDropX : 0f;
+        float cfgBounceZ = cfg.isCustomMode() ? cfg.bounceDropZ : 0f;
 
         double safeY = boat.getY() + 0.5;
 
         LavaBoatClutchMod.LOGGER.debug(
             "[LavaBoatClutch] killAndDropItem — applying bounce " +
             "(bounceY={}, X={}, Z={}, safeY={}, mode={})",
-            bounceY, cfgBounceX, cfgBounceZ, safeY,
-            vanillaMode ? "vanilla" : "custom");
+            cfg.getEffectiveBounce(), cfgBounceX, cfgBounceZ, safeY,
+            cfg.bounceDropMode);
 
-        lbc_applyBounce(ie, bounceY, cfgBounceX, cfgBounceZ, safeY, vanillaMode);
+        lbc_applyBounce(ie, cfg, cfgBounceX, cfgBounceZ, safeY);
 
         LavaBoatClutchMod.LOGGER.debug(
             "[LavaBoatClutch] Bounce applied at {},{},{}",
@@ -108,17 +110,30 @@ public abstract class VehicleEntityMixin {
     }
 
     @Unique
-    private static void lbc_applyBounce(ItemEntity ie, float bounceY,
+    private static void lbc_applyBounce(ItemEntity ie, LavaBoatClutchConfig cfg,
                                          float cfgBounceX, float cfgBounceZ,
-                                         double safeY, boolean vanillaMode) {
+                                         double safeY) {
+        ThreadLocalRandom rng = ThreadLocalRandom.current();
+
         // 1. Velocity
-        if (vanillaMode) {
-            ThreadLocalRandom rng = ThreadLocalRandom.current();
-            double randX = rng.nextDouble() * 0.2 - 0.1;
-            double randZ = rng.nextDouble() * 0.2 - 0.1;
-            ie.setVelocity(randX, bounceY, randZ);
-        } else {
-            ie.setVelocity(cfgBounceX, bounceY, cfgBounceZ);
+        switch (cfg.bounceDropMode) {
+            case DEFAULT -> {
+                // Vanilla-like: fixed Y, small random X/Z
+                double randX = rng.nextDouble() * 0.2 - 0.1;
+                double randZ = rng.nextDouble() * 0.2 - 0.1;
+                ie.setVelocity(randX, LavaBoatClutchConfig.VANILLA_BOUNCE_DROP, randZ);
+            }
+            case CUSTOM -> {
+                // Fully configurable X, Y, Z
+                ie.setVelocity(cfgBounceX, cfg.bounceDrop, cfgBounceZ);
+            }
+            case RANDOM -> {
+                // Fully random velocity in a wider range
+                double randX = rng.nextDouble() * 0.6 - 0.3;
+                double randZ = rng.nextDouble() * 0.6 - 0.3;
+                float  randY = 0.05f + rng.nextFloat() * 0.35f;
+                ie.setVelocity(randX, randY, randZ);
+            }
         }
         ie.velocityModified = true;
 
