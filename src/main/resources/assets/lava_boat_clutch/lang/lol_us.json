@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "FIXEZ DA LAVA BOTE CLUCH MEKANIK, I GUES LOL",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "BRINGZ BAK DA LAVA BOTE CLUCH MEKANIK DAT GOT FIXD IN 1.21.5.\n\nON FURST LAVA TUTCH DA BOTE GETZ SHORT IMMUNITEE TIEM SO PLAYER CAN LAND ON ITS HITBOX, YAY!\n\nNOW U CAN DO LAVA CLUTCHEZ LIEK DREAM BUT IN NEWUR VERZHUNZ, CEILING CAT APPROVES!",
+  "config.lava_boat_clutch.title": "LAVA BOTE CLUCH FIX SETTINGZ",
+  "config.lava_boat_clutch.category.general": "GENERUL STUFFZ",
+  "config.lava_boat_clutch.enable_mod": "ENABL DA MOD",
+  "config.lava_boat_clutch.enable_mod.tooltip": "ENABLEZ OR DISABLEEZ DA LAVA BOTE CLUCH MEKANIK.",
+  "config.lava_boat_clutch.immunity_ticks": "IMMUNITEE TIKZ",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "DA NUMBUR OV TIKZ IN WICH DA BOTE DOEZ NOT BURN IN DA LAVA.",
+  "config.lava_boat_clutch.bounce_drop_mode": "DROP BOWNSE MODE",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "DEFAWLT",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "CUSTOMZ",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "RANDUMZ",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "DEFAWLT: YOOSES VANILLA VELOSITEE\nCUSTOMZ: YOOSES CONFIGURABUL VELOSITEE.\nRANDUMZ: RANDUMZ VELOCITIEZ.",
+  "config.lava_boat_clutch.bounce_drop_y": "VELOSITEE Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "UPWURD VELOSITEE APLIED 2 DA BOTZ DROP AFTUR BOTE BURN IN LAVA.",
+  "config.lava_boat_clutch.bounce_drop_x": "VELOSITEE X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "LATRULL VELOSITEE ALONG DA X AXIZ APLIED 2 DA BOTZ DROP AFTUR BOTE BURN IN LAVA.",
+  "config.lava_boat_clutch.bounce_drop_z": "VELOSITEE Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "LATRULL VELOSITEE ALONG DA Z AXIZ APLIED 2 DA BOTZ DROP AFTUR BOTE BURN IN LAVA."
+}

@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "lava Duj qap mIw tI'ang, jIHar",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "lava Duj qap mIw chu'bogh 1.21.5-Daq tI'ang.\n\nlava wa'DIch ghom Duj, 'ej wav tIQ nob, 'ej reH DIvI' Duj bej.\n\nDaH Dream rur lava qap Data' 'e' DanID, 'ach chu' mIwDaqvo'!",
+  "config.lava_boat_clutch.title": "lava Duj qap mIw tI'ang De'wI'",
+  "config.lava_boat_clutch.category.general": "Hoch",
+  "config.lava_boat_clutch.enable_mod": "Mod chu'",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava Duj qap mIw chu' pagh Hemqu'.",
+  "config.lava_boat_clutch.immunity_ticks": "wav Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "mI' Ticks Duj lava Huch.",
+  "config.lava_boat_clutch.bounce_drop_mode": "pel qoq mIw",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "chu' mIw",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "wIj mIw",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Random",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "chu' mIw: vanilla Do' lo'\nwIj mIw: Do' choH lo'.\nRandom: Do' chu'.",
+  "config.lava_boat_clutch.bounce_drop_y": "Do' Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Do' Duj pel nob lava Huch.",
+  "config.lava_boat_clutch.bounce_drop_x": "Do' X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Do' X-axis Duj pel nob lava Huch.",
+  "config.lava_boat_clutch.bounce_drop_z": "Do' Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Do' Z-axis Duj pel nob lava Huch."
+}

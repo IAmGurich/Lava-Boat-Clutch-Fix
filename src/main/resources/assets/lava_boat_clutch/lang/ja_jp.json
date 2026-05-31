@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "溶岩ボートクラッチのメカニクスを修正します（多分）",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5で修正された溶岩ボートクラッチのメカニクスを復元します。\n\n溶岩との最初の接触時にボートは短い無敵時間を得るので、プレイヤーはそのヒットボックスに着地できます。\n\nこれで新しいバージョンでもDreamのように溶岩クラッチができます！",
+  "config.lava_boat_clutch.title": "溶岩ボートクラッチFix 設定",
+  "config.lava_boat_clutch.category.general": "一般",
+  "config.lava_boat_clutch.enable_mod": "Modを有効にする",
+  "config.lava_boat_clutch.enable_mod.tooltip": "溶岩ボートクラッチのメカニクスを有効または無効にします。",
+  "config.lava_boat_clutch.immunity_ticks": "無敵ティック数",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "ボートが溶岩で燃えないティック数。",
+  "config.lava_boat_clutch.bounce_drop_mode": "ドロップバウンスモード",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "デフォルト",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "カスタム",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "ランダム",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "デフォルト: バニラの速度を使用\nカスタム: 設定可能な速度を使用。\nランダム: ランダムな速度を使用。",
+  "config.lava_boat_clutch.bounce_drop_y": "速度 Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "溶岩でボートが燃えた後のドロップに適用される上向きの速度。",
+  "config.lava_boat_clutch.bounce_drop_x": "速度 X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "溶岩でボートが燃えた後のドロップに適用されるX軸方向の横速度。",
+  "config.lava_boat_clutch.bounce_drop_z": "速度 Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "溶岩でボートが燃えた後のドロップに適用されるZ軸方向の横速度。"
+}

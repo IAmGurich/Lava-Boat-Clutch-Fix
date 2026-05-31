@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Corregge la meccanica di presa della barca nella lava, direi",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Ripristina la meccanica di presa della barca nella lava che era stata corretta nella versione 1.21.5.\n\nAl primo contatto con la lava, la barca ottiene un breve periodo di immunità in modo che il giocatore possa atterrare sul suo hitbox.\n\nOra puoi fare clutch nella lava come Dream ma nelle versioni più recenti!",
+  "config.lava_boat_clutch.title": "Impostazioni di Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Generale",
+  "config.lava_boat_clutch.enable_mod": "Abilita Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Abilita o disabilita la meccanica di presa della barca nella lava.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick di Immunità",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Il numero di tick in cui la barca non brucia nella lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modalità Rimbalzo Caduta",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Predefinito",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizzato",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Casuale",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Predefinito: usa la velocità vanilla\nPersonalizzato: usa una velocità configurabile.\nCasuale: velocità casuale.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocità Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocità verso l'alto applicata alla caduta della barca dopo aver bruciato nella lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocità X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocità laterale lungo l'asse X applicata alla caduta della barca dopo aver bruciato nella lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocità Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocità laterale lungo l'asse Z applicata alla caduta della barca dopo aver bruciato nella lava."
+}

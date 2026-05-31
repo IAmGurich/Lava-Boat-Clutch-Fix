@@ -20,10 +20,16 @@ public class LavaBoatClutchMod implements ModInitializer {
             "bounceMode={}, bounceY={}, bounceX={}, bounceZ={}",
             config.enableMod,
             config.lavaImmunityTicks,
-            config.bounceDropCustom ? "custom" : "vanilla",
-            config.getEffectiveBounce(),
-            config.bounceDropCustom ? config.bounceDropX : "n/a",
-            config.bounceDropCustom ? config.bounceDropZ : "n/a");
+            config.dropBounceMode,
+            config.dropBounceMode == LavaBoatClutchConfig.DropBounceMode.CUSTOM
+                ? config.bounceDrop
+                : config.dropBounceMode == LavaBoatClutchConfig.DropBounceMode.RANDOM
+                    ? "random"
+                    : LavaBoatClutchConfig.VANILLA_BOUNCE_DROP,
+            config.dropBounceMode == LavaBoatClutchConfig.DropBounceMode.CUSTOM
+                ? config.bounceDropX : "n/a",
+            config.dropBounceMode == LavaBoatClutchConfig.DropBounceMode.CUSTOM
+                ? config.bounceDropZ : "n/a");
     }
 
     public static LavaBoatClutchConfig getConfig() {

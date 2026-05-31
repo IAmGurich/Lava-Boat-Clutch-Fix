@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Popravlja mehaniko prijema čolna v lavi, domnevam",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Obnovi mehaniko prijema čolna v lavi, ki je bila popravljena v različici 1.21.5.\n\nOb prvem stiku z lavo čoln dobi kratek imunitetni čas, da se igralec lahko pristane na njegov hitbox.\n\nZdaj lahko delaš prijeme v lavi kot Dream, ampak v novejših različicah!",
+  "config.lava_boat_clutch.title": "Nastavitve Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Splošno",
+  "config.lava_boat_clutch.enable_mod": "Omogoči Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Omogoči ali onemogoči mehaniko prijema čolna v lavi.",
+  "config.lava_boat_clutch.immunity_ticks": "Tiki Imunosti",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Število tikov, v katerih čoln ne gori v lavi.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Način Odboja ob Padcu",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Privzeto",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Po meri",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Naključen",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Privzeto: uporablja vanilla hitrost\nPo meri: uporablja nastavljivo hitrost.\nNaključen: naključna hitrost.",
+  "config.lava_boat_clutch.bounce_drop_y": "Hitrost Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Navzgor usmerjena hitrost, ki se uporablja za padec čolna po gorenju v lavi.",
+  "config.lava_boat_clutch.bounce_drop_x": "Hitrost X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Stranska hitrost vzdolž osi X, ki se uporablja za padec čolna po gorenju v lavi.",
+  "config.lava_boat_clutch.bounce_drop_z": "Hitrost Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Stranska hitrost vzdolž osi Z, ki se uporablja za padec čolna po gorenju v lavi."
+}

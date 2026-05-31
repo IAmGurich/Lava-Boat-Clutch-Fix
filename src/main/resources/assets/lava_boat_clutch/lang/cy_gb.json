@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Yn trwsio mecaneg gafael cwch lafa, am wn i",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Yn adfer mecaneg gafael cwch lafa a gafodd ei drwsio yn 1.21.5.\n\nAr y cyswllt cyntaf â'r lafa, mae'r cwch yn cael amser imiwnedd byr fel y gall y chwaraewr lanio ar ei hitbox.\n\nNawr gallwch wneud gafaelion lafa fel Dream ond mewn fersiynau newyddach!",
+  "config.lava_boat_clutch.title": "Gosodiadau Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Cyffredinol",
+  "config.lava_boat_clutch.enable_mod": "Galluogi Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Yn galluogi neu'n analluogi mecaneg gafael cwch lafa.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticiaid Imiwnedd",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Nifer y ticiaid nad yw'r cwch yn llosgi yn y lafa.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modd Sbonc Gollwng",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Rhagosodiad",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personol",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Ar hap",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Rhagosodiad: yn defnyddio cyflymder vanilla\nPersonol: yn defnyddio cyflymder cyfuniadwy.\nAr hap: cyflymder ar hap.",
+  "config.lava_boat_clutch.bounce_drop_y": "Cyflymder Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Cyflymder i fyny wedi'i gymhwyso at ollwng y cwch ar ôl llosgi yn y lafa.",
+  "config.lava_boat_clutch.bounce_drop_x": "Cyflymder X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Cyflymder ochrol ar hyd yr echelin X wedi'i gymhwyso at ollwng y cwch ar ôl llosgi yn y lafa.",
+  "config.lava_boat_clutch.bounce_drop_z": "Cyflymder Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Cyflymder ochrol ar hyd yr echelin Z wedi'i gymhwyso at ollwng y cwch ar ôl llosgi yn y lafa."
+}
