@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Arregla la mecànica d'agafar la barca en la lava, supose",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura la mecànica d'agafar la barca en la lava que es va arreglar en la versió 1.21.5.\n\nEn el primer contacte amb la lava, la barca obté un breu temps d'immunitat perquè el jugador puga aterrar en el seu hitbox.\n\nAra pots fer agafades en la lava com Dream, però en versions més noves!",
+  "config.lava_boat_clutch.title": "Configuració de Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "General",
+  "config.lava_boat_clutch.enable_mod": "Activar Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva la mecànica d'agafar la barca en la lava.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks d'Immunitat",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "El nombre de ticks en els quals la barca no crema en la lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mode de Rebot de Caiguda",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Per defecte",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalitzat",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Aleatori",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Per defecte: utilitza la velocitat vanilla\nPersonalitzat: utilitza una velocitat configurable.\nAleatori: velocitat aleatòria.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocitat Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocitat cap amunt aplicada a la caiguda de la barca després de cremar en la lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocitat X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocitat lateral al llarg de l'eix X aplicada a la caiguda de la barca després de cremar en la lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocitat Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocitat lateral al llarg de l'eix Z aplicada a la caiguda de la barca després de cremar en la lava."
+}

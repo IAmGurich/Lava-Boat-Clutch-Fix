@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Inaayos ang lava boat clutch mechanic, siguro",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Ibinabalik ang lava boat clutch mechanic na naayos sa 1.21.5.\n\nSa unang pakikipag-ugnayan sa lava, ang bangka ay makakakuha ng maikling immunity time, para makalapag ang manlalaro sa hitbox nito.\n\nMaaari ka na ngayong gumawa ng lava clutches tulad ni Dream ngunit sa mas bagong mga bersyon!",
+  "config.lava_boat_clutch.title": "Mga Setting ng Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Pangkalahatan",
+  "config.lava_boat_clutch.enable_mod": "I-enable ang Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Ino-on o ino-off ang lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Mga Immunity Tick",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Ang bilang ng mga tick kung saan hindi nasusunog ang bangka sa lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop Bounce Mode",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Default",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Custom",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Random",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Default: gumagamit ng vanilla velocity\nCustom: gumagamit ng mai-configure na velocity.\nRandom: gumagamit ng random na velocity.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocity Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Pataas na velocity na inilalapat sa pagbagsak ng bangka pagkatapos masunog sa lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocity X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Lateral na velocity sa kahabaan ng X axis na inilalapat sa pagbagsak ng bangka pagkatapos masunog sa lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocity Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Lateral na velocity sa kahabaan ng Z axis na inilalapat sa pagbagsak ng bangka pagkatapos masunog sa lava."
+}

@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Divvá lava-fanas-čuoldi-mekanikka, oaivvildan",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Máhcaha lava-fanas-čuoldi-mekanikka mii divvojuvvui 1.21.5:s.\n\nVuosttaš lavákkuin fanas oažžu oanehis immunitehta áiggi, vai spealladit sáhttá vuoigatit dan hitboxa alde.\n\nDál sáhtát dahkat lava-čuoldimiid dego Dream, muhto ođđaseamos veršuvnnain!",
+  "config.lava_boat_clutch.title": "Lava Fanas Čuoldi Fix Mearrádusat",
+  "config.lava_boat_clutch.category.general": "Oppalaš",
+  "config.lava_boat_clutch.enable_mod": "Vállje Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Válljá dahje hilgu lava-fanas-čuoldi-mekanikka.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitehta Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Tickaid lohku mas fanas ii bála lavas.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Goahtinfápmu Vuolegasvejolaš",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Váldooaivil",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Iešválljejuvvon",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Dáhton",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Váldooaivil: geavaha vanilla fásttasvuođa\nIešválljejuvvon: geavaha mearriduvvon fásttasvuođa.\nDáhton: dáhton johttinvuoima.",
+  "config.lava_boat_clutch.bounce_drop_y": "Fásttasvuohta Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Bajábeallái fásttasvuohta mii čuohcá fanasa goahtimii go dat bálá lavas.",
+  "config.lava_boat_clutch.bounce_drop_x": "Fásttasvuohta X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Bealljelaš fásttasvuohta X-aksa mielde mii čuohcá fanasa goahtimii go dat bálá lavas.",
+  "config.lava_boat_clutch.bounce_drop_z": "Fásttasvuohta Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Bealljelaš fásttasvuohta Z-aksa mielde mii čuohcá fanasa goahtimii go dat bálá lavas."
+}

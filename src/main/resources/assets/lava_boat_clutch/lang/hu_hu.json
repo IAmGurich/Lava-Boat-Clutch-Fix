@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Kijavítja a lávás csónakmegfogási mechanikát, szerintem",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Visszaállítja az 1.21.5-ben javított lávás csónakmegfogási mechanikát.\n\nAz első lávával való érintkezéskor a csónak rövid immunitási időt kap, hogy a játékos le tudjon szállni a hitboxára.\n\nMost már tudsz lávás mentéseket csinálni mint Dream, de az újabb verziókban!",
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Beállítások",
+  "config.lava_boat_clutch.category.general": "Általános",
+  "config.lava_boat_clutch.enable_mod": "Mod Engedélyezése",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Engedélyezi vagy letiltja a lávás csónakmegfogási mechanikát.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitás Tickek",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Azon tickek száma, amelyek alatt a csónak nem ég el a lávában.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop Pattanás Mód",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Alapértelmezett",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Egyéni",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Véletlenszerű",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Alapértelmezett: vanilla sebességet használ\nEgyéni: beállítható sebességet használ.\nVéletlenszerű: véletlenszerű sebesség.",
+  "config.lava_boat_clutch.bounce_drop_y": "Sebesség Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Felfelé irányuló sebesség, amely a csónak esésére vonatkozik miután elégett a lávában.",
+  "config.lava_boat_clutch.bounce_drop_x": "Sebesség X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "X tengely menti oldalirányú sebesség, amely a csónak esésére vonatkozik miután elégett a lávában.",
+  "config.lava_boat_clutch.bounce_drop_z": "Sebesség Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Z tengely menti oldalirányú sebesség, amely a csónak esésére vonatkozik miután elégett a lávában."
+}

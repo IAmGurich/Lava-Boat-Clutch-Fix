@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Исправляетъ механику хватанія лодки въ лавѣ, полагаю",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Возстанавливаетъ механику хватанія лодки въ лавѣ, которая была исправлена въ 1.21.5.\n\nПри первомъ соприкосновеніи съ лавой лодка получаетъ короткое время иммунитета, дабы игрокъ могъ приземлиться на её хитбоксъ.\n\nОтнынѣ можно дѣлать хватанія въ лавѣ, какъ Dream, но въ болѣе новыхъ версіяхъ!",
+  "config.lava_boat_clutch.title": "Настройки Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Общее",
+  "config.lava_boat_clutch.enable_mod": "Включить Модъ",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Включаетъ или выключаетъ механику хватанія лодки въ лавѣ.",
+  "config.lava_boat_clutch.immunity_ticks": "Тики Иммунитета",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Количество тиковъ, въ теченіе которыхъ лодка не горитъ въ лавѣ.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Режимъ Отскока Дропа",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Стандартный",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Пользовательскій",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Случайный",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Стандартный: использует vanilla скорость\nПользовательскій: использует настраиваемую скорость.\nСлучайный: случайная скорость.",
+  "config.lava_boat_clutch.bounce_drop_y": "Скорость Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Скорость вверхъ, примѣняемая къ паденію лодки послѣ сгоранія въ лавѣ.",
+  "config.lava_boat_clutch.bounce_drop_x": "Скорость X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Боковая скорость по оси X, примѣняемая къ паденію лодки послѣ сгоранія въ лавѣ.",
+  "config.lava_boat_clutch.bounce_drop_z": "Скорость Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Боковая скорость по оси Z, примѣняемая къ паденію лодки послѣ сгоранія въ лавѣ."
+}

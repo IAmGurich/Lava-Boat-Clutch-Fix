@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Repară mecanica de prindere a bărcii în lavă, presupun",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaurează mecanica de prindere a bărcii în lavă care a fost reparată în versiunea 1.21.5.\n\nLa primul contact cu lava, barca primește un timp scurt de imunitate pentru ca jucătorul să poată ateriza pe hitbox-ul ei.\n\nAcum poți face prinderi în lavă ca Dream, dar în versiunile mai noi!",
+  "config.lava_boat_clutch.title": "Setări Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "General",
+  "config.lava_boat_clutch.enable_mod": "Activează Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activează sau dezactivează mecanica de prindere a bărcii în lavă.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick-uri de Imunitate",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Numărul de tick-uri în care barca nu arde în lavă.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modul de Ricoșeu la Cădere",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Implicit",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizat",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Aleatoriu",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Implicit: folosește viteza vanilla\nPersonalizat: folosește o viteză configurabilă.\nAleatoriu: viteză aleatorie.",
+  "config.lava_boat_clutch.bounce_drop_y": "Viteză Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Viteza în sus aplicată căderii bărcii după ce arde în lavă.",
+  "config.lava_boat_clutch.bounce_drop_x": "Viteză X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Viteza laterală de-a lungul axei X aplicată căderii bărcii după ce arde în lavă.",
+  "config.lava_boat_clutch.bounce_drop_z": "Viteză Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Viteza laterală de-a lungul axei Z aplicată căderii bărcii după ce arde în lavă."
+}

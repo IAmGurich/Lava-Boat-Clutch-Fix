@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Sửa cơ chế bám thuyền trong dung nham, tôi đoán vậy",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Khôi phục cơ chế bám thuyền trong dung nham đã được sửa trong phiên bản 1.21.5.\n\nKhi tiếp xúc đầu tiên với dung nham, thuyền nhận được khoảng thời gian miễn nhiễm ngắn để người chơi có thể đáp xuống hitbox của nó.\n\nBây giờ bạn có thể thực hiện các cú bám dung nham như Dream nhưng trong các phiên bản mới hơn!",
+  "config.lava_boat_clutch.title": "Cài đặt Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Chung",
+  "config.lava_boat_clutch.enable_mod": "Bật Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Bật hoặc tắt cơ chế bám thuyền trong dung nham.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks Miễn Nhiễm",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Số lượng ticks mà thuyền không bị cháy trong dung nham.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Chế Độ Nảy Khi Rơi",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Mặc định",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Tùy chỉnh",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Ngẫu nhiên",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Mặc định: dùng tốc độ vanilla\nTùy chỉnh: dùng tốc độ có thể cấu hình.\nNgẫu nhiên: vận tốc ngẫu nhiên.",
+  "config.lava_boat_clutch.bounce_drop_y": "Tốc độ Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Tốc độ hướng lên được áp dụng vào lần rơi của thuyền sau khi cháy trong dung nham.",
+  "config.lava_boat_clutch.bounce_drop_x": "Tốc độ X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Tốc độ ngang dọc trục X được áp dụng vào lần rơi của thuyền sau khi cháy trong dung nham.",
+  "config.lava_boat_clutch.bounce_drop_z": "Tốc độ Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Tốc độ ngang dọc trục Z được áp dụng vào lần rơi của thuyền sau khi cháy trong dung nham."
+}

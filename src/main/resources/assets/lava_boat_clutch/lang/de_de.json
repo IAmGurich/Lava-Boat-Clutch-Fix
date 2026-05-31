@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Behebt die Lava-Boot-Kupplung-Mechanik, ich schätze",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Stellt die Lava-Boot-Kupplung-Mechanik wieder her, die in 1.21.5 behoben wurde.\n\nBeim ersten Kontakt mit Lava erhält das Boot eine kurze Immunitätszeit, damit der Spieler auf seiner Hitbox landen kann.\n\nJetzt kannst du Lava-Clutches machen wie Dream, aber in neueren Versionen!",
+  "config.lava_boat_clutch.title": "Lava Boot Kupplung Fix Einstellungen",
+  "config.lava_boat_clutch.category.general": "Allgemein",
+  "config.lava_boat_clutch.enable_mod": "Mod aktivieren",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiviert oder deaktiviert die Lava-Boot-Kupplung-Mechanik.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitäts-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Die Anzahl der Ticks, in denen das Boot in der Lava nicht verbrennt.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Rückstoß-Modus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standard",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Benutzerdefiniert",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Zufällig",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standard: verwendet Vanilla-Geschwindigkeit\nBenutzerdefiniert: verwendet konfigurierbare Geschwindigkeit.\nZufällig: zufällige Geschwindigkeit.",
+  "config.lava_boat_clutch.bounce_drop_y": "Geschwindigkeit Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Aufwärtsgeschwindigkeit, die auf den Fall des Boots nach dem Verbrennen in Lava angewendet wird.",
+  "config.lava_boat_clutch.bounce_drop_x": "Geschwindigkeit X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Seitengeschwindigkeit entlang der X-Achse, die auf den Fall des Boots nach dem Verbrennen in Lava angewendet wird.",
+  "config.lava_boat_clutch.bounce_drop_z": "Geschwindigkeit Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Seitengeschwindigkeit entlang der Z-Achse, die auf den Fall des Boots nach dem Verbrennen in Lava angewendet wird."
+}

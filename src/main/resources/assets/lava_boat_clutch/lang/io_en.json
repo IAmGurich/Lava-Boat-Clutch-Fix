@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Reparigas la mekanismo di kapto di batelo en lavo, me supozas",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restorigas la mekanismo di kapto di batelo en lavo qua esis reparigita en 1.21.5.\n\nCe la unesma kontakto kun lavo, la batelo ricevas kurta tempo di imuneso, por ke la ludanto povu ateragar sur olua hitbox.\n\nNu tu povas facar lavo-kapti quale Dream, ma en plu nova versioni!",
+  "config.lava_boat_clutch.title": "Regulaji di Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Generala",
+  "config.lava_boat_clutch.enable_mod": "Aktivigar Modo",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktivigas o dezaktivisas la mekanismo di kapto di batelo en lavo.",
+  "config.lava_boat_clutch.immunity_ticks": "Tikti di Imuneso",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "La nombro di tikti en qui la batelo ne brulas en la lavo.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Rebondo-Modo di Falo",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Defalta",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizita",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Hazardoza",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Defalta: uzas rapideso vanilla\nPersonalizita: uzas konfigurinda rapideso.\nHazardoza: hazardoza velocajo.",
+  "config.lava_boat_clutch.bounce_drop_y": "Rapideso Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Supren-rapideso aplikata al falo di la batelo pos ol brulis en lavo.",
+  "config.lava_boat_clutch.bounce_drop_x": "Rapideso X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Lateral rapideso laube la axo X aplikata al falo di la batelo pos ol brulis en lavo.",
+  "config.lava_boat_clutch.bounce_drop_z": "Rapideso Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Lateral rapideso laube la axo Z aplikata al falo di la batelo pos ol brulis en lavo."
+}
