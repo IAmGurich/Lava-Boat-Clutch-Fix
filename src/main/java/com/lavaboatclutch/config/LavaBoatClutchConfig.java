@@ -12,77 +12,58 @@ import java.nio.file.Path;
 
 public class LavaBoatClutchConfig {
 
-    // ── Drop Bounce Mode ───────────────────────────────────────────────────────
-    public enum DropBounceMode {
-        /** Mimics vanilla behaviour: Y=0.15, X/Z small random [-0.1, 0.1]. */
-        DEFAULT,
-        /** User-defined fixed velocities for X, Y, Z. */
-        CUSTOM,
-        /** Fully random velocities for X, Y, Z on every drop. */
-        RANDOM
+    public enum BounceDropMode {
+        DEFAULT, CUSTOM, RANDOM
     }
 
-    // ── Immunity ticks ─────────────────────────────────────────────────────────
     public static final int MIN_IMMUNITY_TICKS     = 1;
     public static final int MAX_IMMUNITY_TICKS     = 20;
     public static final int DEFAULT_IMMUNITY_TICKS = 3;
 
-    // ── Bounce Y constants ─────────────────────────────────────────────────────
-    public static final float VANILLA_BOUNCE_DROP  = 0.15f;
+    public static final float VANILLA_BOUNCE_DROP = 0.15f;
 
-    public static final float MIN_BOUNCE_DROP      = 0.0f;
-    public static final float MAX_BOUNCE_DROP      = 0.5f;
-    public static final float DEFAULT_BOUNCE_DROP  = 0.0f;
+    public static final float MIN_BOUNCE_DROP     = 0.0f;
+    public static final float MAX_BOUNCE_DROP     = 0.5f;
 
-    // ── Bounce X / Z constants ─────────────────────────────────────────────────
+    public static final float DEFAULT_BOUNCE_DROP = 0.0f;
+
     public static final float MIN_BOUNCE_HORIZ     = -0.50f;
     public static final float MAX_BOUNCE_HORIZ     =  0.50f;
+
     public static final float DEFAULT_BOUNCE_HORIZ =  0.0f;
 
-    // ── Infrastructure ─────────────────────────────────────────────────────────
     private static final Logger LOGGER = LoggerFactory.getLogger("lava_boat_clutch/config");
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static final Path CONFIG_PATH =
             FabricLoader.getInstance().getConfigDir().resolve("lava_boat_clutch.json");
 
-    // ── Fields ─────────────────────────────────────────────────────────────────
     public boolean enableMod = true;
 
     public int lavaImmunityTicks = DEFAULT_IMMUNITY_TICKS;
 
-    /** Drop bounce mode: DEFAULT, CUSTOM, or RANDOM. */
-    public DropBounceMode dropBounceMode = DropBounceMode.DEFAULT;
+    public BounceDropMode bounceDropMode = BounceDropMode.DEFAULT;
 
-    /** Custom Y velocity (used only in CUSTOM mode). */
     public float bounceDrop = DEFAULT_BOUNCE_DROP;
 
-    /** Custom X velocity (used only in CUSTOM mode). */
     public float bounceDropX = DEFAULT_BOUNCE_HORIZ;
 
-    /** Custom Z velocity (used only in CUSTOM mode). */
     public float bounceDropZ = DEFAULT_BOUNCE_HORIZ;
 
-    // ── Helpers ────────────────────────────────────────────────────────────────
-
-    /** Returns the fixed Y bounce velocity for DEFAULT mode; 0 for other modes
-     *  (callers that need mode-awareness should check {@link #dropBounceMode}). */
     public float getEffectiveBounce() {
-        return dropBounceMode == DropBounceMode.CUSTOM ? bounceDrop : VANILLA_BOUNCE_DROP;
+        return bounceDropMode == BounceDropMode.CUSTOM ? bounceDrop : VANILLA_BOUNCE_DROP;
     }
 
     public boolean isDefaultMode() {
-        return dropBounceMode == DropBounceMode.DEFAULT;
+        return bounceDropMode == BounceDropMode.DEFAULT;
     }
 
     public boolean isCustomMode() {
-        return dropBounceMode == DropBounceMode.CUSTOM;
+        return bounceDropMode == BounceDropMode.CUSTOM;
     }
 
     public boolean isRandomMode() {
-        return dropBounceMode == DropBounceMode.RANDOM;
+        return bounceDropMode == BounceDropMode.RANDOM;
     }
-
-    // ── I/O ────────────────────────────────────────────────────────────────────
 
     public static LavaBoatClutchConfig load() {
         if (Files.exists(CONFIG_PATH)) {
@@ -90,6 +71,7 @@ public class LavaBoatClutchConfig {
                 String json = Files.readString(CONFIG_PATH);
                 LavaBoatClutchConfig cfg = GSON.fromJson(json, LavaBoatClutchConfig.class);
                 if (cfg != null) {
+                    if (cfg.bounceDropMode == null) cfg.bounceDropMode = BounceDropMode.DEFAULT;
                     cfg.clamp();
                     return cfg;
                 }
@@ -114,17 +96,12 @@ public class LavaBoatClutchConfig {
         }
     }
 
-    /**
-     * Clamps all values to their valid ranges and sets any null fields
-     * (which can occur when Gson deserialises an older config file) to defaults.
-     */
     public void clamp() {
-        if (dropBounceMode == null) dropBounceMode = DropBounceMode.DEFAULT;
-
+        if (bounceDropMode == null) bounceDropMode = BounceDropMode.DEFAULT;
         lavaImmunityTicks = Math.max(MIN_IMMUNITY_TICKS,
                             Math.min(MAX_IMMUNITY_TICKS, lavaImmunityTicks));
-        bounceDrop  = Math.max(MIN_BOUNCE_DROP,  Math.min(MAX_BOUNCE_DROP,  bounceDrop));
-        bounceDropX = Math.max(MIN_BOUNCE_HORIZ, Math.min(MAX_BOUNCE_HORIZ, bounceDropX));
-        bounceDropZ = Math.max(MIN_BOUNCE_HORIZ, Math.min(MAX_BOUNCE_HORIZ, bounceDropZ));
+        bounceDrop  = Math.max(MIN_BOUNCE_DROP,   Math.min(MAX_BOUNCE_DROP,   bounceDrop));
+        bounceDropX = Math.max(MIN_BOUNCE_HORIZ,  Math.min(MAX_BOUNCE_HORIZ,  bounceDropX));
+        bounceDropZ = Math.max(MIN_BOUNCE_HORIZ,  Math.min(MAX_BOUNCE_HORIZ,  bounceDropZ));
     }
 }
