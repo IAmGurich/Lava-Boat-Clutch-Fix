@@ -15,7 +15,7 @@ In Minecraft 1.21.5, Mojang fixed the bug that allowed boats to briefly survive 
 
 This mod restores it. When a boat first touches lava, it receives a short immunity window so the player can land on the hitbox and survive the fall — exactly like in older versions.
 
-**Now you can do lava boat clutches in modern Minecraft.**
+**Now you can do lava boat clutches in modern Minecraft!**
 
 ---
 
