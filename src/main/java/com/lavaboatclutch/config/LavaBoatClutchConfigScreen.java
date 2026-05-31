@@ -8,7 +8,6 @@ import me.shedaniel.clothconfig2.api.Requirement;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.text.Text;
 
-
 public class LavaBoatClutchConfigScreen {
 
     private static int   toSlider(float f) { return Math.round(f * 100f); }
