@@ -19,10 +19,16 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
     @Unique private int     lbc_immunityTicks     = 0;
     @Unique private boolean lbc_wasInLavaLastTick = false;
 
+    @Unique private int     lbc_fireParticleSuppressTicks = 0;
+
+    @Unique private boolean lbc_wasInLavaLastTickClient = false;
+
     @Override public int     lbc_getImmunityTicks()              { return lbc_immunityTicks; }
     @Override public void    lbc_setImmunityTicks(int t)         { lbc_immunityTicks = t; }
     @Override public boolean lbc_wasInLavaLastTick()             { return lbc_wasInLavaLastTick; }
     @Override public void    lbc_setWasInLavaLastTick(boolean v) { lbc_wasInLavaLastTick = v; }
+    @Override public int     lbc_getFireSuppressTicks()          { return lbc_fireParticleSuppressTicks; }
+    @Override public void    lbc_setFireSuppressTicks(int t)     { lbc_fireParticleSuppressTicks = t; }
 
     @Inject(method = "tick", at = @At("HEAD"))
     private void lbc_onTick(CallbackInfo ci) {
@@ -31,7 +37,16 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
 
         AbstractBoatEntity self = (AbstractBoatEntity)(Object)this;
 
-        if (self.getWorld().isClient()) return;
+        if (self.getWorld().isClient()) {
+            boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
+            if (inLavaNow && !lbc_wasInLavaLastTickClient) {
+                lbc_fireParticleSuppressTicks = 4;
+            } else if (lbc_fireParticleSuppressTicks > 0) {
+                lbc_fireParticleSuppressTicks--;
+            }
+            lbc_wasInLavaLastTickClient = inLavaNow;
+            return;
+        }
 
         boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
 

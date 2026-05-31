@@ -3,6 +3,7 @@ package com.lavaboatclutch.mixin;
 import com.lavaboatclutch.LavaBoatClutchMod;
 import com.lavaboatclutch.config.LavaBoatClutchConfig;
 import com.lavaboatclutch.util.LbcBoatImmunity;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.vehicle.AbstractBoatEntity;
@@ -29,8 +30,6 @@ public abstract class VehicleEntityMixin {
     @Unique
     private @Nullable ItemEntity lbc_pendingDrop = null;
 
-    // ── Fire damage immunity ───────────────────────────────────────────────────
-
     @Inject(
         method = "damage(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/damage/DamageSource;F)Z",
         at = @At("HEAD"),
@@ -52,8 +51,6 @@ public abstract class VehicleEntityMixin {
             cir.setReturnValue(false);
         }
     }
-
-    // ── Drop capture & bounce ──────────────────────────────────────────────────
 
     @Redirect(
         method = "killAndDropItem(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/item/Item;)V",
@@ -83,81 +80,70 @@ public abstract class VehicleEntityMixin {
         LavaBoatClutchConfig cfg = LavaBoatClutchMod.getConfig();
         if (cfg == null || !cfg.enableMod) return;
 
-        LavaBoatClutchConfig.DropBounceMode mode = cfg.dropBounceMode;
-
-        // In CUSTOM mode only: respect user setting of Y=0 as "no bounce"
-        if (mode == LavaBoatClutchConfig.DropBounceMode.CUSTOM && cfg.bounceDrop <= 0.0f) return;
-
         LbcBoatImmunity immunity = (LbcBoatImmunity)(Object)this;
         if (!immunity.lbc_wasInLavaLastTick()) return;
 
         if (ie == null || ie.isRemoved()) return;
 
+        // Random mode bypasses the bounceY <= 0 check since Y will be randomized
+        if (!cfg.isRandomMode()) {
+            float bounceY = cfg.getEffectiveBounce();
+            if (bounceY <= 0.0f) return;
+        }
+
+        float cfgBounceX = cfg.isCustomMode() ? cfg.bounceDropX : 0f;
+        float cfgBounceZ = cfg.isCustomMode() ? cfg.bounceDropZ : 0f;
+
         double safeY = boat.getY() + 0.5;
 
         LavaBoatClutchMod.LOGGER.debug(
-            "[LavaBoatClutch] killAndDropItem — applying bounce (mode={}, safeY={})",
-            mode, safeY);
+            "[LavaBoatClutch] killAndDropItem — applying bounce " +
+            "(bounceY={}, X={}, Z={}, safeY={}, mode={})",
+            cfg.getEffectiveBounce(), cfgBounceX, cfgBounceZ, safeY,
+            cfg.bounceDropMode);
 
-        lbc_applyBounce(ie, cfg, mode, safeY);
+        lbc_applyBounce(ie, cfg, cfgBounceX, cfgBounceZ, safeY);
 
         LavaBoatClutchMod.LOGGER.debug(
             "[LavaBoatClutch] Bounce applied at {},{},{}",
             (int)boat.getX(), (int)boat.getY(), (int)boat.getZ());
     }
 
-    /**
-     * Applies velocity and fire-suppression to the dropped item entity.
-     *
-     * <ul>
-     *   <li><b>DEFAULT</b> — mimics vanilla: Y = {@value LavaBoatClutchConfig#VANILLA_BOUNCE_DROP},
-     *       X/Z ∈ [-0.1, 0.1] (uniform random).</li>
-     *   <li><b>CUSTOM</b> — user-defined fixed X, Y, Z from config.</li>
-     *   <li><b>RANDOM</b> — fully random on every drop:
-     *       Y ∈ [{@value LavaBoatClutchConfig#MIN_BOUNCE_DROP}, {@value LavaBoatClutchConfig#MAX_BOUNCE_DROP}),
-     *       X/Z ∈ [{@value LavaBoatClutchConfig#MIN_BOUNCE_HORIZ}, {@value LavaBoatClutchConfig#MAX_BOUNCE_HORIZ}).</li>
-     * </ul>
-     */
     @Unique
-    private static void lbc_applyBounce(ItemEntity ie,
-                                         LavaBoatClutchConfig cfg,
-                                         LavaBoatClutchConfig.DropBounceMode mode,
+    private static void lbc_applyBounce(ItemEntity ie, LavaBoatClutchConfig cfg,
+                                         float cfgBounceX, float cfgBounceZ,
                                          double safeY) {
         ThreadLocalRandom rng = ThreadLocalRandom.current();
-        final double velX, velY, velZ;
 
-        switch (mode) {
+        // 1. Velocity
+        switch (cfg.bounceDropMode) {
+            case DEFAULT -> {
+                // Vanilla-like: fixed Y, small random X/Z
+                double randX = rng.nextDouble() * 0.2 - 0.1;
+                double randZ = rng.nextDouble() * 0.2 - 0.1;
+                ie.setVelocity(randX, LavaBoatClutchConfig.VANILLA_BOUNCE_DROP, randZ);
+            }
             case CUSTOM -> {
-                velX = cfg.bounceDropX;
-                velY = cfg.bounceDrop;
-                velZ = cfg.bounceDropZ;
+                // Fully configurable X, Y, Z
+                ie.setVelocity(cfgBounceX, cfg.bounceDrop, cfgBounceZ);
             }
             case RANDOM -> {
-                // Each axis is independently randomised across the full configured range.
-                velY = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_DROP,
-                                      LavaBoatClutchConfig.MAX_BOUNCE_DROP);
-                velX = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_HORIZ,
-                                      LavaBoatClutchConfig.MAX_BOUNCE_HORIZ);
-                velZ = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_HORIZ,
-                                      LavaBoatClutchConfig.MAX_BOUNCE_HORIZ);
-            }
-            default -> {
-                // DEFAULT — small random horizontal drift, fixed upward kick
-                velX = rng.nextDouble() * 0.2 - 0.1;
-                velY = LavaBoatClutchConfig.VANILLA_BOUNCE_DROP;
-                velZ = rng.nextDouble() * 0.2 - 0.1;
+                // Fully random velocity in a wider range
+                double randX = rng.nextDouble() * 0.6 - 0.3;
+                double randZ = rng.nextDouble() * 0.6 - 0.3;
+                float  randY = 0.05f + rng.nextFloat() * 0.35f;
+                ie.setVelocity(randX, randY, randZ);
             }
         }
-
-        ie.setVelocity(velX, velY, velZ);
         ie.velocityModified = true;
 
-        // Lift the item above lava surface to prevent it from sinking back in
+        // 2. Телепортация выше поверхности лавы
         if (ie.getY() < safeY) {
             ie.setPos(ie.getX(), safeY, ie.getZ());
         }
 
-        // Suppress fire so the drop doesn't immediately burn
+        // 3. Иммунитет к огню: отрицательные fire ticks → entity в огне/лаве
+        //    |fireTicks| тиков без возгорания (vanilla механика)
         ie.setFireTicks(-80);
     }
 }
