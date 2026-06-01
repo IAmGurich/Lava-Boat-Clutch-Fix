@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Lav tekne tutma mekaniğini düzeltir, sanırım",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5'te düzeltilen lav tekne tutma mekaniğini geri yükler.\n\nLavayla ilk temas anında tekne kısa bir bağışıklık süresi alır, böylece oyuncu onun hitbox'una inebilir.\n\nArtık Dream gibi lav tutmaları yapabilirsin, ama daha yeni sürümlerde!",
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Ayarları",
+  "config.lava_boat_clutch.category.general": "Genel",
+  "config.lava_boat_clutch.enable_mod": "Modu Etkinleştir",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Lav tekne tutma mekaniğini etkinleştirir veya devre dışı bırakır.",
+  "config.lava_boat_clutch.immunity_ticks": "Bağışıklık Tik'leri",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Teknenin lavada yanmadığı tik sayısı.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Düşme Sekme Modu",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Varsayılan",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Özel",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Rastgele",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Varsayılan: vanilla hızını kullanır\nÖzel: yapılandırılabilir hız kullanır.\nRastgele: rastgele hız.",
+  "config.lava_boat_clutch.bounce_drop_y": "Hız Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Tekne lavada yandıktan sonra düşüşüne uygulanan yukarı hız.",
+  "config.lava_boat_clutch.bounce_drop_x": "Hız X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Tekne lavada yandıktan sonra düşüşüne X ekseni boyunca uygulanan yatay hız.",
+  "config.lava_boat_clutch.bounce_drop_z": "Hız Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Tekne lavada yandıktan sonra düşüşüne Z ekseni boyunca uygulanan yatay hız."
+}

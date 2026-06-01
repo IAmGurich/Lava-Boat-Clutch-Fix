@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Stel die lava-boot-koppelingsmeganika reg, dink ek",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Herstel die lava-boot-koppelingsmeganika wat in 1.21.5 reggemaak is.\n\nBy die eerste kontak met lawa kry die boot 'n kort immuniteittydperk, sodat die speler op sy hitbox kan land.\n\nNou kan jy lawa-koppeling doen soos Dream, maar in nuwer weergawes!",
+  "config.lava_boat_clutch.title": "Lava Boot Koppeling Fix Instellings",
+  "config.lava_boat_clutch.category.general": "Algemeen",
+  "config.lava_boat_clutch.enable_mod": "Aktiveer Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiveer of deaktiveer die lawa-boot-koppelingsmeganika.",
+  "config.lava_boat_clutch.immunity_ticks": "Immuniteittikke",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Die aantal tikke waartydens die boot nie in die lawa brand nie.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Keersprong-modus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Verstek",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Pasmaak",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Lukraak",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Verstek: gebruik vanilla-snelheid\nPasmaak: gebruik instelbare snelheid.\nLukraak: lukrake snelheid.",
+  "config.lava_boat_clutch.bounce_drop_y": "Snelheid Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Opwaartse snelheid toegepas op die boot se val nadat dit in lawa brand.",
+  "config.lava_boat_clutch.bounce_drop_x": "Snelheid X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Sywaartse snelheid langs die X-as toegepas op die boot se val nadat dit in lawa brand.",
+  "config.lava_boat_clutch.bounce_drop_z": "Snelheid Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Sywaartse snelheid langs die Z-as toegepas op die boot se val nadat dit in lawa brand."
+}

@@ -15,7 +15,7 @@ public abstract class EntityFireMixin {
 
     @Inject(method = "displayFireAnimation()Z", at = @At("HEAD"), cancellable = true)
     private void lbc_suppressFireRender(CallbackInfoReturnable<Boolean> cir) {
-
+        
         if (!((Object)this instanceof LbcBoatImmunity boat)) return;
 
         if (boat.lbc_getFireSuppressTicks() <= 0) return;

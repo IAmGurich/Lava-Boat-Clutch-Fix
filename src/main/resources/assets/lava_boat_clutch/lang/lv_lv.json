@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Labo lavas laivas satveršanas mehāniku, domāju",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Atjauno lavas laivas satveršanas mehāniku, kas tika labota 1.21.5 versijā.\n\nPirmajā saskarsmē ar lavu laiva saņem īsu imunitātes laiku, lai spēlētājs varētu nolaists uz tās hitboxa.\n\nTagad vari darīt lavas satvērienus kā Dream, bet jaunākās versijās!",
+  "config.lava_boat_clutch.title": "Lavas Laivas Satveršanas Fix Iestatījumi",
+  "config.lava_boat_clutch.category.general": "Vispārīgi",
+  "config.lava_boat_clutch.enable_mod": "Iespējot Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Iespējo vai atspējo lavas laivas satveršanas mehāniku.",
+  "config.lava_boat_clutch.immunity_ticks": "Imunitātes Tiki",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Tiku skaits, kuros laiva nedeg lavā.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Kritiena Atlēciena Režīms",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Noklusējums",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Pielāgots",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Nejauši",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Noklusējums: izmanto vanilla ātrumu\nPielāgots: izmanto konfigurējamu ātrumu.\nNejauši: nejauša ātrums.",
+  "config.lava_boat_clutch.bounce_drop_y": "Ātrums Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Uz augšu vērsts ātrums, kas tiek piemērots laivas kritienam pēc sadegšanas lavā.",
+  "config.lava_boat_clutch.bounce_drop_x": "Ātrums X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Sānu ātrums gar X asi, kas tiek piemērots laivas kritienam pēc sadegšanas lavā.",
+  "config.lava_boat_clutch.bounce_drop_z": "Ātrums Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Sānu ātrums gar Z asi, kas tiek piemērots laivas kritienam pēc sadegšanas lavā."
+}

@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Лава вяррьс клатч механизм паремтэмь",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Лава вяррьс клатч механизм паремтэмь, мый 1.21.5 верси тулл фиксть.\n\nПервой лава контакт нӣн вяррьс иммунитет аьллтэ, тӣт плэйер хитбокс нӣн лэнд ляэйй.\n\nТепер лава клатч Dream нэ кэлтт ваддье, ньюэр версиях!",
+  "config.lava_boat_clutch.title": "Лава Вяррьс Клатч Фикс Настройках",
+  "config.lava_boat_clutch.category.general": "Общий",
+  "config.lava_boat_clutch.enable_mod": "Мод Включить",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Лава вяррьс клатч механизм включить или выключить.",
+  "config.lava_boat_clutch.immunity_ticks": "Иммунитет Тиккт",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Тикк лоаккт нӣн вяррьс лава нӣн ij пале.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Дроп Баунс Режим",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Стандарт",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Настройка",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Случайный",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Стандарт: ваниль велосити\nНастройка: конфиг велосити.\nСлучайный: рандом велосити.",
+  "config.lava_boat_clutch.bounce_drop_y": "Велосити Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Вяррьс дроп Y велосити лава нӣн пале нин.",
+  "config.lava_boat_clutch.bounce_drop_x": "Велосити X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Вяррьс дроп X велосити лава нӣн пале нин.",
+  "config.lava_boat_clutch.bounce_drop_z": "Велосити Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Вяррьс дроп Z велосити лава нӣн пале нин."
+}

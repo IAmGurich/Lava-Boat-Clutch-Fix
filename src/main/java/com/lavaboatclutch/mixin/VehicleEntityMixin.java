@@ -56,7 +56,6 @@ public abstract class VehicleEntityMixin {
                                          DamageSource source,
                                          float amount,
                                          CallbackInfoReturnable<Boolean> cir) {
-
         if (!(((Object) this) instanceof AbstractBoat boat)) return;
 
         if (!source.is(DamageTypeTags.IS_FIRE)) return;
@@ -71,12 +70,9 @@ public abstract class VehicleEntityMixin {
         LbcBoatImmunity immunity = (LbcBoatImmunity) (Object) this;
         if (!immunity.lbc_wasInLavaLastTick()) return;
 
-        float bounceY = cfg.getEffectiveBounce();
-        if (bounceY <= 0.0f) return;
+        LavaBoatClutchConfig.DropBounceMode mode = cfg.dropBounceMode;
 
-        boolean vanillaMode = cfg.isVanillaMode();
-        float cfgBounceX = vanillaMode ? 0f : cfg.bounceDropX;
-        float cfgBounceZ = vanillaMode ? 0f : cfg.bounceDropZ;
+        if (mode == LavaBoatClutchConfig.DropBounceMode.CUSTOM && cfg.bounceDrop <= 0.0f) return;
 
         double safeY = boat.getY() + 0.5;
 
@@ -89,43 +85,55 @@ public abstract class VehicleEntityMixin {
 
         if (freshDrops.isEmpty()) {
             LavaBoatClutchMod.LOGGER.debug(
-                "[LavaBoatClutch] Boat destroyed in lava at {},{},{} " +
-                "— no fresh ItemEntity found (probably no item drop for this boat type)",
+                "[LavaBoatClutch] Boat destroyed in lava at {},{},{}" +
+                " — no fresh ItemEntity found (probably no item drop for this boat type)",
                 (int) boat.getX(), (int) boat.getY(), (int) boat.getZ());
             return;
         }
 
         LavaBoatClutchMod.LOGGER.debug(
-            "[LavaBoatClutch] Applying bounce to {} item(s) at {},{},{} " +
-            "(bounceY={}, mode={})",
+            "[LavaBoatClutch] Applying bounce to {} item(s) at {},{},{} (mode={})",
             freshDrops.size(),
             (int) boat.getX(), (int) boat.getY(), (int) boat.getZ(),
-            bounceY,
-            vanillaMode ? "vanilla" : "custom");
+            mode);
 
         for (ItemEntity ie : freshDrops) {
-            lbc_applyBounce(ie, bounceY, cfgBounceX, cfgBounceZ, safeY, vanillaMode);
+            lbc_applyBounce(ie, cfg, mode, safeY);
         }
     }
 
     @Unique
     private static void lbc_applyBounce(ItemEntity ie,
-                                         float bounceY,
-                                         float cfgBounceX,
-                                         float cfgBounceZ,
-                                         double safeY,
-                                         boolean vanillaMode) {
+                                         LavaBoatClutchConfig cfg,
+                                         LavaBoatClutchConfig.DropBounceMode mode,
+                                         double safeY) {
+        ThreadLocalRandom rng = ThreadLocalRandom.current();
+        final double velX, velY, velZ;
 
-        if (vanillaMode) {
-
-            ThreadLocalRandom rng = ThreadLocalRandom.current();
-            double randX = rng.nextDouble() * 0.2 - 0.1;
-            double randZ = rng.nextDouble() * 0.2 - 0.1;
-            ie.setDeltaMovement(randX, bounceY, randZ);
-        } else {
-
-            ie.setDeltaMovement(cfgBounceX, bounceY, cfgBounceZ);
+        switch (mode) {
+            case CUSTOM -> {
+                velX = cfg.bounceDropX;
+                velY = cfg.bounceDrop;
+                velZ = cfg.bounceDropZ;
+            }
+            case RANDOM -> {
+                
+                velY = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_DROP,
+                                      LavaBoatClutchConfig.MAX_BOUNCE_DROP);
+                velX = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_HORIZ,
+                                      LavaBoatClutchConfig.MAX_BOUNCE_HORIZ);
+                velZ = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_HORIZ,
+                                      LavaBoatClutchConfig.MAX_BOUNCE_HORIZ);
+            }
+            default -> {
+                
+                velX = rng.nextDouble() * 0.2 - 0.1;
+                velY = LavaBoatClutchConfig.VANILLA_BOUNCE_DROP;
+                velZ = rng.nextDouble() * 0.2 - 0.1;
+            }
         }
+
+        ie.setDeltaMovement(velX, velY, velZ);
 
         if (ie.getY() < safeY) {
             ie.setPos(ie.getX(), safeY, ie.getZ());

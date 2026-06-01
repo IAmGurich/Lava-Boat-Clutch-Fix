@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Выпраўляе механіку хапання лодкі ў лаве, мусіць",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Аднаўляе механіку хапання лодкі ў лаве, якая была выпраўлена ў 1.21.5.\n\nПры першым кантакце з лавай лодка атрымлівае кароткі час імунітэту, каб гулец мог прызямліцца на яе хітбокс.\n\nЦяпер ты можаш рабіць хапанні ў лаве як Dream, але ў навейшых версіях!",
+  "config.lava_boat_clutch.title": "Налады Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "Агульнае",
+  "config.lava_boat_clutch.enable_mod": "Уключыць Мод",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Уключае або выключае механіку хапання лодкі ў лаве.",
+  "config.lava_boat_clutch.immunity_ticks": "Тыкі Імунітэту",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Колькасць тыкаў, падчас якіх лодка не гарыць у лаве.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Рэжым Адскоку Дропу",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Стандартны",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Карыстальніцкі",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Выпадковы",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Стандартны: выкарыстоўвае vanilla хуткасць\nКарыстальніцкі: выкарыстоўвае наладжвальную хуткасць.\nВыпадковы: выпадковая хуткасць.",
+  "config.lava_boat_clutch.bounce_drop_y": "Хуткасць Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Хуткасць уверх, прыкладзеная да падзення лодкі пасля яе згарання ў лаве.",
+  "config.lava_boat_clutch.bounce_drop_x": "Хуткасць X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Бакавая хуткасць па восі X, прыкладзеная да падзення лодкі пасля яе згарання ў лаве.",
+  "config.lava_boat_clutch.bounce_drop_z": "Хуткасць Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Бакавая хуткасць па восі Z, прыкладзеная да падзення лодкі пасля яе згарання ў лаве."
+}

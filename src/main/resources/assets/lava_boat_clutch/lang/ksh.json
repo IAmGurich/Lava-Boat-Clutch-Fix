@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Dat Lava-Boot-Kupplong-Mechanißme wigk jemaat, minsch",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Dat Lava-Boot-Kupplong-Mechanißme weed wigk jemaat, wat en 1.21.5 jefixt wor.\n\nBeim eetste Kontakt met Lava krijt dat Boot e kurze Immunität, dat de Schpeller op singe Hitbox landde kann.\n\nJetz kannste Lava-Clutches maache wie Dream, ävver en nüjere Versione!",
+  "config.lava_boat_clutch.title": "Lava Boot Kupplong Fix Enstellunge",
+  "config.lava_boat_clutch.category.general": "Allgemein",
+  "config.lava_boat_clutch.enable_mod": "Mod aanschtalte",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiveet odder deaktiveet dat Lava-Boot-Kupplong-Mechanißme.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunität-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "De Aanzahl vun de Ticks, wo dat Boot en de Lava nit brennt.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Rückschtoß-Modus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standard",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Eijeschtellt",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Zofällig",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standard: nimmp Vanilla-Jeschwindigkeit\nEijeschtellt: nimmp konfigurierbare Jeschwindigkeit.\nZofällig: zofällige Schnelligkeit.",
+  "config.lava_boat_clutch.bounce_drop_y": "Jeschwindigkeit Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Noh-bovve-Jeschwindigkeit op dat Boot-Drop no'm Verbrennen en de Lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Jeschwindigkeit X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Ziddelings Jeschwindigkeit längs de X-Achs op dat Boot-Drop no'm Verbrennen en de Lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Jeschwindigkeit Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Ziddelings Jeschwindigkeit längs de Z-Achs op dat Boot-Drop no'm Verbrennen en de Lava."
+}

@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Fixt de Lava-Boot-Kupplung-Mechanik, ech mengen",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Stellt d'Lava-Boot-Kupplung-Mechanik erëm hier, déi an der Versioun 1.21.5 gefixt gouf.\n\nBeim éischte Kontakt mat Lava kritt d'Boot eng kuerz Immunitéitszäit, sou datt de Spiller op sengem Hitbox lande kann.\n\nJetzt kanns du Lava-Clutches maache wéi Dream, mee a méi neie Versiounen!",
+  "config.lava_boat_clutch.title": "Lava Boot Kupplung Fix Astellungen",
+  "config.lava_boat_clutch.category.general": "Allgemeng",
+  "config.lava_boat_clutch.enable_mod": "Mod aktivéieren",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktivéiert oder deaktivéiert d'Lava-Boot-Kupplung-Mechanik.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitéits-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "D'Unzuel vun den Ticks, an deenen d'Boot an der Lava net verbrennt.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Réckstouß-Modus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standard",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Eegesdänneg",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Zoufälleg",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standard: benotzt Vanilla-Vitesse\nEegesdänneg: benotzt konfiguréierbar Vitesse.\nZoufälleg: zoufälleg Vitess.",
+  "config.lava_boat_clutch.bounce_drop_y": "Vitesse Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Opwäerts-Vitesse op de Boot-Drop no'm Verbrennen an der Lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Vitesse X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Seitlech Vitesse laanscht d'X-Achs op de Boot-Drop no'm Verbrennen an der Lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Vitesse Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Seitlech Vitesse laanscht d'Z-Achs op de Boot-Drop no'm Verbrennen an der Lava."
+}

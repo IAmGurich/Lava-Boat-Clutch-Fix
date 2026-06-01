@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Reparearet de lava-boat-koppelingsmechanyk, tink ik",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Herstelt de lava-boat-koppelingsmechanyk dy't repareare waard yn 1.21.5.\n\nBy it earste kontakt mei lava kriget de boat in koarte ymmuniteitstiisd, sadat de spiler op syn hitbox lânje kin.\n\nNo kinst do lava-clutches dwaan lykas Dream mar yn nijere ferzjes!",
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Ynstellingen",
+  "config.lava_boat_clutch.category.general": "Algemien",
+  "config.lava_boat_clutch.enable_mod": "Mod Ynskeakelje",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Skeakelt de lava-boat-koppelingsmechanyk yn of út.",
+  "config.lava_boat_clutch.immunity_ticks": "Ymmuniteits-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "It oantal ticks dêr't de boat net ferbrânt yn de lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Stûtmodus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standert",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Oanpast",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Willekeurich",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standert: brûkt vanilla-snelheid\nOanpast: brûkt konfigurearbare snelheid.\nWillekeurich: willekeurige snelheid.",
+  "config.lava_boat_clutch.bounce_drop_y": "Snelheid Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Opweartse snelheid tapast op de fal fan de boat nei't dizze ferbrând yn lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Snelheid X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Sydlingse snelheid lâns de X-as tapast op de fal fan de boat nei't dizze ferbrând yn lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Snelheid Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Sydlingse snelheid lâns de Z-as tapast op de fal fan de boat nei't dizze ferbrând yn lava."
+}

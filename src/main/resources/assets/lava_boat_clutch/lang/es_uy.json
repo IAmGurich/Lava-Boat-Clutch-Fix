@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "Arregla la mecánica de clutch del bote en lava, supongo",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura la mecánica de clutch del bote en lava que se arregló en la 1.21.5.\n\nEn el primer contacto con lava, el bote recibe un breve tiempo de inmunidad para que el jugador pueda aterrizar en su hitbox.\n\n¡Ahora podés hacer clutches en lava como Dream pero en versiones más nuevas!",
+  "config.lava_boat_clutch.title": "Configuración de Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.category.general": "General",
+  "config.lava_boat_clutch.enable_mod": "Activar Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva la mecánica de clutch del bote en lava.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks de Inmunidad",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "La cantidad de ticks en los que el bote no se quema en la lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modo de Rebote de Caída",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Predeterminado",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizado",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Aleatorio",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Predeterminado: usa velocidad vanilla\nPersonalizado: usa velocidad configurable.\nAleatorio: velocidad aleatoria.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocidad Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocidad hacia arriba aplicada a la caída del bote tras quemarse en la lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocidad X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocidad lateral a lo largo del eje X aplicada a la caída del bote tras quemarse en la lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocidad Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocidad lateral a lo largo del eje Z aplicada a la caída del bote tras quemarse en la lava."
+}

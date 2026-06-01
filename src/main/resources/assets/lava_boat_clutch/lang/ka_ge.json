@@ -1,0 +1,21 @@
+{
+  "modmenu.summaryTranslation.lava_boat_clutch": "ლავის ნავის ჩაჭერის მექანიზმს ასწორებს, ალბათ",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "აღადგენს ლავის ნავის ჩაჭერის მექანიზმს, რომელიც გამოსწორდა 1.21.5-ში.\n\nლავასთან პირველი კონტაქტის დროს ნავი იღებს მოკლე იმუნიტეტის დროს, რათა მოთამაშემ შეძლოს მის hitbox-ზე დაჯდომა.\n\nახლა შეგიძლია ლავის ჩაჭერები გაკეთო Dream-ის მსგავსად, მაგრამ ახალ ვერსიებში!",
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix პარამეტრები",
+  "config.lava_boat_clutch.category.general": "ზოგადი",
+  "config.lava_boat_clutch.enable_mod": "მოდის ჩართვა",
+  "config.lava_boat_clutch.enable_mod.tooltip": "ჩართავს ან გამორთავს ლავის ნავის ჩაჭერის მექანიზმს.",
+  "config.lava_boat_clutch.immunity_ticks": "იმუნიტეტის ტიკები",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "ტიკების რაოდენობა, რომლის განმავლობაში ნავი არ იწვის ლავაში.",
+  "config.lava_boat_clutch.bounce_drop_mode": "ვარდნის ხტუნვის რეჟიმი",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "ნაგულისხმევი",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "მორგებული",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "შემთხვევითი",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "ნაგულისხმევი: იყენებს vanilla სიჩქარეს\nმორგებული: იყენებს კონფიგურირებად სიჩქარეს.\nშემთხვევითი: შემთხვევითი სიჩქარე.",
+  "config.lava_boat_clutch.bounce_drop_y": "სიჩქარე Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "ზემოთ მიმართული სიჩქარე, რომელიც გამოიყენება ნავის ვარდნაზე ლავაში დაწვის შემდეგ.",
+  "config.lava_boat_clutch.bounce_drop_x": "სიჩქარე X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "X ღერძის გასწვრივ გვერდითი სიჩქარე, რომელიც გამოიყენება ნავის ვარდნაზე ლავაში დაწვის შემდეგ.",
+  "config.lava_boat_clutch.bounce_drop_z": "სიჩქარე Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Z ღერძის გასწვრივ გვერდითი სიჩქარე, რომელიც გამოიყენება ნავის ვარდნაზე ლავაში დაწვის შემდეგ."
+}
