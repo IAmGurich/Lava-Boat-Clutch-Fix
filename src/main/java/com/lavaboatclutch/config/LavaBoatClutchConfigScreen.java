@@ -35,7 +35,7 @@ public class LavaBoatClutchConfigScreen {
         ConfigCategory general = builder.getOrCreateCategory(
                 Text.translatable("config.lava_boat_clutch.category.general"));
 
-        // ── Enable mod toggle ──────────────────────────────────────────────────
+        
         general.addEntry(entry
                 .startBooleanToggle(
                         Text.translatable("config.lava_boat_clutch.enable_mod"),
@@ -46,7 +46,7 @@ public class LavaBoatClutchConfigScreen {
                 .setSaveConsumer(val -> cfg.enableMod = val)
                 .build());
 
-        // ── Immunity ticks slider ──────────────────────────────────────────────
+        
         general.addEntry(entry
                 .startIntSlider(
                         Text.translatable("config.lava_boat_clutch.immunity_ticks"),
@@ -59,7 +59,7 @@ public class LavaBoatClutchConfigScreen {
                 .setSaveConsumer(val -> cfg.lavaImmunityTicks = val)
                 .build());
 
-        // ── Drop bounce mode selector (DEFAULT / CUSTOM / RANDOM) ──────────────
+        
         var modeEntry = entry
                 .startEnumSelector(
                         Text.translatable("config.lava_boat_clutch.bounce_drop_mode"),
@@ -75,12 +75,12 @@ public class LavaBoatClutchConfigScreen {
 
         general.addEntry(modeEntry);
 
-        // Velocity sliders active only in CUSTOM mode.
-        // RANDOM handles its own range internally; DEFAULT uses vanilla constants.
+        
+        
         Requirement customModeActive = Requirement.isTrue(
                 () -> modeEntry.getValue() == LavaBoatClutchConfig.DropBounceMode.CUSTOM);
 
-        // ── Velocity Y slider ──────────────────────────────────────────────────
+        
         general.addEntry(entry
                 .startIntSlider(
                         Text.translatable("config.lava_boat_clutch.bounce_drop_y"),
@@ -95,7 +95,7 @@ public class LavaBoatClutchConfigScreen {
                 .setRequirement(customModeActive)
                 .build());
 
-        // ── Velocity X slider ──────────────────────────────────────────────────
+        
         general.addEntry(entry
                 .startIntSlider(
                         Text.translatable("config.lava_boat_clutch.bounce_drop_x"),
@@ -110,7 +110,7 @@ public class LavaBoatClutchConfigScreen {
                 .setRequirement(customModeActive)
                 .build());
 
-        // ── Velocity Z slider ──────────────────────────────────────────────────
+        
         general.addEntry(entry
                 .startIntSlider(
                         Text.translatable("config.lava_boat_clutch.bounce_drop_z"),
