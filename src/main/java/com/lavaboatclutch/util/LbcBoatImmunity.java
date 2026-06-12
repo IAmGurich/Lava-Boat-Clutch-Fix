@@ -8,4 +8,7 @@ public interface LbcBoatImmunity {
 
     int  lbc_getFireSuppressTicks();
     void lbc_setFireSuppressTicks(int ticks);
+
+    boolean lbc_isImmunityGranted();
+    void    lbc_setImmunityGranted(boolean value);
 }

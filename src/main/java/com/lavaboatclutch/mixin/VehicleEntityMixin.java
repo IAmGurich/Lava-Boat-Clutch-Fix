@@ -43,6 +43,13 @@ public abstract class VehicleEntityMixin {
         if (!source.isIn(DamageTypeTags.IS_FIRE)) return;
 
         LbcBoatImmunity immunity = (LbcBoatImmunity)(Object)this;
+
+        if (immunity.lbc_getImmunityTicks() == 0 && !immunity.lbc_isImmunityGranted()) {
+            immunity.lbc_setImmunityTicks(cfg.lavaImmunityTicks);
+            immunity.lbc_setImmunityGranted(true);
+            immunity.lbc_setWasInLavaLastTick(true);
+        }
+
         if (immunity.lbc_getImmunityTicks() > 0) {
             LavaBoatClutchMod.LOGGER.debug(
                 "[LavaBoatClutch] Blocked fire damage (remaining={})",
@@ -115,17 +122,14 @@ public abstract class VehicleEntityMixin {
 
         switch (cfg.bounceDropMode) {
             case DEFAULT -> {
-                
                 double randX = rng.nextDouble() * 0.2 - 0.1;
                 double randZ = rng.nextDouble() * 0.2 - 0.1;
                 ie.setVelocity(randX, LavaBoatClutchConfig.VANILLA_BOUNCE_DROP, randZ);
             }
             case CUSTOM -> {
-                
                 ie.setVelocity(cfgBounceX, cfg.bounceDrop, cfgBounceZ);
             }
             case RANDOM -> {
-                
                 double randX = rng.nextDouble() * 0.6 - 0.3;
                 double randZ = rng.nextDouble() * 0.6 - 0.3;
                 float  randY = 0.05f + rng.nextFloat() * 0.35f;
