@@ -23,7 +23,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-
 @Mixin(VehicleEntity.class)
 public abstract class VehicleEntityMixin {
 
@@ -44,6 +43,13 @@ public abstract class VehicleEntityMixin {
         if (!source.isIn(DamageTypeTags.IS_FIRE)) return;
 
         LbcBoatImmunity immunity = (LbcBoatImmunity)(Object)this;
+
+        if (immunity.lbc_getImmunityTicks() == 0 && !immunity.lbc_isImmunityGranted()) {
+            immunity.lbc_setImmunityTicks(cfg.lavaImmunityTicks);
+            immunity.lbc_setImmunityGranted(true);
+            immunity.lbc_setWasInLavaLastTick(true);
+        }
+
         if (immunity.lbc_getImmunityTicks() > 0) {
             LavaBoatClutchMod.LOGGER.debug(
                 "[LavaBoatClutch] Blocked fire damage (remaining={})",
@@ -85,7 +91,6 @@ public abstract class VehicleEntityMixin {
 
         if (ie == null || ie.isRemoved()) return;
 
-        // Random mode bypasses the bounceY <= 0 check since Y will be randomized
         if (!cfg.isRandomMode()) {
             float bounceY = cfg.getEffectiveBounce();
             if (bounceY <= 0.0f) return;
@@ -115,20 +120,16 @@ public abstract class VehicleEntityMixin {
                                          double safeY) {
         ThreadLocalRandom rng = ThreadLocalRandom.current();
 
-        // 1. Velocity
         switch (cfg.bounceDropMode) {
             case DEFAULT -> {
-                // Vanilla-like: fixed Y, small random X/Z
                 double randX = rng.nextDouble() * 0.2 - 0.1;
                 double randZ = rng.nextDouble() * 0.2 - 0.1;
                 ie.setVelocity(randX, LavaBoatClutchConfig.VANILLA_BOUNCE_DROP, randZ);
             }
             case CUSTOM -> {
-                // Fully configurable X, Y, Z
                 ie.setVelocity(cfgBounceX, cfg.bounceDrop, cfgBounceZ);
             }
             case RANDOM -> {
-                // Fully random velocity in a wider range
                 double randX = rng.nextDouble() * 0.6 - 0.3;
                 double randZ = rng.nextDouble() * 0.6 - 0.3;
                 float  randY = 0.05f + rng.nextFloat() * 0.35f;
@@ -137,13 +138,10 @@ public abstract class VehicleEntityMixin {
         }
         ie.velocityModified = true;
 
-        // 2. Телепортация выше поверхности лавы
         if (ie.getY() < safeY) {
             ie.setPos(ie.getX(), safeY, ie.getZ());
         }
 
-        // 3. Иммунитет к огню: отрицательные fire ticks → entity в огне/лаве
-        //    |fireTicks| тиков без возгорания (vanilla механика)
         ie.setFireTicks(-80);
     }
 }
