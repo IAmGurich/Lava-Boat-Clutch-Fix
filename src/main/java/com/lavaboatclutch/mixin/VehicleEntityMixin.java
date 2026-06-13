@@ -39,6 +39,13 @@ public abstract class VehicleEntityMixin {
         if (!source.is(DamageTypeTags.IS_FIRE)) return;
 
         LbcBoatImmunity immunity = (LbcBoatImmunity) (Object) this;
+
+        if (immunity.lbc_getImmunityTicks() == 0 && !immunity.lbc_isImmunityGranted()) {
+            immunity.lbc_setImmunityTicks(cfg.lavaImmunityTicks);
+            immunity.lbc_setImmunityGranted(true);
+            immunity.lbc_setWasInLavaLastTick(true);
+        }
+
         if (immunity.lbc_getImmunityTicks() > 0) {
             LavaBoatClutchMod.LOGGER.debug(
                 "[LavaBoatClutch] Blocked fire damage (immunityTicks={})",
@@ -86,16 +93,10 @@ public abstract class VehicleEntityMixin {
         if (freshDrops.isEmpty()) {
             LavaBoatClutchMod.LOGGER.debug(
                 "[LavaBoatClutch] Boat destroyed in lava at {},{},{}" +
-                " — no fresh ItemEntity found (probably no item drop for this boat type)",
+                " — no fresh ItemEntity found",
                 (int) boat.getX(), (int) boat.getY(), (int) boat.getZ());
             return;
         }
-
-        LavaBoatClutchMod.LOGGER.debug(
-            "[LavaBoatClutch] Applying bounce to {} item(s) at {},{},{} (mode={})",
-            freshDrops.size(),
-            (int) boat.getX(), (int) boat.getY(), (int) boat.getZ(),
-            mode);
 
         for (ItemEntity ie : freshDrops) {
             lbc_applyBounce(ie, cfg, mode, safeY);
@@ -117,7 +118,6 @@ public abstract class VehicleEntityMixin {
                 velZ = cfg.bounceDropZ;
             }
             case RANDOM -> {
-                
                 velY = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_DROP,
                                       LavaBoatClutchConfig.MAX_BOUNCE_DROP);
                 velX = rng.nextDouble(LavaBoatClutchConfig.MIN_BOUNCE_HORIZ,
@@ -126,7 +126,6 @@ public abstract class VehicleEntityMixin {
                                       LavaBoatClutchConfig.MAX_BOUNCE_HORIZ);
             }
             default -> {
-                
                 velX = rng.nextDouble() * 0.2 - 0.1;
                 velY = LavaBoatClutchConfig.VANILLA_BOUNCE_DROP;
                 velZ = rng.nextDouble() * 0.2 - 0.1;
