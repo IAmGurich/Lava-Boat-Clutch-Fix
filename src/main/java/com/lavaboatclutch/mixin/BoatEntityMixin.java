@@ -22,6 +22,7 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
     @Unique private boolean lbc_immunityGranted           = false;
 
     @Unique private int     lbc_fireParticleSuppressTicks = 0;
+
     @Unique private boolean lbc_wasInLavaLastTickClient   = false;
 
     @Override public int     lbc_getImmunityTicks()              { return lbc_immunityTicks; }
@@ -43,6 +44,7 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
         if (self.level().isClientSide()) {
             boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
             if (inLavaNow && !lbc_wasInLavaLastTickClient) {
+                
                 lbc_fireParticleSuppressTicks = 4;
             } else if (lbc_fireParticleSuppressTicks > 0) {
                 lbc_fireParticleSuppressTicks--;
