@@ -1,7 +1,6 @@
 package com.lavaboatclutch.util;
 
 public interface LbcBoatImmunity {
-
     int  lbc_getImmunityTicks();
     void lbc_setImmunityTicks(int ticks);
     boolean lbc_wasInLavaLastTick();
@@ -9,4 +8,7 @@ public interface LbcBoatImmunity {
 
     int  lbc_getFireSuppressTicks();
     void lbc_setFireSuppressTicks(int ticks);
+
+    boolean lbc_isImmunityGranted();
+    void    lbc_setImmunityGranted(boolean value);
 }

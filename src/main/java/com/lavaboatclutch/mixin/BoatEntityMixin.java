@@ -19,9 +19,9 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
 
     @Unique private int     lbc_immunityTicks             = 0;
     @Unique private boolean lbc_wasInLavaLastTick         = false;
+    @Unique private boolean lbc_immunityGranted           = false;
 
     @Unique private int     lbc_fireParticleSuppressTicks = 0;
-
     @Unique private boolean lbc_wasInLavaLastTickClient   = false;
 
     @Override public int     lbc_getImmunityTicks()              { return lbc_immunityTicks; }
@@ -30,6 +30,8 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
     @Override public void    lbc_setWasInLavaLastTick(boolean v) { lbc_wasInLavaLastTick = v; }
     @Override public int     lbc_getFireSuppressTicks()          { return lbc_fireParticleSuppressTicks; }
     @Override public void    lbc_setFireSuppressTicks(int t)     { lbc_fireParticleSuppressTicks = t; }
+    @Override public boolean lbc_isImmunityGranted()             { return lbc_immunityGranted; }
+    @Override public void    lbc_setImmunityGranted(boolean v)   { lbc_immunityGranted = v; }
 
     @Inject(method = "tick", at = @At("HEAD"))
     private void lbc_onTick(CallbackInfo ci) {
@@ -41,7 +43,6 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
         if (self.level().isClientSide()) {
             boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
             if (inLavaNow && !lbc_wasInLavaLastTickClient) {
-                
                 lbc_fireParticleSuppressTicks = 4;
             } else if (lbc_fireParticleSuppressTicks > 0) {
                 lbc_fireParticleSuppressTicks--;
@@ -52,24 +53,27 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
 
         boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
 
+        if (lbc_immunityTicks > 0) {
+            self.setRemainingFireTicks(0);
+            lbc_immunityTicks--;
+        }
+
         if (!inLavaNow && lbc_immunityTicks == 0) {
             lbc_wasInLavaLastTick = false;
+            lbc_immunityGranted = false;
             return;
         }
 
         if (inLavaNow && !lbc_wasInLavaLastTick) {
-            
-            lbc_immunityTicks = cfg.lavaImmunityTicks;
+            if (lbc_immunityTicks == 0) {
+                lbc_immunityTicks = cfg.lavaImmunityTicks;
+                lbc_immunityGranted = true;
+            }
             LavaBoatClutchMod.LOGGER.debug(
                 "[LavaBoatClutch] Lava contact — immunity {} ticks", lbc_immunityTicks);
         }
 
         lbc_wasInLavaLastTick = inLavaNow;
-
-        if (lbc_immunityTicks > 0) {
-            self.setRemainingFireTicks(0);
-            lbc_immunityTicks--;
-        }
 
         if (inLavaNow) {
             Vec3 vel = self.getDeltaMovement();
