@@ -5,7 +5,7 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/lava-boat-clutch-fix?style=for-the-badge&logo=modrinth&label=modrinth&color=35d07f)](https://modrinth.com/mod/lava-boat-clutch-fix)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Fabric](https://img.shields.io/badge/Mod_Loader-Fabric-dbb36e?style=for-the-badge)](https://fabricmc.net)
-[![MC](https://img.shields.io/badge/Minecraft-1.21.5%20–%2026.1.x-62b47a?style=for-the-badge)](https://minecraft.net)
+[![MC](https://img.shields.io/badge/Minecraft-1.21.5%20–%2026.2.x-62b47a?style=for-the-badge)](https://minecraft.net)
 
 ---
 
@@ -23,7 +23,7 @@ This mod restores it. When a boat first touches lava, it receives a short immuni
 - <img src="assets/lava_bucket.png" width="22"> **Lava immunity** — boats survive on lava for a configurable number of ticks (default: 3)
 - <img src="assets/shield.png" width="15"> **Fire damage protection** — no fire damage to the boat during the immunity window
 - <img src="assets/oak_boat.png" width="22"> **Item drop bounce** — the dropped boat item bounces upward out of the lava so it doesn't burn
-- <img src="assets/Fire.gif" width="22"> **No fire flicker** — fire particles are suppressed on the client for the first 4 ticks, eliminating visual glitches
+- <img src="assets/Fire.gif" width="22"> **No fire flicker** — fire particles are suppressed on the client for the first 4 ticks
 - ⚙️ **Fully configurable** — adjust everything via the in-game config screen (requires Cloth Config + Mod Menu)
 - <img src="assets/lever.png" width="22"> **Toggle on/off** — disable the mod at any time without removing it
   
@@ -64,7 +64,8 @@ Each branch corresponds to a range of supported Minecraft versions:
 | `1.21.5-1.21.6` | 1.21.5, 1.21.6 |
 | `1.21.7-1.21.8` | 1.21.7, 1.21.8 |
 | `1.21.9-1.21.11` | 1.21.9, 1.21.10, 1.21.11 |
-| `26.1.x` | 26.1, 26.1.1, 26.1.2|
+| `26.1.x` | 26.1, 26.1.1, 26.1.2 |
+| `26.2.x` | 26.2 |
 
 ---
 
