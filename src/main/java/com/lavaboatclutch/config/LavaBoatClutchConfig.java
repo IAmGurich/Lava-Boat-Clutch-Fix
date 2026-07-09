@@ -3,6 +3,7 @@ package com.lavaboatclutch.config;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.util.math.MathHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -69,13 +70,7 @@ public class LavaBoatClutchConfig {
     
 
     
-    public float getEffectiveBounce() {
-        return dropBounceMode == DropBounceMode.CUSTOM ? bounceDrop : VANILLA_BOUNCE_DROP;
-    }
 
-    public boolean isDefaultMode() { return dropBounceMode == DropBounceMode.DEFAULT; }
-    public boolean isCustomMode()  { return dropBounceMode == DropBounceMode.CUSTOM; }
-    public boolean isRandomMode()  { return dropBounceMode == DropBounceMode.RANDOM; }
 
     
 
@@ -123,10 +118,9 @@ public class LavaBoatClutchConfig {
         bounceDropCustom = null; 
 
         
-        lavaImmunityTicks = Math.max(MIN_IMMUNITY_TICKS,
-                            Math.min(MAX_IMMUNITY_TICKS, lavaImmunityTicks));
-        bounceDrop  = Math.max(MIN_BOUNCE_DROP,  Math.min(MAX_BOUNCE_DROP,  bounceDrop));
-        bounceDropX = Math.max(MIN_BOUNCE_HORIZ, Math.min(MAX_BOUNCE_HORIZ, bounceDropX));
-        bounceDropZ = Math.max(MIN_BOUNCE_HORIZ, Math.min(MAX_BOUNCE_HORIZ, bounceDropZ));
+        lavaImmunityTicks = MathHelper.clamp(lavaImmunityTicks, MIN_IMMUNITY_TICKS, MAX_IMMUNITY_TICKS);
+        bounceDrop = MathHelper.clamp(bounceDrop, MIN_BOUNCE_DROP, MAX_BOUNCE_DROP);
+        bounceDropX = MathHelper.clamp(bounceDropX, MIN_BOUNCE_HORIZ, MAX_BOUNCE_HORIZ);
+        bounceDropZ = MathHelper.clamp(bounceDropZ, MIN_BOUNCE_HORIZ, MAX_BOUNCE_HORIZ);
     }
 }

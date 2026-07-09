@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "ლავის ნავის ჩაჭერის მექანიზმს ასწორებს, ალბათ",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "აღადგენს ლავის ნავის ჩაჭერის მექანიზმს, რომელიც გამოსწორდა 1.21.5-ში.\n\nლავასთან პირველი კონტაქტის დროს ნავი იღებს მოკლე იმუნიტეტის დროს, რათა მოთამაშემ შეძლოს მის hitbox-ზე დაჯდომა.\n\nახლა შეგიძლია ლავის ჩაჭერები გაკეთო Dream-ის მსგავსად, მაგრამ ახალ ვერსიებში!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "lava boat clutch mechanic ასწორებს, ალბათ",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "აღადგენს lava boat clutch mechanic, რომელიც გამოსწორდა 1.21.5-ში.\n\nლავასთან პირველი კონტაქტის დროს ნავი იღებს მოკლე იმუნიტეტის დროს, რათა მოთამაშემ შეძლოს მის hitbox-ზე დაჯდომა.\n\nახლა შეგიძლია ლავის ჩაჭერები გაკეთო Dream-ის მსგავსად, მაგრამ ახალ ვერსიებში!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix პარამეტრები",
   "config.lava_boat_clutch.category.general": "ზოგადი",
   "config.lava_boat_clutch.enable_mod": "მოდის ჩართვა",
-  "config.lava_boat_clutch.enable_mod.tooltip": "ჩართავს ან გამორთავს ლავის ნავის ჩაჭერის მექანიზმს.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "ჩართავს ან გამორთავს lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "იმუნიტეტის ტიკები",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "ტიკების რაოდენობა, რომლის განმავლობაში ნავი არ იწვის ლავაში.",
   "config.lava_boat_clutch.bounce_drop_mode": "ვარდნის ხტუნვის რეჟიმი",

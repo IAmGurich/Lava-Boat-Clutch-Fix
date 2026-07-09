@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Al sistema el mecanìsm de ciapà el barchet in la lava, pensi",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "El torna el mecanìsm de ciapà el barchet in la lava che l'era stà sistemà in del 1.21.5.\n\nAl prüm contact con la lava el barchet el gh'ha un poo de temp de immunità, inscì el xugadur el pö aterà sul so hitbox.\n\nAdès te pödet fà i clutch in la lava come Dream, ma in versioni pü növ!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Al sistema el lava boat clutch mechanic, pensi",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "El torna el lava boat clutch mechanic che l'era stà sistemà in del 1.21.5.\n\nAl prüm contact con la lava el barchet el gh'ha un poo de temp de immunità, inscì el xugadur el pö aterà sul so hitbox.\n\nAdès te pödet fà i clutch in la lava come Dream, ma in versioni pü növ!",
   "config.lava_boat_clutch.title": "Impostazion de Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Generai",
   "config.lava_boat_clutch.enable_mod": "Abilità el Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Abilità o disabilità el mecanìsm de ciapà el barchet in la lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Abilità o disabilità el lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Tick de Immunità",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "El numèr di tick in chè el barchet el brüsa minga in la lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modalità Rimbalz de Cadüda",

@@ -5,8 +5,10 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "BoatEntityMixin",
-    "EntityFireMixin",
     "VehicleEntityMixin"
+  ],
+  "client": [
+    "EntityFireMixin"
   ],
   "injectors": {
     "defaultRequire": 1

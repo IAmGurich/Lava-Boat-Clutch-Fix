@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Lagar lava-báts-tak-mekanikina, trúliga",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Endurstovnar lava-báts-tak-mekanikina, sum varð løgd í laga í 1.21.5.\n\nVið fyrstu snertingi við lava fær báturin stuttan immunitets-tíð, so leikarin kann lendast á hitbox hansara.\n\nNú kanst tú gera lava-tak sum Dream, men í nýggjarari útgávum!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Lagar lava boat clutch mechanic, trúliga",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Endurstovnar lava boat clutch mechanic, sum varð løgd í laga í 1.21.5.\n\nVið fyrstu snertingi við lava fær báturin stuttan immunitets-tíð, so leikarin kann lendast á hitbox hansara.\n\nNú kanst tú gera lava-tak sum Dream, men í nýggjarari útgávum!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Stillingar",
   "config.lava_boat_clutch.category.general": "Almennt",
   "config.lava_boat_clutch.enable_mod": "Virkja Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Virkjar ella óvirkjar lava-báts-tak-mekanikina.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Virkjar ella óvirkjar lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Immunitets-Ticks",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Tal av ticks har báturin ikki brennur í lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Drop-Strikk-Stillari",

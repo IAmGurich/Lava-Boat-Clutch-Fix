@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Исправляетъ механику хватанія лодки въ лавѣ, полагаю",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Возстанавливаетъ механику хватанія лодки въ лавѣ, которая была исправлена въ 1.21.5.\n\nПри первомъ соприкосновеніи съ лавой лодка получаетъ короткое время иммунитета, дабы игрокъ могъ приземлиться на её хитбоксъ.\n\nОтнынѣ можно дѣлать хватанія въ лавѣ, какъ Dream, но въ болѣе новыхъ версіяхъ!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Исправляетъ lava boat clutch mechanic, полагаю",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Возстанавливаетъ lava boat clutch mechanic, которая была исправлена въ 1.21.5.\n\nПри первомъ соприкосновеніи съ лавой лодка получаетъ короткое время иммунитета, дабы игрокъ могъ приземлиться на её хитбоксъ.\n\nОтнынѣ можно дѣлать хватанія въ лавѣ, какъ Dream, но въ болѣе новыхъ версіяхъ!",
   "config.lava_boat_clutch.title": "Настройки Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Общее",
   "config.lava_boat_clutch.enable_mod": "Включить Модъ",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Включаетъ или выключаетъ механику хватанія лодки въ лавѣ.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Включаетъ или выключаетъ lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Тики Иммунитета",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Количество тиковъ, въ теченіе которыхъ лодка не горитъ въ лавѣ.",
   "config.lava_boat_clutch.bounce_drop_mode": "Режимъ Отскока Дропа",

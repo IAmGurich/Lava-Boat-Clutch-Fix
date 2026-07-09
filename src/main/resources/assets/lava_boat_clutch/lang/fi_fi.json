@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Korjaa laavaveneenpelastusmekanismin, kai",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Palauttaa laavaveneenpelastusmekanismin, joka korjattiin versiossa 1.21.5.\n\nEnsimmäisellä laavakosketuksella vene saa lyhyen immuuniajan, jotta pelaaja voi laskeutua sen hitboxille.\n\nNyt voit tehdä laavapelastuksia kuten Dream, mutta uudemmissa versioissa!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Korjaa lava boat clutch mechanic, kai",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Palauttaa lava boat clutch mechanic, joka korjattiin versiossa 1.21.5.\n\nEnsimmäisellä laavakosketuksella vene saa lyhyen immuuniajan, jotta pelaaja voi laskeutua sen hitboxille.\n\nNyt voit tehdä laavapelastuksia kuten Dream, mutta uudemmissa versioissa!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Asetukset",
   "config.lava_boat_clutch.category.general": "Yleinen",
   "config.lava_boat_clutch.enable_mod": "Ota Mod Käyttöön",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Ottaa käyttöön tai poistaa käytöstä laavaveneenpelastusmekanismin.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Ottaa käyttöön tai poistaa käytöstä lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Immuunisuus-Tikit",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Tikien määrä, jonka aikana vene ei pala laavassa.",
   "config.lava_boat_clutch.bounce_drop_mode": "Pudotuspomppumodus",

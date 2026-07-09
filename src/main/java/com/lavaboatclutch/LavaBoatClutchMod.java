@@ -15,21 +15,25 @@ public class LavaBoatClutchMod implements ModInitializer {
     @Override
     public void onInitialize() {
         config = LavaBoatClutchConfig.load();
+
+        Object bounceY;
+        Object bounceX = "n/a";
+        Object bounceZ = "n/a";
+        switch (config.dropBounceMode) {
+            case CUSTOM -> {
+                bounceY = config.bounceDrop;
+                bounceX = config.bounceDropX;
+                bounceZ = config.bounceDropZ;
+            }
+            case RANDOM -> bounceY = "random";
+            default     -> bounceY = LavaBoatClutchConfig.VANILLA_BOUNCE_DROP;
+        }
+
         LOGGER.info(
             "[LavaBoatClutch] Loaded! enabled={}, immunityTicks={}, " +
             "bounceMode={}, bounceY={}, bounceX={}, bounceZ={}",
-            config.enableMod,
-            config.lavaImmunityTicks,
-            config.dropBounceMode,
-            config.dropBounceMode == LavaBoatClutchConfig.DropBounceMode.CUSTOM
-                ? config.bounceDrop
-                : config.dropBounceMode == LavaBoatClutchConfig.DropBounceMode.RANDOM
-                    ? "random"
-                    : LavaBoatClutchConfig.VANILLA_BOUNCE_DROP,
-            config.dropBounceMode == LavaBoatClutchConfig.DropBounceMode.CUSTOM
-                ? config.bounceDropX : "n/a",
-            config.dropBounceMode == LavaBoatClutchConfig.DropBounceMode.CUSTOM
-                ? config.bounceDropZ : "n/a");
+            config.enableMod, config.lavaImmunityTicks, config.dropBounceMode,
+            bounceY, bounceX, bounceZ);
     }
 
     public static LavaBoatClutchConfig getConfig() {
