@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Лавада кайык тотма механикасын төзәтә, дип уйлыйм",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5 версиясендә төзәтелгән лавада кайык тотма механикасын торгыза.\n\nЛава белән беренче тоташуда кайык кыска иммунитет вакыты ала, шуңа күрә уенчы аның хитбоксына төшә ала.\n\nХәзер Dream кебек лавада тотмалар эшли аласың, ләкин яңарак версияләрдә!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "lava boat clutch mechanic төзәтә, дип уйлыйм",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5 версиясендә төзәтелгән lava boat clutch mechanic торгыза.\n\nЛава белән беренче тоташуда кайык кыска иммунитет вакыты ала, шуңа күрә уенчы аның хитбоксына төшә ала.\n\nХәзер Dream кебек лавада тотмалар эшли аласың, ләкин яңарак версияләрдә!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Параметрлары",
   "config.lava_boat_clutch.category.general": "Гомуми",
   "config.lava_boat_clutch.enable_mod": "Модны Ачу",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Лавада кайык тотма механикасын ача яки ябa.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic ача яки ябa.",
   "config.lava_boat_clutch.immunity_ticks": "Иммунитет Тиклары",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Кайыкның лавада янмаган тикларының саны.",
   "config.lava_boat_clutch.bounce_drop_mode": "Төшү Сикерү Режимы",

@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Labean txaluparen heltze-mekanika konpontzen du, uste dut",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5 bertsioan konpondutako labean txaluparen heltze-mekanika berreskuratzen du.\n\nLabarekin lehen kontaktuan, txalupariak immunitate-denbora laburra jasotzen du, jokalariak bere hitbox-ean lurreratu ahal izateko.\n\nOrain laba-heltzeak egin ditzakezu Dream bezala, baina bertsio berriagoekin!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "lava boat clutch mechanic konpontzen du, uste dut",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5 bertsioan konpondutako lava boat clutch mechanic berreskuratzen du.\n\nLabarekin lehen kontaktuan, txalupariak immunitate-denbora laburra jasotzen du, jokalariak bere hitbox-ean lurreratu ahal izateko.\n\nOrain laba-heltzeak egin ditzakezu Dream bezala, baina bertsio berriagoekin!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Ezarpenak",
   "config.lava_boat_clutch.category.general": "Orokorra",
   "config.lava_boat_clutch.enable_mod": "Moda Gaitu",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Labean txaluparen heltze-mekanika gaitzen edo desgaitzen du.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic gaitzen edo desgaitzen du.",
   "config.lava_boat_clutch.immunity_ticks": "Immunitate Tickak",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Txalupa labean ez den tick-kopurua.",
   "config.lava_boat_clutch.bounce_drop_mode": "Jaitsiera Errebotemodus",

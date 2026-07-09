@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Arranxa a mecánica de agarre do barco na lava, supoño",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura a mecánica de agarre do barco na lava que se arranxou na versión 1.21.5.\n\nNo primeiro contacto coa lava, o barco recibe un breve tempo de inmunidade para que o xogador poida aterrar no seu hitbox.\n\nAgora podes facer agarre na lava como Dream pero en versións máis novas!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Arranxa a lava boat clutch mechanic, supoño",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura a lava boat clutch mechanic que se arranxou na versión 1.21.5.\n\nNo primeiro contacto coa lava, o barco recibe un breve tempo de inmunidade para que o xogador poida aterrar no seu hitbox.\n\nAgora podes facer agarre na lava como Dream pero en versións máis novas!",
   "config.lava_boat_clutch.title": "Configuración de Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Xeral",
   "config.lava_boat_clutch.enable_mod": "Activar Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Activa ou desactiva a mecánica de agarre do barco na lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activa ou desactiva a lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticks de Inmunidade",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "O número de ticks nos que o barco non arde na lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modo de Rebote de Caída",

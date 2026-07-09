@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Fiksar lava-båt-clutch-mekanikken, trur eg",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Gjenoppretter lava-båt-clutch-mekanikken som vart fiksa i 1.21.5.\n\nVed første kontakt med lava får båten ein kort immunitetsperiode slik at spelaren kan landa på hitboxen hans.\n\nNo kan du gjera lava-clutches som Dream, men i nyare versjonar!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Fiksar lava boat clutch mechanic, trur eg",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Gjenoppretter lava boat clutch mechanic som vart fiksa i 1.21.5.\n\nVed første kontakt med lava får båten ein kort immunitetsperiode slik at spelaren kan landa på hitboxen hans.\n\nNo kan du gjera lava-clutches som Dream, men i nyare versjonar!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Innstillingar",
   "config.lava_boat_clutch.category.general": "Generelt",
   "config.lava_boat_clutch.enable_mod": "Aktiver Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiverer eller deaktiverer lava-båt-clutch-mekanikken.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiverer eller deaktiverer lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Immunitets-Ticks",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Talet på ticks der båten ikkje brenn i lavaen.",
   "config.lava_boat_clutch.bounce_drop_mode": "Drop-Sprett-Modus",

@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Corrige a mecânica de clutch do barco na lava, suponho",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura a mecânica de clutch do barco na lava que foi corrigida na versão 1.21.5.\n\nNo primeiro contacto com a lava, o barco recebe um breve tempo de imunidade para que o jogador possa aterrar no seu hitbox.\n\nAgora podes fazer clutches na lava como o Dream, mas nas versões mais recentes!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Corrige a lava boat clutch mechanic, suponho",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura a lava boat clutch mechanic que foi corrigida na versão 1.21.5.\n\nNo primeiro contacto com a lava, o barco recebe um breve tempo de imunidade para que o jogador possa aterrar no seu hitbox.\n\nAgora podes fazer clutches na lava como o Dream, mas nas versões mais recentes!",
   "config.lava_boat_clutch.title": "Definições do Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Geral",
   "config.lava_boat_clutch.enable_mod": "Ativar Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Ativa ou desativa a mecânica de clutch do barco na lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Ativa ou desativa a lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticks de Imunidade",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "O número de ticks em que o barco não arde na lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modo de Ricochete de Queda",

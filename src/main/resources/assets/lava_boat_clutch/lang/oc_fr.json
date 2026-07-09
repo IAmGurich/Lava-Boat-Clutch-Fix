@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Corrègís lo mecanisme d'agantada de la barca en lava, me sembla",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura lo mecanisme d'agantada de la barca en lava qu'a estat corrègit en 1.21.5.\n\nAl primièr contacte amb la lava, la barca obten un temps cort d'immunitat per que lo jogaire pòsca aterrir sus son hitbox.\n\nAra pòdes far d'agantadas en lava coma Dream, mas en mai de versions novelas!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Corrègís lo lava boat clutch mechanic, me sembla",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura lo lava boat clutch mechanic qu'a estat corrègit en 1.21.5.\n\nAl primièr contacte amb la lava, la barca obten un temps cort d'immunitat per que lo jogaire pòsca aterrir sus son hitbox.\n\nAra pòdes far d'agantadas en lava coma Dream, mas en mai de versions novelas!",
   "config.lava_boat_clutch.title": "Paramètres de Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "General",
   "config.lava_boat_clutch.enable_mod": "Activar lo Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva lo mecanisme d'agantada de la barca en lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva lo lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticks d'Immunitat",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Lo nombre de ticks pendent los quals la barca brolha pas en lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Mòde de Rebond de Tombar",

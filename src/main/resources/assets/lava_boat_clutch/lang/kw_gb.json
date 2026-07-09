@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Yn ewna an jynn-sensy skath yn lava, me grys",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Yn daskor an jynn-sensy skath yn lava a veu ewnis yn 1.21.5.\n\nOrtho an kynsa kussulyes gans an lava, yma an skath ow receva termyn berr a imunita, rag may hallo an c'hoarier tira war y hitbox.\n\nHedhyw yllyth ow kul sensy lava kepar ha Dream, mes yn versyons nowyttha!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Yn ewna an lava boat clutch mechanic, me grys",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Yn daskor an lava boat clutch mechanic a veu ewnis yn 1.21.5.\n\nOrtho an kynsa kussulyes gans an lava, yma an skath ow receva termyn berr a imunita, rag may hallo an c'hoarier tira war y hitbox.\n\nHedhyw yllyth ow kul sensy lava kepar ha Dream, mes yn versyons nowyttha!",
   "config.lava_boat_clutch.title": "Golow Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Kemmyn",
   "config.lava_boat_clutch.enable_mod": "Gwul Mod Oberys",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Gwul oberys po disbrofya an jynn-sensy skath yn lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Gwul oberys po disbrofya an lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Tikow Imunita",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Niver an tikow na los an skath yn lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modus Lamm Koedha",

@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Memperbaiki mekanik cengkeraman perahu di lava, kurasa",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Mengembalikan mekanik cengkeraman perahu di lava yang diperbaiki di versi 1.21.5.\n\nPada kontak pertama dengan lava, perahu mendapatkan waktu kekebalan singkat agar pemain bisa mendarat di hitbox-nya.\n\nSekarang kamu bisa melakukan cengkeraman lava seperti Dream tapi di versi yang lebih baru!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Memperbaiki lava boat clutch mechanic, kurasa",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Mengembalikan lava boat clutch mechanic yang diperbaiki di versi 1.21.5.\n\nPada kontak pertama dengan lava, perahu mendapatkan waktu kekebalan singkat agar pemain bisa mendarat di hitbox-nya.\n\nSekarang kamu bisa melakukan cengkeraman lava seperti Dream tapi di versi yang lebih baru!",
   "config.lava_boat_clutch.title": "Pengaturan Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Umum",
   "config.lava_boat_clutch.enable_mod": "Aktifkan Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Mengaktifkan atau menonaktifkan mekanik cengkeraman perahu di lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Mengaktifkan atau menonaktifkan lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Tick Kekebalan",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Jumlah tick di mana perahu tidak terbakar di lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Mode Pantul Jatuh",
