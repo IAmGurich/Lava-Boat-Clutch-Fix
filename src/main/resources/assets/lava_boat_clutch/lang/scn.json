@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Aggiusta u meccanismu di clutch di la varca di lava, credo",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Ripristina u meccanismu di clutch di la varca di lava chi fu aggiustatu in 1.21.5.\n\nAu primu cuntatti cû lava, la varca otteni un tempu d'immunità curtu, accussì u giocaturi pò attirizzari supra u so hitbox.\n\nOra puoi fari lava clutches comu Dream ma nni li versioni cchiù novi!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Aggiusta u lava boat clutch mechanic, credo",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Ripristina u lava boat clutch mechanic chi fu aggiustatu in 1.21.5.\n\nAu primu cuntatti cû lava, la varca otteni un tempu d'immunità curtu, accussì u giocaturi pò attirizzari supra u so hitbox.\n\nOra puoi fari lava clutches comu Dream ma nni li versioni cchiù novi!",
   "config.lava_boat_clutch.title": "Impostazziunn di Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Ginirali",
   "config.lava_boat_clutch.enable_mod": "Attiva Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Attiva o disattiva u meccanismu di clutch di la varca di lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Attiva o disattiva u lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Tick d'Immunità",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "U numiru di tick in cui la varca nun brucia nta la lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modalità Drop Bounce",

@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Opravuje mechaniku chytenia člna v lávě, predpokladám",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Obnovuje mechaniku chytenia člna v láve, ktorá bola opravená vo verzii 1.21.5.\n\nPri prvom kontakte s lávou člun získa krátky čas imunity, aby hráč mohol pristáť na jeho hitboxe.\n\nTeraz môžeš robiť clutche v láve ako Dream, ale v novších verziách!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Opravuje lava boat clutch mechanic, predpokladám",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Obnovuje lava boat clutch mechanic, ktorá bola opravená vo verzii 1.21.5.\n\nPri prvom kontakte s lávou člun získa krátky čas imunity, aby hráč mohol pristáť na jeho hitboxe.\n\nTeraz môžeš robiť clutche v láve ako Dream, ale v novších verziách!",
   "config.lava_boat_clutch.title": "Nastavenia Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Všeobecné",
   "config.lava_boat_clutch.enable_mod": "Povoliť Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Zapína alebo vypína mechaniku chytenia člna v láve.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Zapína alebo vypína lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticky Imunity",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Počet tickov, počas ktorých člun nehorí v láve.",
   "config.lava_boat_clutch.bounce_drop_mode": "Režim Odrazu Pádu",

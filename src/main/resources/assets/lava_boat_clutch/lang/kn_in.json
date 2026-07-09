@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "ಲಾವಾ ದೋಣಿ ಕ್ಲಚ್ ಮೆಕ್ಯಾನಿಕ್ ಅನ್ನು ಸರಿಪಡಿಸುತ್ತದೆ, ಅಂತ ಅನಿಸುತ್ತೆ",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5 ರಲ್ಲಿ ಸರಿಪಡಿಸಲಾದ ಲಾವಾ ದೋಣಿ ಕ್ಲಚ್ ಮೆಕ್ಯಾನಿಕ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸುತ್ತದೆ.\n\nಲಾವಾದೊಂದಿಗೆ ಮೊದಲ ಸಂಪರ್ಕದಲ್ಲಿ ದೋಣಿಗೆ ಅಲ್ಪ ಪ್ರತಿರಕ್ಷಣಾ ಸಮಯ ಸಿಗುತ್ತದೆ, ಆಟಗಾರ ಅದರ ಹಿಟ್‌ಬಾಕ್ಸ್ ಮೇಲೆ ಇಳಿಯಬಹುದು.\n\nಈಗ Dream ತರಹ ಲಾವಾ ಕ್ಲಚ್ ಮಾಡಬಹುದು ಆದರೆ ಹೊಸ ಆವೃತ್ತಿಗಳಲ್ಲಿ!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "lava boat clutch mechanic ಅನ್ನು ಸರಿಪಡಿಸುತ್ತದೆ, ಅಂತ ಅನಿಸುತ್ತೆ",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5 ರಲ್ಲಿ ಸರಿಪಡಿಸಲಾದ lava boat clutch mechanic ಅನ್ನು ಮರುಸ್ಥಾಪಿಸುತ್ತದೆ.\n\nಲಾವಾದೊಂದಿಗೆ ಮೊದಲ ಸಂಪರ್ಕದಲ್ಲಿ ದೋಣಿಗೆ ಅಲ್ಪ ಪ್ರತಿರಕ್ಷಣಾ ಸಮಯ ಸಿಗುತ್ತದೆ, ಆಟಗಾರ ಅದರ ಹಿಟ್‌ಬಾಕ್ಸ್ ಮೇಲೆ ಇಳಿಯಬಹುದು.\n\nಈಗ Dream ತರಹ ಲಾವಾ ಕ್ಲಚ್ ಮಾಡಬಹುದು ಆದರೆ ಹೊಸ ಆವೃತ್ತಿಗಳಲ್ಲಿ!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
   "config.lava_boat_clutch.category.general": "ಸಾಮಾನ್ಯ",
   "config.lava_boat_clutch.enable_mod": "Mod ಸಕ್ರಿಯಗೊಳಿಸಿ",
-  "config.lava_boat_clutch.enable_mod.tooltip": "ಲಾವಾ ದೋಣಿ ಕ್ಲಚ್ ಮೆಕ್ಯಾನಿಕ್ ಅನ್ನು ಸಕ್ರಿಯ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic ಅನ್ನು ಸಕ್ರಿಯ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ.",
   "config.lava_boat_clutch.immunity_ticks": "ಪ್ರತಿರಕ್ಷಣಾ ಟಿಕ್‌ಗಳು",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "ದೋಣಿ ಲಾವಾದಲ್ಲಿ ಉರಿಯದ ಟಿಕ್‌ಗಳ ಸಂಖ್ಯೆ.",
   "config.lava_boat_clutch.bounce_drop_mode": "ಡ್ರಾಪ್ ಬೌನ್ಸ್ ಮೋಡ್",

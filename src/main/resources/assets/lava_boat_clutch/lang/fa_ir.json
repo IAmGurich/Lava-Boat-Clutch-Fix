@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "مکانیک چنگ زدن قایق در گدازه را برطرف می‌کند، فکر کنم",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "مکانیک چنگ زدن قایق در گدازه که در نسخه ۱.۲۱.۵ برطرف شده بود را بازمی‌گرداند.\n\nدر اولین تماس با گدازه، قایق برای مدت کوتاهی مصونیت دریافت می‌کند تا بازیکن بتواند روی هیت‌باکس آن فرود بیاید.\n\nحالا می‌توانی مثل Dream در گدازه کلاچ بزنی اما در نسخه‌های جدیدتر!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "lava boat clutch mechanic را برطرف می‌کند، فکر کنم",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "lava boat clutch mechanic که در نسخه ۱.۲۱.۵ برطرف شده بود را بازمی‌گرداند.\n\nدر اولین تماس با گدازه، قایق برای مدت کوتاهی مصونیت دریافت می‌کند تا بازیکن بتواند روی هیت‌باکس آن فرود بیاید.\n\nحالا می‌توانی مثل Dream در گدازه کلاچ بزنی اما در نسخه‌های جدیدتر!",
   "config.lava_boat_clutch.title": "تنظیمات Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "عمومی",
   "config.lava_boat_clutch.enable_mod": "فعال‌سازی ماد",
-  "config.lava_boat_clutch.enable_mod.tooltip": "مکانیک چنگ زدن قایق در گدازه را فعال یا غیرفعال می‌کند.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic را فعال یا غیرفعال می‌کند.",
   "config.lava_boat_clutch.immunity_ticks": "تیک‌های مصونیت",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "تعداد تیک‌هایی که قایق در گدازه نمی‌سوزد.",
   "config.lava_boat_clutch.bounce_drop_mode": "حالت پرش سقوط",

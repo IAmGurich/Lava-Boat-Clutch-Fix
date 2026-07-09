@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Membaiki mekanik cengkaman bot lava, agaknya",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Memulihkan mekanik cengkaman bot lava yang telah dibaiki dalam versi 1.21.5.\n\nPada sentuhan pertama dengan lava, bot mendapat masa imuniti singkat supaya pemain boleh mendarat pada hitbox-nya.\n\nSekarang kamu boleh melakukan cengkaman lava seperti Dream tetapi dalam versi yang lebih baharu!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Membaiki lava boat clutch mechanic, agaknya",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Memulihkan lava boat clutch mechanic yang telah dibaiki dalam versi 1.21.5.\n\nPada sentuhan pertama dengan lava, bot mendapat masa imuniti singkat supaya pemain boleh mendarat pada hitbox-nya.\n\nSekarang kamu boleh melakukan cengkaman lava seperti Dream tetapi dalam versi yang lebih baharu!",
   "config.lava_boat_clutch.title": "Tetapan Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Umum",
   "config.lava_boat_clutch.enable_mod": "Aktifkan Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Mengaktifkan atau menyahaktifkan mekanik cengkaman bot lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Mengaktifkan atau menyahaktifkan lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Tick Imuniti",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Bilangan tick di mana bot tidak terbakar dalam lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Mod Lantun Jatuh",

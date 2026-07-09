@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Naprawio mechanika chwytanio łodki we lawie, myślã",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Przywraco mechanika chwytanio łodki we lawie, kero była naprawiono we wersji 1.21.5.\n\nPrzi pierwszym kontakcie z lawiõ łodka dostowo krótki čas immunytetu, coby gracz mog przylõdować na jij hitboxie.\n\nTeraz możesz robić chwytania we lawie jak Dream, ale we nowszych wersjach!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Naprawio lava boat clutch mechanic, myślã",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Przywraco lava boat clutch mechanic, kero była naprawiono we wersji 1.21.5.\n\nPrzi pierwszym kontakcie z lawiõ łodka dostowo krótki čas immunytetu, coby gracz mog przylõdować na jij hitboxie.\n\nTeraz możesz robić chwytania we lawie jak Dream, ale we nowszych wersjach!",
   "config.lava_boat_clutch.title": "Ustawiynia Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Ôgólne",
   "config.lava_boat_clutch.enable_mod": "Włõnčić Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Włõnčo abo wyłõnčo mechanika chwytanio łodki we lawie.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Włõnčo abo wyłõnčo lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticki Immunytetu",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Ličba tickōw, we kerych łodka niy gore we lawie.",
   "config.lava_boat_clutch.bounce_drop_mode": "Tryb Ôdbicia Upadku",

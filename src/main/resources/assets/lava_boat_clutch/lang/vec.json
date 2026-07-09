@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "El sistema el mecanismo de presa del batel in la lava, penso",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "El torna el mecanismo de presa del batel in la lava che l'era stà sistemà in la version 1.21.5.\n\nAl primo contato con la lava el batel el riceve un poco de tenpo de imunità, cussì el xuGador el pol aterà sul so hitbox.\n\nAdeso te pode far prese in la lava come Dream, ma in version più nove!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "El sistema el lava boat clutch mechanic, penso",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "El torna el lava boat clutch mechanic che l'era stà sistemà in la version 1.21.5.\n\nAl primo contato con la lava el batel el riceve un poco de tenpo de imunità, cussì el xuGador el pol aterà sul so hitbox.\n\nAdeso te pode far prese in la lava come Dream, ma in version più nove!",
   "config.lava_boat_clutch.title": "Impostasion de Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Zeneral",
   "config.lava_boat_clutch.enable_mod": "Abilita el Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "El abilita o el disabilita el mecanismo de presa del batel in la lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "El abilita o el disabilita el lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Tick de Imunità",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "El nùmaro dei tick in cui el batel nol brusà in la lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modo Rimbalso de Cauda",

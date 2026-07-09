@@ -4,7 +4,6 @@ import com.lavaboatclutch.LavaBoatClutchMod;
 import com.lavaboatclutch.config.LavaBoatClutchConfig;
 import com.lavaboatclutch.util.LbcBoatImmunity;
 
-import net.minecraft.core.BlockPos;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.world.entity.vehicle.boat.AbstractBoat;
 import net.minecraft.world.phys.Vec3;
@@ -40,9 +39,9 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
         if (cfg == null || !cfg.enableMod) return;
 
         AbstractBoat self = (AbstractBoat)(Object)this;
+        boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
 
         if (self.level().isClientSide()) {
-            boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
             if (inLavaNow && !lbc_wasInLavaLastTickClient) {
                 
                 lbc_fireParticleSuppressTicks = 4;
@@ -52,8 +51,6 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
             lbc_wasInLavaLastTickClient = inLavaNow;
             return;
         }
-
-        boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
 
         if (lbc_immunityTicks > 0) {
             self.setRemainingFireTicks(0);
@@ -87,10 +84,8 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
 
     @Unique
     private static boolean lbc_isLavaBelow(AbstractBoat boat) {
-        BlockPos below = boat.blockPosition().below();
         return boat.level()
-                   .getBlockState(below)
-                   .getFluidState()
+                   .getFluidState(boat.blockPosition().below())
                    .is(FluidTags.LAVA);
     }
 }

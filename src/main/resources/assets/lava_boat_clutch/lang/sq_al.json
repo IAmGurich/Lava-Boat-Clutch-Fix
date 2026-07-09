@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Rregullon mekanikën e kapjes së varkës në lavë, supozoj",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Rikthen mekanikën e kapjes së varkës në lavë që u rregullua në versionin 1.21.5.\n\nNë kontaktin e parë me lavën, varka merr një kohë të shkurtër imuniteti, që lojtari të mund të ulë në hitbox-in e saj.\n\nTani mund të bësh kapje në lavë si Dream, por në versione të reja!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Rregullon lava boat clutch mechanic, supozoj",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Rikthen lava boat clutch mechanic që u rregullua në versionin 1.21.5.\n\nNë kontaktin e parë me lavën, varka merr një kohë të shkurtër imuniteti, që lojtari të mund të ulë në hitbox-in e saj.\n\nTani mund të bësh kapje në lavë si Dream, por në versione të reja!",
   "config.lava_boat_clutch.title": "Cilësimet e Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Të Përgjithshme",
   "config.lava_boat_clutch.enable_mod": "Aktivizo Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Aktivizon ose çaktivizon mekanikën e kapjes së varkës në lavë.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktivizon ose çaktivizon lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Tike Imuniteti",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Numri i tikeve gjatë të cilave varka nuk digjet në lavë.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modaliteti i Kërcimit të Rënies",

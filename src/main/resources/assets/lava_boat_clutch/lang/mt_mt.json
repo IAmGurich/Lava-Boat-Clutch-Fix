@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Jissewwa l-mekkaniżmu ta' qbid tal-vapur fil-lava, nippresumi",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Jirrestawra l-mekkaniżmu ta' qbid tal-vapur fil-lava li ġie ssewwi fil-verżjoni 1.21.5.\n\nFl-ewwel kuntatt mal-lava, il-vapur jikseb żmien qasir ta' immunità sabiex il-plejer ikun jista' jilqa' fuq il-hitbox tiegħu.\n\nIssa tista' tagħmel qbid fil-lava bħal Dream iżda fil-verżjonijiet aktar ġodda!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Jissewwa l-lava boat clutch mechanic, nippresumi",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Jirrestawra l-lava boat clutch mechanic li ġie ssewwi fil-verżjoni 1.21.5.\n\nFl-ewwel kuntatt mal-lava, il-vapur jikseb żmien qasir ta' immunità sabiex il-plejer ikun jista' jilqa' fuq il-hitbox tiegħu.\n\nIssa tista' tagħmel qbid fil-lava bħal Dream iżda fil-verżjonijiet aktar ġodda!",
   "config.lava_boat_clutch.title": "Settings tal-Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Ġenerali",
   "config.lava_boat_clutch.enable_mod": "Attiva l-Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Jattiva jew jiddiżattiva l-mekkaniżmu ta' qbid tal-vapur fil-lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Jattiva jew jiddiżattiva l-lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticks tal-Immunità",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "In-numru ta' ticks fejn il-vapur ma jaħaraqx fil-lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Mod ta' Rimbalż tal-Waqgħa",

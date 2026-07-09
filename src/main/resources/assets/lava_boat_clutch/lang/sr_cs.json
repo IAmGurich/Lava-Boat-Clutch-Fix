@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Popravlja mehaniku hvatanja čamca u lavi, pretpostavljam",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Vraća mehaniku hvatanja čamca u lavi koja je popravljena u verziji 1.21.5.\n\nPri prvom kontaktu sa lavom čamac dobija kratko vreme imuniteta kako bi igrač mogao da sleti na njegov hitbox.\n\nSada možeš da radiš hvatanja u lavi kao Dream, ali u novijim verzijama!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Popravlja lava boat clutch mechanic, pretpostavljam",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Vraća lava boat clutch mechanic koja je popravljena u verziji 1.21.5.\n\nPri prvom kontaktu sa lavom čamac dobija kratko vreme imuniteta kako bi igrač mogao da sleti na njegov hitbox.\n\nSada možeš da radiš hvatanja u lavi kao Dream, ali u novijim verzijama!",
   "config.lava_boat_clutch.title": "Podešavanja Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Opšte",
   "config.lava_boat_clutch.enable_mod": "Uključi Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Uključuje ili isključuje mehaniku hvatanja čamca u lavi.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Uključuje ili isključuje lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticks Imuniteta",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Broj ticks-a u kojima čamac ne gori u lavi.",
   "config.lava_boat_clutch.bounce_drop_mode": "Režim Odbijanja Pada",
