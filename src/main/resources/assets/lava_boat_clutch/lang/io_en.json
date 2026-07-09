@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Reparigas la mekanismo di kapto di batelo en lavo, me supozas",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Restorigas la mekanismo di kapto di batelo en lavo qua esis reparigita en 1.21.5.\n\nCe la unesma kontakto kun lavo, la batelo ricevas kurta tempo di imuneso, por ke la ludanto povu ateragar sur olua hitbox.\n\nNu tu povas facar lavo-kapti quale Dream, ma en plu nova versioni!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Reparigas la lava boat clutch mechanic, me supozas",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restorigas la lava boat clutch mechanic qua esis reparigita en 1.21.5.\n\nCe la unesma kontakto kun lavo, la batelo ricevas kurta tempo di imuneso, por ke la ludanto povu ateragar sur olua hitbox.\n\nNu tu povas facar lavo-kapti quale Dream, ma en plu nova versioni!",
   "config.lava_boat_clutch.title": "Regulaji di Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Generala",
   "config.lava_boat_clutch.enable_mod": "Aktivigar Modo",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Aktivigas o dezaktivisas la mekanismo di kapto di batelo en lavo.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktivigas o dezaktivisas la lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Tikti di Imuneso",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "La nombro di tikti en qui la batelo ne brulas en la lavo.",
   "config.lava_boat_clutch.bounce_drop_mode": "Rebondo-Modo di Falo",

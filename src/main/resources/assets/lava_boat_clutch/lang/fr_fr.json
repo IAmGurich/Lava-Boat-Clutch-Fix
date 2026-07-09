@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Corrige la mécanique d'agrippement du bateau en lave, je suppose",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Rétablit la mécanique d'agrippement du bateau en lave qui avait été corrigée dans la version 1.21.5.\n\nAu premier contact avec la lave, le bateau obtient un court temps d'immunité afin que le joueur puisse atterrir sur sa hitbox.\n\nMaintenant tu peux faire des agrippements en lave comme Dream mais dans les versions plus récentes!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Corrige la lava boat clutch mechanic, je suppose",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Rétablit la lava boat clutch mechanic qui avait été corrigée dans la version 1.21.5.\n\nAu premier contact avec la lave, le bateau obtient un court temps d'immunité afin que le joueur puisse atterrir sur sa hitbox.\n\nMaintenant tu peux faire des agrippements en lave comme Dream mais dans les versions plus récentes!",
   "config.lava_boat_clutch.title": "Paramètres de Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Général",
   "config.lava_boat_clutch.enable_mod": "Activer le Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Active ou désactive la mécanique d'agrippement du bateau en lave.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Active ou désactive la lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticks d'Immunité",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Le nombre de ticks pendant lesquels le bateau ne brûle pas dans la lave.",
   "config.lava_boat_clutch.bounce_drop_mode": "Mode de Rebond de Chute",

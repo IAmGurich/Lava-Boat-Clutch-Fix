@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Виправляє механіку захоплення човна в лаві, мабуть",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Відновлює механіку захоплення човна в лаві, яку було виправлено у версії 1.21.5.\n\nПри першому контакті з лавою човен отримує короткий час імунітету, щоб гравець міг приземлитися на його хітбокс.\n\nТепер можна робити захоплення в лаві як Dream, але в новіших версіях!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Виправляє lava boat clutch mechanic, мабуть",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Відновлює lava boat clutch mechanic, яку було виправлено у версії 1.21.5.\n\nПри першому контакті з лавою човен отримує короткий час імунітету, щоб гравець міг приземлитися на його хітбокс.\n\nТепер можна робити захоплення в лаві як Dream, але в новіших версіях!",
   "config.lava_boat_clutch.title": "Налаштування Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Загальне",
   "config.lava_boat_clutch.enable_mod": "Увімкнути Мод",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Вмикає або вимикає механіку захоплення човна в лаві.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Вмикає або вимикає lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Тіки Імунітету",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Кількість тіків, під час яких човен не горить у лаві.",
   "config.lava_boat_clutch.bounce_drop_mode": "Режим Відскоку Падіння",

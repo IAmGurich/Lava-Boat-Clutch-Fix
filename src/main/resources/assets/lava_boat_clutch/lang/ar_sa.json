@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "يُصلح ميكانيكا الإمساك بالقارب في اللافا، على ما أظن",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "يستعيد ميكانيكا الإمساك بالقارب في اللافا التي تم إصلاحها في 1.21.5.\n\nعند أول تلامس مع اللافا، يحصل القارب على فترة مناعة قصيرة حتى يتمكن اللاعب من الهبوط على صندوق الاصطدام الخاص به.\n\nالآن يمكنك القيام بالإمساك بالقارب في اللافا مثل Dream ولكن في الإصدارات الأحدث!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "يُصلح lava boat clutch mechanic، على ما أظن",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "يستعيد lava boat clutch mechanic التي تم إصلاحها في 1.21.5.\n\nعند أول تلامس مع اللافا، يحصل القارب على فترة مناعة قصيرة حتى يتمكن اللاعب من الهبوط على صندوق الاصطدام الخاص به.\n\nالآن يمكنك القيام بالإمساك بالقارب في اللافا مثل Dream ولكن في الإصدارات الأحدث!",
   "config.lava_boat_clutch.title": "إعدادات Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "عام",
   "config.lava_boat_clutch.enable_mod": "تفعيل المود",
-  "config.lava_boat_clutch.enable_mod.tooltip": "يمكّن أو يعطّل ميكانيكا الإمساك بالقارب في اللافا.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "يمكّن أو يعطّل lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "نبضات المناعة",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "عدد النبضات التي لا يحترق فيها القارب في اللافا.",
   "config.lava_boat_clutch.bounce_drop_mode": "وضع ارتداد السقوط",

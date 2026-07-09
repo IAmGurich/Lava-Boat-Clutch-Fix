@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Ուղղում է լավայի նավակի բռնման մեխանիզմը, ենթադրում եմ",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Վերականգնում է լավայի նավակի բռնման մեխանիզմը, որը շտկվել էր 1.21.5 տարբերակում:\n\nԼավայի հետ առաջին շփման ժամանակ նավակը ստանում է կարճ անձեռնմխելիության ժամանակ, որպեսզի խաղացողը կարողանա վայրէջք կատարել դրա hitbox-ի վրա:\n\nԱյժմ կարող ես կատարել լավայի բռնումներ ինչպես Dream-ը, բայց ավելի նոր տարբերակներում!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Ուղղում է lava boat clutch mechanic, ենթադրում եմ",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Վերականգնում է lava boat clutch mechanic, որը շտկվել էր 1.21.5 տարբերակում:\n\nԼավայի հետ առաջին շփման ժամանակ նավակը ստանում է կարճ անձեռնմխելիության ժամանակ, որպեսզի խաղացողը կարողանա վայրէջք կատարել դրա hitbox-ի վրա:\n\nԱյժմ կարող ես կատարել լավայի բռնումներ ինչպես Dream-ը, բայց ավելի նոր տարբերակներում!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Կարգավորումներ",
   "config.lava_boat_clutch.category.general": "Ընդհանուր",
   "config.lava_boat_clutch.enable_mod": "Ակտիվացնել Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Ակտիվացնում կամ ապաակտիվացնում է լավայի նավակի բռնման մեխանիզմը:",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Ակտիվացնում կամ ապաակտիվացնում է lava boat clutch mechanic:",
   "config.lava_boat_clutch.immunity_ticks": "Անձեռնմխելիության Tick-եր",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Tick-երի քանակը, որոնց ընթացքում նավակը չի այրվում լավայում:",
   "config.lava_boat_clutch.bounce_drop_mode": "Անկման Ցատկի Ռեժիմ",

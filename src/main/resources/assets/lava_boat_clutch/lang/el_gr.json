@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Διορθώνει τον μηχανισμό πιασίματος βάρκας στη λάβα, υποθέτω",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Επαναφέρει τον μηχανισμό πιασίματος βάρκας στη λάβα που διορθώθηκε στην 1.21.5.\n\nΚατά την πρώτη επαφή με λάβα, η βάρκα αποκτά ένα σύντομο διάστημα ανοσίας ώστε ο παίκτης να μπορεί να προσγειωθεί στο hitbox της.\n\nΤώρα μπορείς να κάνεις πιασίματα στη λάβα σαν τον Dream αλλά σε νεότερες εκδόσεις!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Διορθώνει τον lava boat clutch mechanic, υποθέτω",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Επαναφέρει τον lava boat clutch mechanic που διορθώθηκε στην 1.21.5.\n\nΚατά την πρώτη επαφή με λάβα, η βάρκα αποκτά ένα σύντομο διάστημα ανοσίας ώστε ο παίκτης να μπορεί να προσγειωθεί στο hitbox της.\n\nΤώρα μπορείς να κάνεις πιασίματα στη λάβα σαν τον Dream αλλά σε νεότερες εκδόσεις!",
   "config.lava_boat_clutch.title": "Ρυθμίσεις Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Γενικά",
   "config.lava_boat_clutch.enable_mod": "Ενεργοποίηση Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Ενεργοποιεί ή απενεργοποιεί τον μηχανισμό πιασίματος βάρκας στη λάβα.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Ενεργοποιεί ή απενεργοποιεί τον lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticks Ανοσίας",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Ο αριθμός των ticks κατά τους οποίους η βάρκα δεν καίγεται στη λάβα.",
   "config.lava_boat_clutch.bounce_drop_mode": "Λειτουργία Αναπήδησης Πτώσης",

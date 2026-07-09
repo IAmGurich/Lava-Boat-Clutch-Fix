@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Kijavítja a lávás csónakmegfogási mechanikát, szerintem",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Visszaállítja az 1.21.5-ben javított lávás csónakmegfogási mechanikát.\n\nAz első lávával való érintkezéskor a csónak rövid immunitási időt kap, hogy a játékos le tudjon szállni a hitboxára.\n\nMost már tudsz lávás mentéseket csinálni mint Dream, de az újabb verziókban!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Kijavítja a lava boat clutch mechanic, szerintem",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Visszaállítja az 1.21.5-ben javított lava boat clutch mechanic.\n\nAz első lávával való érintkezéskor a csónak rövid immunitási időt kap, hogy a játékos le tudjon szállni a hitboxára.\n\nMost már tudsz lávás mentéseket csinálni mint Dream, de az újabb verziókban!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Beállítások",
   "config.lava_boat_clutch.category.general": "Általános",
   "config.lava_boat_clutch.enable_mod": "Mod Engedélyezése",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Engedélyezi vagy letiltja a lávás csónakmegfogási mechanikát.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Engedélyezi vagy letiltja a lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Immunitás Tickek",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Azon tickek száma, amelyek alatt a csónak nem ég el a lávában.",
   "config.lava_boat_clutch.bounce_drop_mode": "Drop Pattanás Mód",

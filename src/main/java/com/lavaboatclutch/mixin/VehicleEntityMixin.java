@@ -65,11 +65,11 @@ public abstract class VehicleEntityMixin {
                                          CallbackInfoReturnable<Boolean> cir) {
         if (!(((Object) this) instanceof AbstractBoat boat)) return;
 
-        if (!source.is(DamageTypeTags.IS_FIRE)) return;
-
-        if (!Boolean.TRUE.equals(cir.getReturnValue())) return;
+        if (!cir.getReturnValueZ()) return;
 
         if (!boat.isRemoved()) return;
+
+        if (!source.is(DamageTypeTags.IS_FIRE)) return;
 
         LavaBoatClutchConfig cfg = LavaBoatClutchMod.getConfig();
         if (cfg == null || !cfg.enableMod) return;

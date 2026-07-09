@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Yn trwsio mecaneg gafael cwch lafa, am wn i",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Yn adfer mecaneg gafael cwch lafa a gafodd ei drwsio yn 1.21.5.\n\nAr y cyswllt cyntaf â'r lafa, mae'r cwch yn cael amser imiwnedd byr fel y gall y chwaraewr lanio ar ei hitbox.\n\nNawr gallwch wneud gafaelion lafa fel Dream ond mewn fersiynau newyddach!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Yn trwsio lava boat clutch mechanic, am wn i",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Yn adfer lava boat clutch mechanic a gafodd ei drwsio yn 1.21.5.\n\nAr y cyswllt cyntaf â'r lafa, mae'r cwch yn cael amser imiwnedd byr fel y gall y chwaraewr lanio ar ei hitbox.\n\nNawr gallwch wneud gafaelion lafa fel Dream ond mewn fersiynau newyddach!",
   "config.lava_boat_clutch.title": "Gosodiadau Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Cyffredinol",
   "config.lava_boat_clutch.enable_mod": "Galluogi Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Yn galluogi neu'n analluogi mecaneg gafael cwch lafa.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Yn galluogi neu'n analluogi lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticiaid Imiwnedd",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Nifer y ticiaid nad yw'r cwch yn llosgi yn y lafa.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modd Sbonc Gollwng",

@@ -1,5 +1,5 @@
 # Automatically build the project for every push and pull request.
-# Ensures the mod compiles correctly on Ubuntu with Java 25.
+# Ensures the mod compiles correctly on Ubuntu with Java 21.
 
 name: Check Build
 

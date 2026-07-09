@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "लावा बोट क्लच मैकेनिक को ठीक करता है, शायद",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "लावा बोट क्लच मैकेनिक को वापस लाता है जिसे 1.21.5 में ठीक किया गया था।\n\nलावा के साथ पहले संपर्क पर नाव को एक छोटा प्रतिरक्षा समय मिलता है, ताकि खिलाड़ी इसके हिटबॉक्स पर उतर सके।\n\nअब आप Dream की तरह लावा क्लच कर सकते हैं, लेकिन नए संस्करणों में!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "lava boat clutch mechanic को ठीक करता है, शायद",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "lava boat clutch mechanic को वापस लाता है जिसे 1.21.5 में ठीक किया गया था।\n\nलावा के साथ पहले संपर्क पर नाव को एक छोटा प्रतिरक्षा समय मिलता है, ताकि खिलाड़ी इसके हिटबॉक्स पर उतर सके।\n\nअब आप Dream की तरह लावा क्लच कर सकते हैं, लेकिन नए संस्करणों में!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix सेटिंग्स",
   "config.lava_boat_clutch.category.general": "सामान्य",
   "config.lava_boat_clutch.enable_mod": "मॉड सक्षम करें",
-  "config.lava_boat_clutch.enable_mod.tooltip": "लावा बोट क्लच मैकेनिक को सक्षम या अक्षम करता है।",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic को सक्षम या अक्षम करता है।",
   "config.lava_boat_clutch.immunity_ticks": "प्रतिरक्षा टिक",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "उन टिक की संख्या जिनमें नाव लावा में नहीं जलती।",
   "config.lava_boat_clutch.bounce_drop_mode": "ड्रॉप बाउंस मोड",

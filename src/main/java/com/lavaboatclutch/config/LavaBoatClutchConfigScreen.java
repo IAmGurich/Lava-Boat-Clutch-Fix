@@ -9,6 +9,8 @@ import me.shedaniel.clothconfig2.api.Requirement;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 
+import java.util.function.Consumer;
+
 public class LavaBoatClutchConfigScreen {
 
     private static int   toSlider(float f) { return Math.round(f * 100f); }
@@ -76,48 +78,41 @@ public class LavaBoatClutchConfigScreen {
         Requirement customModeActive = Requirement.isTrue(
                 () -> modeEntry.getValue() == LavaBoatClutchConfig.DropBounceMode.CUSTOM);
 
-        general.addEntry(entry
-                .startIntSlider(
-                        Component.translatable("config.lava_boat_clutch.bounce_drop_y"),
-                        toSlider(cfg.bounceDrop),
-                        SLIDER_Y_MIN,
-                        SLIDER_Y_MAX)
-                .setDefaultValue(toSlider(LavaBoatClutchConfig.DEFAULT_BOUNCE_DROP))
-                .setTextGetter(val -> Component.literal(String.format("%.2f", fromSlider(val))))
-                .setTooltip(
-                        Component.translatable("config.lava_boat_clutch.bounce_drop_y.tooltip"))
-                .setSaveConsumer(val -> cfg.bounceDrop = fromSlider(val))
-                .setRequirement(customModeActive)
-                .build());
+        addVelocitySlider(general, entry, "config.lava_boat_clutch.bounce_drop_y",
+                cfg.bounceDrop, SLIDER_Y_MIN, SLIDER_Y_MAX,
+                LavaBoatClutchConfig.DEFAULT_BOUNCE_DROP, "%.2f",
+                val -> cfg.bounceDrop = fromSlider(val), customModeActive);
 
-        general.addEntry(entry
-                .startIntSlider(
-                        Component.translatable("config.lava_boat_clutch.bounce_drop_x"),
-                        toSlider(cfg.bounceDropX),
-                        SLIDER_XZ_MIN,
-                        SLIDER_XZ_MAX)
-                .setDefaultValue(toSlider(LavaBoatClutchConfig.DEFAULT_BOUNCE_HORIZ))
-                .setTextGetter(val -> Component.literal(String.format("%+.2f", fromSlider(val))))
-                .setTooltip(
-                        Component.translatable("config.lava_boat_clutch.bounce_drop_x.tooltip"))
-                .setSaveConsumer(val -> cfg.bounceDropX = fromSlider(val))
-                .setRequirement(customModeActive)
-                .build());
+        addVelocitySlider(general, entry, "config.lava_boat_clutch.bounce_drop_x",
+                cfg.bounceDropX, SLIDER_XZ_MIN, SLIDER_XZ_MAX,
+                LavaBoatClutchConfig.DEFAULT_BOUNCE_HORIZ, "%+.2f",
+                val -> cfg.bounceDropX = fromSlider(val), customModeActive);
 
-        general.addEntry(entry
-                .startIntSlider(
-                        Component.translatable("config.lava_boat_clutch.bounce_drop_z"),
-                        toSlider(cfg.bounceDropZ),
-                        SLIDER_XZ_MIN,
-                        SLIDER_XZ_MAX)
-                .setDefaultValue(toSlider(LavaBoatClutchConfig.DEFAULT_BOUNCE_HORIZ))
-                .setTextGetter(val -> Component.literal(String.format("%+.2f", fromSlider(val))))
-                .setTooltip(
-                        Component.translatable("config.lava_boat_clutch.bounce_drop_z.tooltip"))
-                .setSaveConsumer(val -> cfg.bounceDropZ = fromSlider(val))
-                .setRequirement(customModeActive)
-                .build());
+        addVelocitySlider(general, entry, "config.lava_boat_clutch.bounce_drop_z",
+                cfg.bounceDropZ, SLIDER_XZ_MIN, SLIDER_XZ_MAX,
+                LavaBoatClutchConfig.DEFAULT_BOUNCE_HORIZ, "%+.2f",
+                val -> cfg.bounceDropZ = fromSlider(val), customModeActive);
 
         return builder.build();
+    }
+
+    private static void addVelocitySlider(ConfigCategory category,
+                                          ConfigEntryBuilder entry,
+                                          String key,
+                                          float current,
+                                          int min,
+                                          int max,
+                                          float defaultValue,
+                                          String format,
+                                          Consumer<Integer> saveConsumer,
+                                          Requirement requirement) {
+        category.addEntry(entry
+                .startIntSlider(Component.translatable(key), toSlider(current), min, max)
+                .setDefaultValue(toSlider(defaultValue))
+                .setTextGetter(val -> Component.literal(String.format(format, fromSlider(val))))
+                .setTooltip(Component.translatable(key + ".tooltip"))
+                .setSaveConsumer(saveConsumer)
+                .setRequirement(requirement)
+                .build());
     }
 }
