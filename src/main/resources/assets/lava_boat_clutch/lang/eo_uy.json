@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Riparigas la mekanikon de lava-boata kaptado, mi supozas",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaŭras la mekanikon de lava-boata kaptado, kiu estis riparita en 1.21.5.\n\nĈe la unua kontakto kun lavo, la boato ricevas mallongan imunectempon, por ke la ludanto povu alteriĝi sur ĝia hitbox.\n\nNun vi povas fari lavo-kaptadon kiel Dream, sed en pli novaj versioj!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Riparigas la lava boat clutch mechanic, mi supozas",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaŭras la lava boat clutch mechanic, kiu estis riparita en 1.21.5.\n\nĈe la unua kontakto kun lavo, la boato ricevas mallongan imunectempon, por ke la ludanto povu alteriĝi sur ĝia hitbox.\n\nNun vi povas fari lavo-kaptadon kiel Dream, sed en pli novaj versioj!",
   "config.lava_boat_clutch.title": "Agordoj de Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Ĝenerala",
   "config.lava_boat_clutch.enable_mod": "Aktivigi Modon",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Aktivigas aŭ malaktivigas la mekanikon de lava-boata kaptado.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktivigas aŭ malaktivigas la lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Taktoj de Imuneco",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "La nombro da taktoj, en kiuj la boato ne bruliĝas en la lavo.",
   "config.lava_boat_clutch.bounce_drop_mode": "Reĵeta Falmodo",

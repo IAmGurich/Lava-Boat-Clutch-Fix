@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Лавад завины барилт механикийг засдаг, магадгүй",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5 хувилбарт засагдсан лавад завины барилт механикийг сэргээдэг.\n\nЛаватай анх тэмтэрэхэд завин богино дархлааны хугацаа авдаг тул тоглогч түүний hitbox дээр буух боломжтой болно.\n\nОдоо Dream шиг лаванд баривал хийж чадна, гэхдээ шинэ хувилбаруудад!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "lava boat clutch mechanic засдаг, магадгүй",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "1.21.5 хувилбарт засагдсан lava boat clutch mechanic сэргээдэг.\n\nЛаватай анх тэмтэрэхэд завин богино дархлааны хугацаа авдаг тул тоглогч түүний hitbox дээр буух боломжтой болно.\n\nОдоо Dream шиг лаванд баривал хийж чадна, гэхдээ шинэ хувилбаруудад!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Тохиргоо",
   "config.lava_boat_clutch.category.general": "Ерөнхий",
   "config.lava_boat_clutch.enable_mod": "Mod-ыг Идэвхжүүлэх",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Лавад завины барилт механикийг идэвхжүүлэх эсвэл идэвхгүй болгодог.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic идэвхжүүлэх эсвэл идэвхгүй болгодог.",
   "config.lava_boat_clutch.immunity_ticks": "Дархлааны Тик",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Завин лавад шатахгүй байх тикийн тоо.",
   "config.lava_boat_clutch.bounce_drop_mode": "Унах Үсрэлтийн Горим",

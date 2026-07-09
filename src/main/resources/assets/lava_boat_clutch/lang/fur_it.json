@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Al corege la mecaniche de prese dal barcon te lave, o crôt",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Al torne a meti la mecaniche de prese dal barcon te lave che e fo corete in 1.21.5.\n\nAl prin contact cu la lave il barcon al ricêf un curt timp di imunità, cussì il xocadôr al pues aterâ sul so hitbox.\n\ncumò tu puedis fâ presis te lave come Dream ma intes versions plui nuevis!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Al corege la lava boat clutch mechanic, o crôt",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Al torne a meti la lava boat clutch mechanic che e fo corete in 1.21.5.\n\nAl prin contact cu la lave il barcon al ricêf un curt timp di imunità, cussì il xocadôr al pues aterâ sul so hitbox.\n\ncumò tu puedis fâ presis te lave come Dream ma intes versions plui nuevis!",
   "config.lava_boat_clutch.title": "Impostazions di Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Gjeneral",
   "config.lava_boat_clutch.enable_mod": "Abilite Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Al abilite o al disabilite la mecaniche de prese dal barcon te lave.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Al abilite o al disabilite la lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticks di Imunità",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Il numar dai ticks in cui il barcon nol brus te lave.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modalitât Rimbalz de Cjadude",

@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Arregla la mecànica d'agafar el vaixell a la lava, suposo",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura la mecànica d'agafar el vaixell a la lava que es va arreglar a la 1.21.5.\n\nAl primer contacte amb la lava, el vaixell obté un breu temps d'immunitat perquè el jugador pugui aterrar al seu hitbox.\n\nAra pots fer agafades a la lava com Dream, però en versions més noves!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Arregla la lava boat clutch mechanic, suposo",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura la lava boat clutch mechanic que es va arreglar a la 1.21.5.\n\nAl primer contacte amb la lava, el vaixell obté un breu temps d'immunitat perquè el jugador pugui aterrar al seu hitbox.\n\nAra pots fer agafades a la lava com Dream, però en versions més noves!",
   "config.lava_boat_clutch.title": "Configuració de Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "General",
   "config.lava_boat_clutch.enable_mod": "Activar Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva la mecànica d'agafar el vaixell a la lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva la lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticks d'Immunitat",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "El nombre de ticks en què el vaixell no crema a la lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Mode de Rebot de Caiguda",

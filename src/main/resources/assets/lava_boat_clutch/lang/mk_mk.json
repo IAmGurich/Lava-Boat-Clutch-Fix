@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Ја поправа механиката за фаќање чамец во лава, претпоставувам",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Ја враќа механиката за фаќање чамец во лава која беше поправена во верзијата 1.21.5.\n\nПри првиот контакт со лавата, чамецот добива кратко имунитетно време за да може играчот да слета на неговиот hitbox.\n\nСега можеш да правиш фаќања во лава како Dream, но во поновите верзии!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Ја поправа lava boat clutch mechanic, претпоставувам",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Ја враќа lava boat clutch mechanic која беше поправена во верзијата 1.21.5.\n\nПри првиот контакт со лавата, чамецот добива кратко имунитетно време за да може играчот да слета на неговиот hitbox.\n\nСега можеш да правиш фаќања во лава како Dream, но во поновите верзии!",
   "config.lava_boat_clutch.title": "Поставки на Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Општо",
   "config.lava_boat_clutch.enable_mod": "Овозможи Мод",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Го овозможува или оневозможува механиката за фаќање чамец во лава.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Го овозможува или оневозможува lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Тикови на Имунитет",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Бројот на тикови во кои чамецот не гори во лавата.",
   "config.lava_boat_clutch.bounce_drop_mode": "Режим на Одскок при Паѓање",

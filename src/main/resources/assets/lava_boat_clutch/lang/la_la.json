@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Mecanismum comprehensionis navis in lava corrigit, ut puto",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Mecanismum comprehensionis navis in lava, qui in versione 1.21.5 correctus est, restituit.\n\nIn primo contactu cum lava navis brevem tempus immunitatis accipit, ut lusor in hitbox eius descendere possit.\n\nNunc comprehensiones lavae sicut Dream facere potes, sed in versionibus novis!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "lava boat clutch mechanic corrigit, ut puto",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "lava boat clutch mechanic, qui in versione 1.21.5 correctus est, restituit.\n\nIn primo contactu cum lava navis brevem tempus immunitatis accipit, ut lusor in hitbox eius descendere possit.\n\nNunc comprehensiones lavae sicut Dream facere potes, sed in versionibus novis!",
   "config.lava_boat_clutch.title": "Optiones Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Generalia",
   "config.lava_boat_clutch.enable_mod": "Modum Activare",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Mecanismum comprehensionis navis in lava activat vel desactivat.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic activat vel desactivat.",
   "config.lava_boat_clutch.immunity_ticks": "Ticki Immunitatis",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Numerus tickorum in quibus navis in lava non ardet.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modus Resilitionis Casus",

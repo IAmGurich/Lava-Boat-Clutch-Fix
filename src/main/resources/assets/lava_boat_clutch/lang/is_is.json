@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Lagar lava-bátseflunarmúkkaníkina, held ég",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Endurheimtir lava-bátseflunarmúkkaníkina sem var lagfærð í 1.21.5.\n\nVið fyrsta snertingu við lava fær báturinn stutta ónæmistíð svo leikmaðurinn geti lent á hitbox hans.\n\nNú geturðu gert lava-eflanir eins og Dream en í nýrri útgáfum!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Lagar lava boat clutch mechanic, held ég",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Endurheimtir lava boat clutch mechanic sem var lagfærð í 1.21.5.\n\nVið fyrsta snertingu við lava fær báturinn stutta ónæmistíð svo leikmaðurinn geti lent á hitbox hans.\n\nNú geturðu gert lava-eflanir eins og Dream en í nýrri útgáfum!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Stillingar",
   "config.lava_boat_clutch.category.general": "Almennt",
   "config.lava_boat_clutch.enable_mod": "Virkja Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Virkjar eða afvirkjar lava-bátseflunarmúkkaníkina.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Virkjar eða afvirkjar lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ónæmis-Ticks",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Fjöldi ticks þar sem báturinn brennur ekki í lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Drop-Hoppamóðus",

@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Naprawia mechanikę chwytania łódki w lawie, chyba",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Przywraca mechanikę chwytania łódki w lawie, która została naprawiona w wersji 1.21.5.\n\nPrzy pierwszym kontakcie z lawą łódka otrzymuje krótki czas immunitet, aby gracz mógł wylądować na jej hitboxie.\n\nTeraz możesz robić chwytania w lawie jak Dream, ale w nowszych wersjach!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Naprawia lava boat clutch mechanic, chyba",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Przywraca lava boat clutch mechanic, która została naprawiona w wersji 1.21.5.\n\nPrzy pierwszym kontakcie z lawą łódka otrzymuje krótki czas immunitet, aby gracz mógł wylądować na jej hitboxie.\n\nTeraz możesz robić chwytania w lawie jak Dream, ale w nowszych wersjach!",
   "config.lava_boat_clutch.title": "Ustawienia Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "Ogólne",
   "config.lava_boat_clutch.enable_mod": "Włącz Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Włącza lub wyłącza mechanikę chwytania łódki w lawie.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Włącza lub wyłącza lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticki Odporności",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Liczba ticków, w których łódka nie pali się w lawie.",
   "config.lava_boat_clutch.bounce_drop_mode": "Tryb Odbicia Upadku",

@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "מתקן את מנגנון האחיזה של הסירה בלבה, כנראה",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "משחזר את מנגנון האחיזה של הסירה בלבה שתוקן בגרסה 1.21.5.\n\nבמגע הראשון עם הלבה, הסירה מקבלת זמן חסינות קצר כדי שהשחקן יוכל לנחות על ה-hitbox שלה.\n\nעכשיו אתה יכול לעשות אחיזות לבה כמו Dream אבל בגרסאות חדשות יותר!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "מתקן את lava boat clutch mechanic, כנראה",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "משחזר את lava boat clutch mechanic שתוקן בגרסה 1.21.5.\n\nבמגע הראשון עם הלבה, הסירה מקבלת זמן חסינות קצר כדי שהשחקן יוכל לנחות על ה-hitbox שלה.\n\nעכשיו אתה יכול לעשות אחיזות לבה כמו Dream אבל בגרסאות חדשות יותר!",
   "config.lava_boat_clutch.title": "הגדרות Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "כללי",
   "config.lava_boat_clutch.enable_mod": "הפעל מוד",
-  "config.lava_boat_clutch.enable_mod.tooltip": "מפעיל או מכבה את מנגנון האחיזה של הסירה בלבה.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "מפעיל או מכבה את lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "טיקים של חסינות",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "מספר הטיקים שבהם הסירה לא נשרפת בלבה.",
   "config.lava_boat_clutch.bounce_drop_mode": "מצב קפיצת נפילה",

@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Repară mecanica de prindere a bărcii în lavă, presupun",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaurează mecanica de prindere a bărcii în lavă care a fost reparată în versiunea 1.21.5.\n\nLa primul contact cu lava, barca primește un timp scurt de imunitate pentru ca jucătorul să poată ateriza pe hitbox-ul ei.\n\nAcum poți face prinderi în lavă ca Dream, dar în versiunile mai noi!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Repară lava boat clutch mechanic, presupun",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaurează lava boat clutch mechanic care a fost reparată în versiunea 1.21.5.\n\nLa primul contact cu lava, barca primește un timp scurt de imunitate pentru ca jucătorul să poată ateriza pe hitbox-ul ei.\n\nAcum poți face prinderi în lavă ca Dream, dar în versiunile mai noi!",
   "config.lava_boat_clutch.title": "Setări Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "General",
   "config.lava_boat_clutch.enable_mod": "Activează Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Activează sau dezactivează mecanica de prindere a bărcii în lavă.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activează sau dezactivează lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Tick-uri de Imunitate",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Numărul de tick-uri în care barca nu arde în lavă.",
   "config.lava_boat_clutch.bounce_drop_mode": "Modul de Ricoșeu la Cădere",

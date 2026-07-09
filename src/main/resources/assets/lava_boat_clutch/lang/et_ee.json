@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Parandab laava paadihaarde mehhanismi, arvatavasti",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Taastab laava paadihaarde mehhanismi, mis parandati versioonis 1.21.5.\n\nEsimesel kontaktil laavaga saab paat lühikese immuunsusaja, et mängija saaks selle hitboxi peale maanduda.\n\nNüüd saad teha laava-haardeid nagu Dream, kuid uuemas versioonis!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Parandab lava boat clutch mechanic, arvatavasti",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Taastab lava boat clutch mechanic, mis parandati versioonis 1.21.5.\n\nEsimesel kontaktil laavaga saab paat lühikese immuunsusaja, et mängija saaks selle hitboxi peale maanduda.\n\nNüüd saad teha laava-haardeid nagu Dream, kuid uuemas versioonis!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Seaded",
   "config.lava_boat_clutch.category.general": "Üldine",
   "config.lava_boat_clutch.enable_mod": "Luba Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Lubab või keelab laava paadihaarde mehhanismi.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Lubab või keelab lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Immuunsuse Tikid",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "Tikite arv, mille jooksul paat laavaas ei põle.",
   "config.lava_boat_clutch.bounce_drop_mode": "Kukkumispõrke Režiim",

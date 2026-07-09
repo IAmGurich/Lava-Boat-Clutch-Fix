@@ -38,9 +38,9 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
         if (cfg == null || !cfg.enableMod) return;
 
         AbstractBoatEntity self = (AbstractBoatEntity)(Object)this;
+        boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
 
         if (self.getWorld().isClient()) {
-            boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
             if (inLavaNow && !lbc_wasInLavaLastTickClient) {
                 lbc_fireParticleSuppressTicks = 4;
             } else if (lbc_fireParticleSuppressTicks > 0) {
@@ -49,8 +49,6 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
             lbc_wasInLavaLastTickClient = inLavaNow;
             return;
         }
-
-        boolean inLavaNow = self.isInLava() || lbc_isLavaBelow(self);
 
         if (lbc_immunityTicks > 0) {
             self.setFireTicks(0);
@@ -85,10 +83,8 @@ public abstract class BoatEntityMixin implements LbcBoatImmunity {
 
     @Unique
     private static boolean lbc_isLavaBelow(AbstractBoatEntity boat) {
-        BlockPos below = boat.getBlockPos().down();
         return boat.getWorld()
-                   .getBlockState(below)
-                   .getFluidState()
+                   .getFluidState(boat.getBlockPos().down())
                    .isIn(FluidTags.LAVA);
     }
 }

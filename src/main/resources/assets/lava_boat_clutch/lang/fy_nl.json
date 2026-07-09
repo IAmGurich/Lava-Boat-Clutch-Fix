@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Reparearet de lava-boat-koppelingsmechanyk, tink ik",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Herstelt de lava-boat-koppelingsmechanyk dy't repareare waard yn 1.21.5.\n\nBy it earste kontakt mei lava kriget de boat in koarte ymmuniteitstiisd, sadat de spiler op syn hitbox lânje kin.\n\nNo kinst do lava-clutches dwaan lykas Dream mar yn nijere ferzjes!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Reparearet de lava boat clutch mechanic, tink ik",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Herstelt de lava boat clutch mechanic dy't repareare waard yn 1.21.5.\n\nBy it earste kontakt mei lava kriget de boat in koarte ymmuniteitstiisd, sadat de spiler op syn hitbox lânje kin.\n\nNo kinst do lava-clutches dwaan lykas Dream mar yn nijere ferzjes!",
   "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Ynstellingen",
   "config.lava_boat_clutch.category.general": "Algemien",
   "config.lava_boat_clutch.enable_mod": "Mod Ynskeakelje",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Skeakelt de lava-boat-koppelingsmechanyk yn of út.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Skeakelt de lava boat clutch mechanic yn of út.",
   "config.lava_boat_clutch.immunity_ticks": "Ymmuniteits-Ticks",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "It oantal ticks dêr't de boat net ferbrânt yn de lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Drop-Stûtmodus",

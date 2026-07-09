@@ -1,10 +1,10 @@
 {
-  "modmenu.summaryTranslation.lava_boat_clutch": "Arregla la mecànica d'agafar la barca en la lava, supose",
-  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura la mecànica d'agafar la barca en la lava que es va arreglar en la versió 1.21.5.\n\nEn el primer contacte amb la lava, la barca obté un breu temps d'immunitat perquè el jugador puga aterrar en el seu hitbox.\n\nAra pots fer agafades en la lava com Dream, però en versions més noves!",
+  "modmenu.summaryTranslation.lava_boat_clutch": "Arregla la lava boat clutch mechanic, supose",
+  "modmenu.descriptionTranslation.lava_boat_clutch": "Restaura la lava boat clutch mechanic que es va arreglar en la versió 1.21.5.\n\nEn el primer contacte amb la lava, la barca obté un breu temps d'immunitat perquè el jugador puga aterrar en el seu hitbox.\n\nAra pots fer agafades en la lava com Dream, però en versions més noves!",
   "config.lava_boat_clutch.title": "Configuració de Lava Boat Clutch Fix",
   "config.lava_boat_clutch.category.general": "General",
   "config.lava_boat_clutch.enable_mod": "Activar Mod",
-  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva la mecànica d'agafar la barca en la lava.",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva la lava boat clutch mechanic.",
   "config.lava_boat_clutch.immunity_ticks": "Ticks d'Immunitat",
   "config.lava_boat_clutch.immunity_ticks.tooltip": "El nombre de ticks en els quals la barca no crema en la lava.",
   "config.lava_boat_clutch.bounce_drop_mode": "Mode de Rebot de Caiguda",
