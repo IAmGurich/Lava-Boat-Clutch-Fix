@@ -1,5 +1,5 @@
 # <img src="src/main/resources/assets/lava_boat_clutch/icon.png" width="64"> Lava Boat Clutch Fix
-> Restores the classic lava boat clutch mechanic which was removed in Minecraft 1.21.5.
+> Restores the "lava boat clutch" mechanic which was removed in Minecraft 1.21.5
 
 [![CurseForge](https://cf.way2muchnoise.eu/1532732.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/lava-boat-clutch-fix)
 [![Modrinth](https://img.shields.io/modrinth/dt/lava-boat-clutch-fix?style=for-the-badge&logo=modrinth&label=modrinth&color=35d07f)](https://modrinth.com/mod/lava-boat-clutch-fix)
