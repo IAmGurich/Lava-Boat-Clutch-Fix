@@ -7,6 +7,9 @@
     "BoatEntityMixin",
     "VehicleEntityMixin"
   ],
+  "client": [
+    "EntityFireMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

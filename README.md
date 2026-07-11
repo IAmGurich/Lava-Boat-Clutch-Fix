@@ -3,9 +3,6 @@
 
 [![CurseForge](https://cf.way2muchnoise.eu/1532732.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/lava-boat-clutch-fix)
 [![Modrinth](https://img.shields.io/modrinth/dt/lava-boat-clutch-fix?style=for-the-badge&logo=modrinth&label=modrinth&color=35d07f)](https://modrinth.com/mod/lava-boat-clutch-fix)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Fabric](https://img.shields.io/badge/Mod_Loader-Fabric-dbb36e?style=for-the-badge)](https://fabricmc.net)
-[![MC](https://img.shields.io/badge/Minecraft-1.21.5%20–%2026.2.x-62b47a?style=for-the-badge)](https://minecraft.net)
 
 ---
 
@@ -45,16 +42,6 @@ Open the config screen via **Mod Menu → Lava Boat Clutch Fix → Config**.
 
 ---
 
-## 📦 Installation
-
-1. Install [Fabric Loader](https://fabricmc.net/use/installer/)
-2. Install [Fabric API](https://modrinth.com/mod/fabric-api)
-3. Install [Cloth Config](https://modrinth.com/mod/cloth-config) *(required for config)*
-4. Install [Mod Menu](https://modrinth.com/mod/modmenu) *(optional, for in-game config screen)*
-5. Drop `lava-boat-clutch-fix-*.jar` into your `mods` folder
-
----
-
 ## 🗂️ Branches & Versions
 
 Each branch corresponds to a range of supported Minecraft versions:
@@ -66,19 +53,6 @@ Each branch corresponds to a range of supported Minecraft versions:
 | `1.21.9-1.21.11` | 1.21.9, 1.21.10, 1.21.11 |
 | `26.1.x` | 26.1, 26.1.1, 26.1.2 |
 | `26.2.x` | 26.2 |
-
----
-
-## 🔧 Building from Source
-
-```bash
-git clone https://github.com/IAmGurich/Lava-Boat-Clutch-Fix.git
-cd Lava-Boat-Clutch-Fix
-git checkout <branch>
-./gradlew clean build --parallel
-```
-
-The output JAR will be in `build/libs/`.
 
 ---
 
