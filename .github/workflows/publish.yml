@@ -55,12 +55,13 @@ jobs:
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           files: build/libs/!(*-@(dev|sources|javadoc)).jar
-          loaders: fabric
+          loaders: |
+            fabric
+            quilt
           game-versions: |
             1.21.7
             1.21.8
           java: 21
           dependencies: |
-            fabric-api(required)
             cloth-config(required)
             modmenu(optional)
