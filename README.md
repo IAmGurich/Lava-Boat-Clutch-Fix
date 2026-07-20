@@ -6,7 +6,7 @@
 
 ---
 
-In Minecraft 1.21.5, Mojang fixed the bug that allowed boats to briefly survive on lava — the mechanic behind the legendary **lava boat clutch** (famously used by **Dream** in Manhunt).
+In Minecraft 1.21.5, Mojang fixed the bug that allowed boats to briefly survive on lava — the mechanic behind the legendary **lava boat clutch** (famously used by **Dream** in **Manhunt**).
 
 This mod restores it. When a boat first touches lava, it receives a short immunity window so the player can land on the hitbox and survive the fall — exactly like in older versions.
 
@@ -30,7 +30,7 @@ The full experience with an in-game config screen.
 - <img src="assets/lever.png" width="22"> **Toggle on/off** — disable the mod at any time without removing it (default: enable mod)
 - ⚙️ **Fully configurable** — adjust everything via the in-game config screen (requires Cloth Config + Mod Menu)
 - 🌐 **Localized** — this mod version supports a lot of languages!
-> Dependencies: on Fabric/Quilt the config screen requires Cloth Config + Mod Menu, on NeoForge the config screen is built in.
+> Dependencies: on Fabric/Quilt the config screen requires Cloth Config + Mod Menu, on NeoForge the config screen is built in - no dependencies.
 
 **<p>Also available: a "lightweight regular edition" — same mod, same config, just without the extra translations, so the file size is smaller.**
 
