@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix அமைப்புகள்",
+  "config.lava_boat_clutch.enable_mod": "Mod இயக்கு",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic இயக்குகிறது அல்லது முடக்குகிறது.",
+  "config.lava_boat_clutch.immunity_ticks": "நோய் எதிர்ப்பு டிக்குகள்",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "படகு லாவாவில் எரியாத டிக்குகளின் எண்ணிக்கை.",
+  "config.lava_boat_clutch.bounce_drop_mode": "டிராப் பவுன்ஸ் முறை",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "இயல்புநிலை",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "தனிப்பயன்",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "சீரற்ற",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "இயல்புநிலை: வெனிலா வேகத்தை பயன்படுத்துகிறது\nதனிப்பயன்: கட்டமைக்கக்கூடிய வேகத்தை பயன்படுத்துகிறது.\nசீரற்ற: சீரற்ற வேகம்.",
+  "config.lava_boat_clutch.bounce_drop_y": "வேகம் Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "படகு லாவாவில் எரிந்த பிறகு சொட்டு விழுவதற்கு பயன்படுத்தப்படும் மேல்நோக்கிய வேகம்.",
+  "config.lava_boat_clutch.bounce_drop_x": "வேகம் X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "படகு லாவாவில் எரிந்த பிறகு சொட்டு விழுவதற்கு X அச்சில் பயன்படுத்தப்படும் பக்கவாட்டு வேகம்.",
+  "config.lava_boat_clutch.bounce_drop_z": "வேகம் Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "படகு லாவாவில் எரிந்த பிறகு சொட்டு விழுவதற்கு Z அச்சில் பயன்படுத்தப்படும் பக்கவாட்டு வேகம்."
+}

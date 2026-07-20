@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Einstellungen",
+  "config.lava_boat_clutch.enable_mod": "Mod aktivieren",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiviert oder deaktiviert die lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitäts-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Die Anzahl der Ticks, in denen das Boot in der Lava nicht verbrennt.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Rückstoß-Modus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standard",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Benutzerdefiniert",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Zufällig",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standard: verwendet Vanilla-Geschwindigkeit\nBenutzerdefiniert: verwendet konfigurierbare Geschwindigkeit.\nZufällig: zufällige Geschwindigkeit.",
+  "config.lava_boat_clutch.bounce_drop_y": "Geschwindigkeit Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Aufwärtsgeschwindigkeit, die auf den Fall des Boots nach dem Verbrennen in Lava angewendet wird.",
+  "config.lava_boat_clutch.bounce_drop_x": "Geschwindigkeit X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Seitengeschwindigkeit entlang der X-Achse, die auf den Fall des Boots nach dem Verbrennen in Lava angewendet wird.",
+  "config.lava_boat_clutch.bounce_drop_z": "Geschwindigkeit Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Seitengeschwindigkeit entlang der Z-Achse, die auf den Fall des Boots nach dem Verbrennen in Lava angewendet wird."
+}

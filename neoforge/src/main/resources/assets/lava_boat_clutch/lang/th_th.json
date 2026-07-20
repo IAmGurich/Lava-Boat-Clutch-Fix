@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "การตั้งค่า Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "เปิดใช้งาน Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "เปิดหรือปิดlava boat clutch mechanic",
+  "config.lava_boat_clutch.immunity_ticks": "ภูมิคุ้มกัน Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "จำนวน ticks ที่เรือไม่ไหม้ในลาวา",
+  "config.lava_boat_clutch.bounce_drop_mode": "โหมดกระเด้งการตก",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "ค่าเริ่มต้น",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "กำหนดเอง",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "สุ่ม",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "ค่าเริ่มต้น: ใช้ความเร็วแบบวานิลลา\nกำหนดเอง: ใช้ความเร็วที่ตั้งค่าได้\nสุ่ม: ความเร็วสุ่ม.",
+  "config.lava_boat_clutch.bounce_drop_y": "ความเร็ว Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "ความเร็วขึ้นที่ใช้กับการตกของเรือหลังจากเรือไหม้ในลาวา",
+  "config.lava_boat_clutch.bounce_drop_x": "ความเร็ว X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "ความเร็วด้านข้างตามแกน X ที่ใช้กับการตกของเรือหลังจากเรือไหม้ในลาวา",
+  "config.lava_boat_clutch.bounce_drop_z": "ความเร็ว Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "ความเร็วด้านข้างตามแกน Z ที่ใช้กับการตกของเรือหลังจากเรือไหม้ในลาวา"
+}

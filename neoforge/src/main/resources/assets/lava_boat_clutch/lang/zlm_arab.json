@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "تتاڤن Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "اکتيفکن Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "مڠاکتيفکن اتاو مڽاهاکتيفکن lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "تيک ايمونيتي",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "بيلڠن تيک دي مان بوت تيدق ترباکر دالم لاۏا.",
+  "config.lava_boat_clutch.bounce_drop_mode": "ماد لنتون جاتوه",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "لالاي",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "ترسواي",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "راوق",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "لالاي: مڠݢوناکن هالاجو ۏانيلا\nترسواي: مڠݢوناکن هالاجو يڠ بوليه ديکونفيݢور.\nراوق: مڠݢوناکن هالاجو راوق.",
+  "config.lava_boat_clutch.bounce_drop_y": "هالاجو Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "هالاجو که اتس يڠ ديکناکن ڤد جاتوهن بوت سلڤس ترباکر دالم لاۏا.",
+  "config.lava_boat_clutch.bounce_drop_x": "هالاجو X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "هالاجو سيسي سڤنجڠ ڤاکسي X يڠ ديکناکن ڤد جاتوهن بوت سلڤس ترباکر دالم لاۏا.",
+  "config.lava_boat_clutch.bounce_drop_z": "هالاجو Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "هالاجو سيسي سڤنجڠ ڤاکسي Z يڠ ديکناکن ڤد جاتوهن بوت سلڤس ترباکر دالم لاۏا."
+}

@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix პარამეტრები",
+  "config.lava_boat_clutch.enable_mod": "მოდის ჩართვა",
+  "config.lava_boat_clutch.enable_mod.tooltip": "ჩართავს ან გამორთავს lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "იმუნიტეტის ტიკები",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "ტიკების რაოდენობა, რომლის განმავლობაში ნავი არ იწვის ლავაში.",
+  "config.lava_boat_clutch.bounce_drop_mode": "ვარდნის ხტუნვის რეჟიმი",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "ნაგულისხმევი",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "მორგებული",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "შემთხვევითი",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "ნაგულისხმევი: იყენებს vanilla სიჩქარეს\nმორგებული: იყენებს კონფიგურირებად სიჩქარეს.\nშემთხვევითი: შემთხვევითი სიჩქარე.",
+  "config.lava_boat_clutch.bounce_drop_y": "სიჩქარე Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "ზემოთ მიმართული სიჩქარე, რომელიც გამოიყენება ნავის ვარდნაზე ლავაში დაწვის შემდეგ.",
+  "config.lava_boat_clutch.bounce_drop_x": "სიჩქარე X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "X ღერძის გასწვრივ გვერდითი სიჩქარე, რომელიც გამოიყენება ნავის ვარდნაზე ლავაში დაწვის შემდეგ.",
+  "config.lava_boat_clutch.bounce_drop_z": "სიჩქარე Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Z ღერძის გასწვრივ გვერდითი სიჩქარე, რომელიც გამოიყენება ნავის ვარდნაზე ლავაში დაწვის შემდეგ."
+}

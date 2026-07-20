@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Innstillingar",
+  "config.lava_boat_clutch.enable_mod": "Aktiver Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiverer eller deaktiverer lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitets-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Talet på ticks der båten ikkje brenn i lavaen.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Sprett-Modus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standard",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Tilpassa",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Tilfeldig",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standard: brukar vanilla-hastigheit\nTilpassa: brukar konfigurerbar hastigheit.\nTilfeldig: tilfeldig hastigheit.",
+  "config.lava_boat_clutch.bounce_drop_y": "Hastigheit Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Oppover-hastigheit påført fallet til båten etter at han brann i lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Hastigheit X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Sidevegs hastigheit langs X-aksen påført fallet til båten etter at han brann i lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Hastigheit Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Sidevegs hastigheit langs Z-aksen påført fallet til båten etter at han brann i lava."
+}

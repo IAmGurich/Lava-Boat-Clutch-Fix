@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Kefluniadurioù Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Gweredekaat ar Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Gweredekaat pe zilac'hañ ar lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Tikkoù Imunelezh",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Niver tikkoù ma n'a ket losket ar bag er lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mod Stankin Diskenn",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Dre Ziouer",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personelaet",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Dre zegouezh",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Dre Ziouer: implijout tizh vanilla\nPersonelaet: implijout tizh kefluniadek.\nDre zegouezh: stankder dre zegouezh.",
+  "config.lava_boat_clutch.bounce_drop_y": "Tizh Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Tizh uhel lakaet war ziskenn ar bag goude ma vez losket er lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Tizh X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Tizh kostez war ar roudenn X lakaet war ziskenn ar bag goude ma vez losket er lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Tizh Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Tizh kostez war ar roudenn Z lakaet war ziskenn ar bag goude ma vez losket er lava."
+}

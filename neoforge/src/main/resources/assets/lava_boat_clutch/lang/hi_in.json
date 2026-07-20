@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix सेटिंग्स",
+  "config.lava_boat_clutch.enable_mod": "मॉड सक्षम करें",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic को सक्षम या अक्षम करता है।",
+  "config.lava_boat_clutch.immunity_ticks": "प्रतिरक्षा टिक",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "उन टिक की संख्या जिनमें नाव लावा में नहीं जलती।",
+  "config.lava_boat_clutch.bounce_drop_mode": "ड्रॉप बाउंस मोड",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "डिफ़ॉल्ट",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "कस्टम",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "यादृच्छिक",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "डिफ़ॉल्ट: vanilla वेग का उपयोग करता है\nकस्टम: कॉन्फ़िगर करने योग्य वेग का उपयोग करता है।\nयादृच्छिक: यादृच्छिक वेग.",
+  "config.lava_boat_clutch.bounce_drop_y": "वेग Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "लावा में जलने के बाद नाव के गिरने पर लगाया गया ऊपर की ओर वेग।",
+  "config.lava_boat_clutch.bounce_drop_x": "वेग X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "X अक्ष के साथ पार्श्व वेग जो लावा में जलने के बाद नाव के गिरने पर लगाया गया।",
+  "config.lava_boat_clutch.bounce_drop_z": "वेग Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Z अक्ष के साथ पार्श्व वेग जो लावा में जलने के बाद नाव के गिरने पर लगाया गया।"
+}

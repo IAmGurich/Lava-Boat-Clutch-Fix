@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix velsku",
+  "config.lava_boat_clutch.enable_mod": "curmi Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "curmi ja nai curmi le lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "xamgu ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "le namcu be le ticks poi le bloti cu na fagri le lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "falnu panpi tadji",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "cnano",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "srana",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "cunso",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "cnano: vanilla celerta\nsrana: selsni celerta.\ncunso: cunso celerta.",
+  "config.lava_boat_clutch.bounce_drop_y": "celerta Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "crane celerta jai gau le bloti falnu pu'o fagri le lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "celerta X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "mlana celerta X-axis jai gau le bloti falnu pu'o fagri le lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "celerta Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "mlana celerta Z-axis jai gau le bloti falnu pu'o fagri le lava."
+}

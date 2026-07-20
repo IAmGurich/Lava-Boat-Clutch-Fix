@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Настройки на Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Активиране на Мода",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Включва или изключва lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Имунитетни Тикове",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Броят на тиковете, в които лодката не изгаря в лавата.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Режим на Отскок при Падане",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "По подразбиране",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Персонализиран",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Произволен",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "По подразбиране: използва vanilla скоростта\nПерсонализиран: използва конфигурируема скорост.\nПроизволен: произволна скорост.",
+  "config.lava_boat_clutch.bounce_drop_y": "Скорост Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Скорост нагоре, приложена към падането на лодката след изгарянето й в лавата.",
+  "config.lava_boat_clutch.bounce_drop_x": "Скорост X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Странична скорост по оста X, приложена към падането на лодката след изгарянето й в лавата.",
+  "config.lava_boat_clutch.bounce_drop_z": "Скорост Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Странична скорост по оста Z, приложена към падането на лодката след изгарянето й в лавата."
+}
