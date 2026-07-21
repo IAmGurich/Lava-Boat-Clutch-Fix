@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Тохиргоо",
+  "config.lava_boat_clutch.enable_mod": "Mod-ыг Идэвхжүүлэх",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic идэвхжүүлэх эсвэл идэвхгүй болгодог.",
+  "config.lava_boat_clutch.immunity_ticks": "Дархлааны Тик",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Завин лавад шатахгүй байх тикийн тоо.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Унах Үсрэлтийн Горим",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Үндсэн",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Тохируулсан",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Санамсаргүй",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Үндсэн: vanilla хурд ашигладаг\nТохируулсан: тохируулж болох хурд ашигладаг.\nСанамсаргүй: санамсаргүй хурд.",
+  "config.lava_boat_clutch.bounce_drop_y": "Хурд Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Завин лавад шатсаны дараа унахад хэрэглэгдэх дээш чиглэсэн хурд.",
+  "config.lava_boat_clutch.bounce_drop_x": "Хурд X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Завин лавад шатсаны дараа унахад X тэнхлэгийн дагуу хэрэглэгдэх хажуу хурд.",
+  "config.lava_boat_clutch.bounce_drop_z": "Хурд Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Завин лавад шатсаны дараа унахад Z тэнхлэгийн дагуу хэрэглэгдэх хажуу хурд."
+}

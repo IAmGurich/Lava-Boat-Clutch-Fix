@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix 설정",
+  "config.lava_boat_clutch.enable_mod": "모드 활성화",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic을 활성화하거나 비활성화합니다.",
+  "config.lava_boat_clutch.immunity_ticks": "무적 틱",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "보트가 용암에서 타지 않는 틱 수.",
+  "config.lava_boat_clutch.bounce_drop_mode": "드롭 바운스 모드",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "기본값",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "사용자 지정",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "무작위",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "기본값: 바닐라 속도 사용\n사용자 지정: 설정 가능한 속도 사용.\n무작위: 무작위 속도 사용.",
+  "config.lava_boat_clutch.bounce_drop_y": "속도 Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "보트가 용암에서 타고 난 후 드롭에 적용되는 위쪽 속도.",
+  "config.lava_boat_clutch.bounce_drop_x": "속도 X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "보트가 용암에서 타고 난 후 드롭에 적용되는 X축 방향 측면 속도.",
+  "config.lava_boat_clutch.bounce_drop_z": "속도 Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "보트가 용암에서 타고 난 후 드롭에 적용되는 Z축 방향 측면 속도."
+}

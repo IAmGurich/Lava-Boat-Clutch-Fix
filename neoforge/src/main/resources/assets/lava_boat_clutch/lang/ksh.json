@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Enstellunge",
+  "config.lava_boat_clutch.enable_mod": "Mod aanschtalte",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiveet odder deaktiveet dat lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunität-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "De Aanzahl vun de Ticks, wo dat Boot en de Lava nit brennt.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Rückschtoß-Modus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standard",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Eijeschtellt",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Zofällig",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standard: nimmp Vanilla-Jeschwindigkeit\nEijeschtellt: nimmp konfigurierbare Jeschwindigkeit.\nZofällig: zofällige Schnelligkeit.",
+  "config.lava_boat_clutch.bounce_drop_y": "Jeschwindigkeit Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Noh-bovve-Jeschwindigkeit op dat Boot-Drop no'm Verbrennen en de Lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Jeschwindigkeit X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Ziddelings Jeschwindigkeit längs de X-Achs op dat Boot-Drop no'm Verbrennen en de Lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Jeschwindigkeit Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Ziddelings Jeschwindigkeit längs de Z-Achs op dat Boot-Drop no'm Verbrennen en de Lava."
+}

@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Cài đặt Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Bật Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Bật hoặc tắt lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks Miễn Nhiễm",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Số lượng ticks mà thuyền không bị cháy trong dung nham.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Chế Độ Nảy Khi Rơi",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Mặc định",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Tùy chỉnh",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Ngẫu nhiên",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Mặc định: dùng tốc độ vanilla\nTùy chỉnh: dùng tốc độ có thể cấu hình.\nNgẫu nhiên: vận tốc ngẫu nhiên.",
+  "config.lava_boat_clutch.bounce_drop_y": "Tốc độ Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Tốc độ hướng lên được áp dụng vào lần rơi của thuyền sau khi cháy trong dung nham.",
+  "config.lava_boat_clutch.bounce_drop_x": "Tốc độ X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Tốc độ ngang dọc trục X được áp dụng vào lần rơi của thuyền sau khi cháy trong dung nham.",
+  "config.lava_boat_clutch.bounce_drop_z": "Tốc độ Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Tốc độ ngang dọc trục Z được áp dụng vào lần rơi của thuyền sau khi cháy trong dung nham."
+}

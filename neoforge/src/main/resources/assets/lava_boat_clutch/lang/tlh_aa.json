@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix DuHmey",
+  "config.lava_boat_clutch.enable_mod": "Mod chu'",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic chu' pagh Hemqu'.",
+  "config.lava_boat_clutch.immunity_ticks": "wav Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "mI' Ticks Duj lava Huch.",
+  "config.lava_boat_clutch.bounce_drop_mode": "pel qoq mIw",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "chu' mIw",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "wIj mIw",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "San",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "chu' mIw: vanilla Do' lo'\nwIj mIw: Do' choH lo'.\nSan: San Do' lo'.",
+  "config.lava_boat_clutch.bounce_drop_y": "Do' Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Do' Duj pel nob lava Huch.",
+  "config.lava_boat_clutch.bounce_drop_x": "Do' X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Do' X-axis Duj pel nob lava Huch.",
+  "config.lava_boat_clutch.bounce_drop_z": "Do' Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Do' Z-axis Duj pel nob lava Huch."
+}

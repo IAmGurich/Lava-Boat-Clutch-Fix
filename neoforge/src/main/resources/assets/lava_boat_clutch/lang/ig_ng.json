@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Ntọala Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Nye Ike Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Na-enye ma ọ bụ wepu ike lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick Nchekwa",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Ọnụọgụ tick nke ụgbọ mmiri anaghị ere ọkụ na lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Ọnọdụ Mgbatị Dada",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Ndabara",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Onwe Ya",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Enweghị Usoro",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Ndabara: na-eji ọsọ vanilla\nOnwe Ya: na-eji ọsọ nke enwere ike nhazi.\nEnweghị Usoro: na-eji ọsọ enweghị usoro.",
+  "config.lava_boat_clutch.bounce_drop_y": "Ọsọ Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Ọsọ elu etinye na ụgbọ mmiri daa mgbe ọ ere ọkụ na lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Ọsọ X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Ọsọ n'akụkụ n'ọzara X etinye na ụgbọ mmiri daa mgbe ọ ere ọkụ na lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Ọsọ Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Ọsọ n'akụkụ n'ọzara Z etinye na ụgbọ mmiri daa mgbe ọ ere ọkụ na lava."
+}

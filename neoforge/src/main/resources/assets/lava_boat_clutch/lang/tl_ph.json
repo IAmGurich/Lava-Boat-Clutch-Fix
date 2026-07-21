@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Mga Setting ng Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "I-enable ang Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Ino-on o ino-off ang lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Mga Immunity Tick",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Ang bilang ng mga tick kung saan hindi nasusunog ang bangka sa lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mode ng Talbog ng Drop",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Default",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Pasadya",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Pasumala",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Default: gumagamit ng vanilla na velocity\nPasadya: gumagamit ng naiko-configure na velocity.\nPasumala: gumagamit ng pasumalang velocity.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocity Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Pataas na velocity na inilalapat sa pagbagsak ng bangka pagkatapos masunog sa lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocity X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Lateral na velocity sa kahabaan ng X axis na inilalapat sa pagbagsak ng bangka pagkatapos masunog sa lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocity Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Lateral na velocity sa kahabaan ng Z axis na inilalapat sa pagbagsak ng bangka pagkatapos masunog sa lava."
+}
