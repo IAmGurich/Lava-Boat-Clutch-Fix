@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Impostazions di Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Abilite Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Al abilite o al disabilite la lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks di Imunità",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Il numar dai ticks in cui il barcon nol brus te lave.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modalitât Rimbalz de Cjadude",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Predefinît",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizât",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Causâl",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Predefinît: dopre la velocitât vanilla\nPersonalizât: dopre une velocitât configurabile.\nCausâl: velocitât causâl.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocitât Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocitât in sù aplicade ae cjadude dal barcon dopo avê brûs te lave.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocitât X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocitât laterâl lunc l'ax X aplicade ae cjadude dal barcon dopo avê brûs te lave.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocitât Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocitât laterâl lunc l'ax Z aplicade ae cjadude dal barcon dopo avê brûs te lave."
+}

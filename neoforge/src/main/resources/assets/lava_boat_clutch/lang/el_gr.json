@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Ρυθμίσεις Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Ενεργοποίηση Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Ενεργοποιεί ή απενεργοποιεί τον lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks Ανοσίας",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Ο αριθμός των ticks κατά τους οποίους η βάρκα δεν καίγεται στη λάβα.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Λειτουργία Αναπήδησης Πτώσης",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Προεπιλογή",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Προσαρμοσμένο",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Τυχαίο",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Προεπιλογή: χρησιμοποιεί ταχύτητα vanilla\nΠροσαρμοσμένο: χρησιμοποιεί ρυθμιζόμενη ταχύτητα.\nΤυχαίο: τυχαία ταχύτητα.",
+  "config.lava_boat_clutch.bounce_drop_y": "Ταχύτητα Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Ανοδική ταχύτητα που εφαρμόζεται στην πτώση της βάρκας μετά την καύση της στη λάβα.",
+  "config.lava_boat_clutch.bounce_drop_x": "Ταχύτητα X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Πλευρική ταχύτητα κατά μήκος του άξονα X που εφαρμόζεται στην πτώση της βάρκας μετά την καύση της στη λάβα.",
+  "config.lava_boat_clutch.bounce_drop_z": "Ταχύτητα Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Πλευρική ταχύτητα κατά μήκος του άξονα Z που εφαρμόζεται στην πτώση της βάρκας μετά την καύση της στη λάβα."
+}

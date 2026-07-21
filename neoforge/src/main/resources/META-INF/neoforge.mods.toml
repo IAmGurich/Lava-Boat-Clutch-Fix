@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/IAmGurich/Lava-Boat-Clutch-Fix/issues"
+
+[[mods]]
+modId = "lava_boat_clutch"
+version = "3.4.0"
+displayName = "Lava Boat Clutch Fix"
+displayURL = "https://modrinth.com/mod/lava-boat-clutch-fix"
+logoFile = "assets/lava_boat_clutch/icon.png"
+authors = "IAmGurich"
+description = '''Restores lava boat clutch mechanic that got fixed in 1.21.5'''
+
+[[mixins]]
+config = "lava_boat_clutch.mixins.json"
+
+[[dependencies.lava_boat_clutch]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.9,21.12)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.lava_boat_clutch]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.9,1.21.12)"
+ordering = "NONE"
+side = "BOTH"

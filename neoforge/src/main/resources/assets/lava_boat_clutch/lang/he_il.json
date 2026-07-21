@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "הגדרות Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "הפעל מוד",
+  "config.lava_boat_clutch.enable_mod.tooltip": "מפעיל או מכבה את lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "טיקים של חסינות",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "מספר הטיקים שבהם הסירה לא נשרפת בלבה.",
+  "config.lava_boat_clutch.bounce_drop_mode": "מצב קפיצת נפילה",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "ברירת מחדל",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "מותאם אישית",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "אקראי",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "ברירת מחדל: משתמש במהירות vanilla\nמותאם אישית: משתמש במהירות שניתן להגדיר.\nאקראי: מהירות אקראית.",
+  "config.lava_boat_clutch.bounce_drop_y": "מהירות Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "מהירות כלפי מעלה המוחלת על נפילת הסירה לאחר שרפתה בלבה.",
+  "config.lava_boat_clutch.bounce_drop_x": "מהירות X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "מהירות לרוחב לאורך ציר X המוחלת על נפילת הסירה לאחר שרפתה בלבה.",
+  "config.lava_boat_clutch.bounce_drop_z": "מהירות Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "מהירות לרוחב לאורך ציר Z המוחלת על נפילת הסירה לאחר שרפתה בלבה."
+}

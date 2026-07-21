@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Roghainnean Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Cuir Mod an Comas",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Cuiridh an comas no às an comas lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticeadan Dìon",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "An àireamh de thiceadan far nach loisg am bàta anns an làbha.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modh Bualadh Tuiteam",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Bun-roghainn",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Gnàthaichte",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Air thuairmeas",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Bun-roghainn: cleachdaidh luas vanilla\nGnàthaichte: cleachdaidh luas rèiteachail.\nAir thuairmeas: luaths air thuairmeas.",
+  "config.lava_boat_clutch.bounce_drop_y": "Luas Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Luas suas air a chur an sàs air tuiteam a' bhàta an dèidh a losgadh anns an làbha.",
+  "config.lava_boat_clutch.bounce_drop_x": "Luas X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Luas taobhail air feadh an axis X air a chur an sàs air tuiteam a' bhàta an dèidh a losgadh anns an làbha.",
+  "config.lava_boat_clutch.bounce_drop_z": "Luas Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Luas taobhail air feadh an axis Z air a chur an sàs air tuiteam a' bhàta an dèidh a losgadh anns an làbha."
+}

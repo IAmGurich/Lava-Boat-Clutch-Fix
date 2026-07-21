@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Tetapan Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Aktifkan Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Mengaktifkan atau menyahaktifkan lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick Imuniti",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Bilangan tick di mana bot tidak terbakar dalam lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mod Lantun Jatuh",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Lalai",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Tersuai",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Rawak",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Lalai: menggunakan halaju vanilla\nTersuai: menggunakan halaju yang boleh dikonfigurasi.\nRawak: halaju rawak.",
+  "config.lava_boat_clutch.bounce_drop_y": "Halaju Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Halaju ke atas yang dikenakan pada jatuhan bot selepas terbakar dalam lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Halaju X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Halaju sisi sepanjang paksi X yang dikenakan pada jatuhan bot selepas terbakar dalam lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Halaju Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Halaju sisi sepanjang paksi Z yang dikenakan pada jatuhan bot selepas terbakar dalam lava."
+}

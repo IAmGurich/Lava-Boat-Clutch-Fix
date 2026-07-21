@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Settings tal-Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Attiva l-Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Jattiva jew jiddiżattiva l-lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks tal-Immunità",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "In-numru ta' ticks fejn il-vapur ma jaħaraqx fil-lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mod ta' Rimbalż tal-Waqgħa",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Awtomatiku",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizzat",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Każwali",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Awtomatiku: juża l-veloċità vanilla\nPersonalizzat: juża veloċità li tista' tiġi kkonfigurata.\nKażwali: veloċità każwali.",
+  "config.lava_boat_clutch.bounce_drop_y": "Veloċità Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Veloċità 'il fuq applikata għall-waqgħa tal-vapur wara li jaħaraq fil-lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Veloċità X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Veloċità laterali tul l-assi X applikata għall-waqgħa tal-vapur wara li jaħaraq fil-lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Veloċità Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Veloċità laterali tul l-assi Z applikata għall-waqgħa tal-vapur wara li jaħaraq fil-lava."
+}

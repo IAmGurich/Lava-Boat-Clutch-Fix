@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Instellings",
+  "config.lava_boat_clutch.enable_mod": "Aktiveer Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiveer of deaktiveer die lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Immuniteittikke",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Die aantal tikke waartydens die boot nie in die lawa brand nie.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Keersprong-modus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Verstek",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Pasmaak",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Lukraak",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Verstek: gebruik vanilla-snelheid\nPasmaak: gebruik instelbare snelheid.\nLukraak: lukrake snelheid.",
+  "config.lava_boat_clutch.bounce_drop_y": "Snelheid Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Opwaartse snelheid toegepas op die boot se val nadat dit in lawa brand.",
+  "config.lava_boat_clutch.bounce_drop_x": "Snelheid X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Sywaartse snelheid langs die X-as toegepas op die boot se val nadat dit in lawa brand.",
+  "config.lava_boat_clutch.bounce_drop_z": "Snelheid Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Sywaartse snelheid langs die Z-as toegepas op die boot se val nadat dit in lawa brand."
+}

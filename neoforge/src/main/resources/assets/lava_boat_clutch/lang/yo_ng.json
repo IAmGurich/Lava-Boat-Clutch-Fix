@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Ètò Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Mú Mod Ṣiṣẹ́",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Mú ṣiṣẹ́ tàbí da lava boat clutch mechanic dúró.",
+  "config.lava_boat_clutch.immunity_ticks": "Àwọn Tick Àabo",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Iye àwọn tick tí ọkọ̀ ojú omi kò jó nínú lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Ọ̀nà Ìfakilẹ̀ Ìṣubú",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Àìpéye",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Àrà Ọ̀tọ̀",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Àìròtẹ́lẹ̀",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Àìpéye: ń lo ìyára vanilla\nÀrà Ọ̀tọ̀: ń lo ìyára tí a lè ṣeto.\nÀìròtẹ́lẹ̀: ń lo ìyára àìròtẹ́lẹ̀.",
+  "config.lava_boat_clutch.bounce_drop_y": "Ìyára Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Ìyára sókè tí a fi lé ìṣubú ọkọ̀ ojú omi lẹ́yìn tí ó jó nínú lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Ìyára X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Ìyára ẹ̀gbẹ́ lé ọ̀nà X tí a fi lé ìṣubú ọkọ̀ ojú omi lẹ́yìn tí ó jó nínú lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Ìyára Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Ìyára ẹ̀gbẹ́ lé ọ̀nà Z tí a fi lé ìṣubú ọkọ̀ ojú omi lẹ́yìn tí ó jó nínú lava."
+}

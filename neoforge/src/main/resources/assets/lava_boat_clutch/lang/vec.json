@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Impostasion de Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Abilita el Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "El abilita o el disabilita el lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick de Imunità",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "El nùmaro dei tick in cui el batel nol brusà in la lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modo Rimbalso de Cauda",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Predefinì",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalixà",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Casual",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Predefinì: dòpara la velocità vanilla\nPersonalixà: dòpara na velocità configuràbile.\nCasual: velocità casual.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocità Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocità in sù aplicà a la cauda del batel dopo che l'à brusà in la lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocità X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocità de fianc longo l'asse X aplicà a la cauda del batel dopo che l'à brusà in la lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocità Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocità de fianc longo l'asse Z aplicà a la cauda del batel dopo che l'à brusà in la lava."
+}

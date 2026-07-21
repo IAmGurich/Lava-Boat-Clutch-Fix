@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Ezarpenak",
+  "config.lava_boat_clutch.enable_mod": "Moda Gaitu",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic gaitzen edo desgaitzen du.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitate Tickak",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Txalupa labean ez den tick-kopurua.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Jaitsiera Errebotemodus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Lehenetsia",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Pertsonalizatua",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Ausazko",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Lehenetsia: vanilla abiadura erabiltzen du\nPertsonalizatua: konfiguragarria den abiadura erabiltzen du.\nAusazko: ausazko abiadura.",
+  "config.lava_boat_clutch.bounce_drop_y": "Abiadura Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Txalupa labean erre ondoren jaistean aplikatutako gorantz abiadura.",
+  "config.lava_boat_clutch.bounce_drop_x": "Abiadura X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "X ardatzetik jaistean txalupak labean erre ondoren aplikatutako alboko abiadura.",
+  "config.lava_boat_clutch.bounce_drop_z": "Abiadura Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Z ardatzetik jaistean txalupak labean erre ondoren aplikatutako alboko abiadura."
+}

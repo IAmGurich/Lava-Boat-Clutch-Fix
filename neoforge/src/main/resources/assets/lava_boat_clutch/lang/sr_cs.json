@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Podešavanja Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Uključi Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Uključuje ili isključuje lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks Imuniteta",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Broj ticks-a u kojima čamac ne gori u lavi.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Režim Odbijanja Pada",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Podrazumevano",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Prilagođeno",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Slučajan",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Podrazumevano: koristi vanilla brzinu\nPrilagođeno: koristi konfigurabilnu brzinu.\nSlučajan: slučajna brzina.",
+  "config.lava_boat_clutch.bounce_drop_y": "Brzina Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Brzina prema gore primenjena na pad čamca nakon što izgori u lavi.",
+  "config.lava_boat_clutch.bounce_drop_x": "Brzina X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Bočna brzina duž ose X primenjena na pad čamca nakon što izgori u lavi.",
+  "config.lava_boat_clutch.bounce_drop_z": "Brzina Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Bočna brzina duž ose Z primenjena na pad čamca nakon što izgori u lavi."
+}

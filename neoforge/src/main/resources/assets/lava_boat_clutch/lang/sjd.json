@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Настройках",
+  "config.lava_boat_clutch.enable_mod": "Мод Включить",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic включить или выключить.",
+  "config.lava_boat_clutch.immunity_ticks": "Иммунитет Тиккт",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Тикк лоаккт нӣн вяррьс лава нӣн ij пале.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Дроп Баунс Режим",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Стандарт",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Настройка",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Случайный",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Стандарт: ваниль велосити\nНастройка: конфиг велосити.\nСлучайный: рандом велосити.",
+  "config.lava_boat_clutch.bounce_drop_y": "Велосити Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Вяррьс дроп Y велосити лава нӣн пале нин.",
+  "config.lava_boat_clutch.bounce_drop_x": "Велосити X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Вяррьс дроп X велосити лава нӣн пале нин.",
+  "config.lava_boat_clutch.bounce_drop_z": "Велосити Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Вяррьс дроп Z велосити лава нӣн пале нин."
+}

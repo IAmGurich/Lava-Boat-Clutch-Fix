@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix 之設定",
+  "config.lava_boat_clutch.enable_mod": "啟用模組",
+  "config.lava_boat_clutch.enable_mod.tooltip": "啟用或停用lava boat clutch mechanic。",
+  "config.lava_boat_clutch.immunity_ticks": "免疫刻數",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "舟於熔岩中不燃之刻數。",
+  "config.lava_boat_clutch.bounce_drop_mode": "墜落彈射之式",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "預設",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "自訂",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "隨機",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "預設：用原版速度\n自訂：用可設之速度。\n隨機: 隨機速度。",
+  "config.lava_boat_clutch.bounce_drop_y": "速度Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "舟燃於熔岩後墜落之上升速度。",
+  "config.lava_boat_clutch.bounce_drop_x": "速度X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "舟燃於熔岩後墜落之X軸橫向速度。",
+  "config.lava_boat_clutch.bounce_drop_z": "速度Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "舟燃於熔岩後墜落之Z軸橫向速度。"
+}

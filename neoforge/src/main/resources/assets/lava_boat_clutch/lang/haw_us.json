@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Nā Koho o Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Hoʻohana i ke Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Hoʻohana a hoʻopau i ka lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Nā Tick Pale",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Ka helu o nā tick i pale ʻia ai ka waʻa mai ke ahi o ka lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Ke ʻano Bounce Haʻalele",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Koho Mua",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Koho Ponoʻī",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Koho Wale",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Koho Mua: hoʻohana i ka mama vanilla\nKoho Ponoʻī: hoʻohana i ka mama koho ʻia.\nKoho Wale: hoʻohana i ka mama koho wale ʻia.",
+  "config.lava_boat_clutch.bounce_drop_y": "Mama Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Ka mama i luna i hoʻopili ʻia i ka haʻalele ʻana o ka waʻa ma hope o ke ahi ʻana ma ka lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Mama X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Ka mama ʻaoʻao ma ka axis X i hoʻopili ʻia i ka haʻalele ʻana o ka waʻa ma hope o ke ahi ʻana ma ka lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Mama Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Ka mama ʻaoʻao ma ka axis Z i hoʻopili ʻia i ka haʻalele ʻana o ka waʻa ma hope o ke ahi ʻana ma ka lava."
+}
