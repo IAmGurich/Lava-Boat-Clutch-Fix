@@ -11,7 +11,7 @@ jobs:
   publish-fabric:
     runs-on: ubuntu-latest
     steps:
-      - name: Download release assets
+      - name: Download release assets (Fabric/Quilt)
         uses: robinraju/release-downloader@v1.11
         with:
           tag: ${{ github.event.release.tag_name }}
@@ -32,14 +32,15 @@ jobs:
             quilt
           game-versions: |
             26.1
-            26.1.1
+	    26.1.1
             26.1.2
           java: 25
 
   publish-neoforge:
+    needs: publish-fabric
     runs-on: ubuntu-latest
     steps:
-      - name: Download release assets
+      - name: Download release assets (NeoForge)
         uses: robinraju/release-downloader@v1.11
         with:
           tag: ${{ github.event.release.tag_name }}
