@@ -5,29 +5,26 @@ on:
     branches: [ "**" ]
   pull_request:
 
-env:
-  GRADLE_OPTS: "-Dfile.encoding=UTF-8 -Dorg.gradle.daemon=false"
-  JAVA_TOOL_OPTIONS: "-Dfile.encoding=UTF-8"
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
         with:
           java-version: 21
           distribution: temurin
 
-      - name: Normalize & verify Gradle wrapper
-        run: |
-          sed -i 's/\r$//' gradlew
-          chmod +x gradlew
-          test -f gradle/wrapper/gradle-wrapper.jar || { echo "wrapper jar missing"; exit 1; }
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Make gradlew executable
+        run: chmod +x gradlew
 
       - name: Build Fabric
-        run: ./gradlew :fabric:build --parallel --stacktrace
+        run: ./gradlew :fabric:build --stacktrace
 
       - name: Build NeoForge
-        run: ./gradlew :neoforge:build --parallel --stacktrace
+        run: ./gradlew :neoforge:build --stacktrace
