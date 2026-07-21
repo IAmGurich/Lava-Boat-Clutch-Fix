@@ -5,6 +5,10 @@ on:
     branches: [ "**" ]
   pull_request:
 
+env:
+  GRADLE_OPTS: "-Dfile.encoding=UTF-8 -Dorg.gradle.daemon=false"
+  JAVA_TOOL_OPTIONS: "-Dfile.encoding=UTF-8"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,13 +20,14 @@ jobs:
           java-version: 21
           distribution: temurin
 
-      - name: Fix gradlew
+      - name: Normalize & verify Gradle wrapper
         run: |
           sed -i 's/\r$//' gradlew
           chmod +x gradlew
+          test -f gradle/wrapper/gradle-wrapper.jar || { echo "wrapper jar missing"; exit 1; }
 
       - name: Build Fabric
-        run: ./gradlew :fabric:build --parallel
+        run: ./gradlew :fabric:build --parallel --stacktrace
 
       - name: Build NeoForge
-        run: ./gradlew :neoforge:build --parallel
+        run: ./gradlew :neoforge:build --parallel --stacktrace
