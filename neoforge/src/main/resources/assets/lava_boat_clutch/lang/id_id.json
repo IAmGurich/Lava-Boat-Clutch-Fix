@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Pengaturan Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Aktifkan Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Mengaktifkan atau menonaktifkan lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick Kekebalan",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Jumlah tick di mana perahu tidak terbakar di lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mode Pantul Jatuh",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Bawaan",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Kustom",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Acak",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Bawaan: menggunakan kecepatan vanilla\nKustom: menggunakan kecepatan yang dapat dikonfigurasi.\nAcak: kecepatan acak.",
+  "config.lava_boat_clutch.bounce_drop_y": "Kecepatan Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Kecepatan ke atas yang diterapkan pada jatuhnya perahu setelah terbakar di lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Kecepatan X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Kecepatan lateral sepanjang sumbu X yang diterapkan pada jatuhnya perahu setelah terbakar di lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Kecepatan Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Kecepatan lateral sepanjang sumbu Z yang diterapkan pada jatuhnya perahu setelah terbakar di lava."
+}

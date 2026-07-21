@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Подешавања Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Укључи Мод",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Укључује или искључује lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Тиксови Имунитета",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Број тиксова у којима чамац не гори у лави.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Режим Одбијања Пада",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Подразумевано",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Прилагођено",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Случајан",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Подразумевано: користи vanilla брзину\nПрилагођено: користи конфигурабилну брзину.\nСлучајан: случајна брзина.",
+  "config.lava_boat_clutch.bounce_drop_y": "Брзина Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Брзина навише примењена на пад чамца након изгарања у лави.",
+  "config.lava_boat_clutch.bounce_drop_x": "Брзина X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Бочна брзина дуж осе X примењена на пад чамца након изгарања у лави.",
+  "config.lava_boat_clutch.bounce_drop_z": "Брзина Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Бочна брзина дуж осе Z примењена на пад чамца након изгарања у лави."
+}

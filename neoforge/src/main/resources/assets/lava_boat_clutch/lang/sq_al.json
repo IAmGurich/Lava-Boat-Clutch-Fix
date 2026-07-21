@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Cilësimet e Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Aktivizo Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktivizon ose çaktivizon lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Tike Imuniteti",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Numri i tikeve gjatë të cilave varka nuk digjet në lavë.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modaliteti i Kërcimit të Rënies",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "I parazgjedhur",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "I personalizuar",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Rastësor",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "I parazgjedhur: përdor shpejtësinë vanilla\nI personalizuar: përdor shpejtësi të konfigurueshme.\nRastësor: shpejtësi rastësore.",
+  "config.lava_boat_clutch.bounce_drop_y": "Shpejtësia Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Shpejtësia lart e aplikuar në rënien e varkës pas djegies në lavë.",
+  "config.lava_boat_clutch.bounce_drop_x": "Shpejtësia X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Shpejtësia anësore përgjatë boshtit X e aplikuar në rënien e varkës pas djegies në lavë.",
+  "config.lava_boat_clutch.bounce_drop_z": "Shpejtësia Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Shpejtësia anësore përgjatë boshtit Z e aplikuar në rënien e varkës pas djegies në lavë."
+}

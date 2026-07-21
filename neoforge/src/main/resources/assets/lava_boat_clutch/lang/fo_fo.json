@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Stillingar",
+  "config.lava_boat_clutch.enable_mod": "Virkja Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Virkjar ella óvirkjar lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitets-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Tal av ticks har báturin ikki brennur í lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Strikk-Stillari",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Sjálvvalt",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Serstillt",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Tilvildarligur",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Sjálvvalt: nýtir vanilla-ferð\nSerstillt: nýtir stillibæran ferð.\nTilvildarligur: tilvildarligur fart.",
+  "config.lava_boat_clutch.bounce_drop_y": "Ferð Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Uppeftir ferð sum verður løgd á fall bátsins eftir at hann brennur í lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Ferð X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Sílægs ferð eftir X-aksan sum verður løgd á fall bátsins eftir at hann brennur í lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Ferð Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Sílægs ferð eftir Z-aksan sum verður løgd á fall bátsins eftir at hann brennur í lava."
+}

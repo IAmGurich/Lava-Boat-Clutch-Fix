@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "nasin pi Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "open ilo",
+  "config.lava_boat_clutch.enable_mod.tooltip": "ona li open anu li pini e nasin pi lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "tenpo pi awen pona",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "nanpa tenpo pi tomo telo li ala e seli lawa.",
+  "config.lava_boat_clutch.bounce_drop_mode": "nasin pi telo lon kama anpa",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "nanpa wan",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "jan li wile e ni",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "nasa",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "nanpa wan: telo pi mute vanilla\njan li wile e ni: telo pi mute ante.\nnasa: telo nasa.",
+  "config.lava_boat_clutch.bounce_drop_y": "telo Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "telo sewi lon kama anpa tomo telo weka seli lawa.",
+  "config.lava_boat_clutch.bounce_drop_x": "telo X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "telo poka X lon kama anpa tomo telo weka seli lawa.",
+  "config.lava_boat_clutch.bounce_drop_z": "telo Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "telo poka Z lon kama anpa tomo telo weka seli lawa."
+}

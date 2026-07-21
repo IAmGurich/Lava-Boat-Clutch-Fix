@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Impostazion de Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Abilità el Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Abilità o disabilità el lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick de Immunità",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "El numèr di tick in chè el barchet el brüsa minga in la lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modalità Rimbalz de Cadüda",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Predefinì",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizà",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Casuale",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Predefinì: üsa la velocità vanilla\nPersonalizà: üsa üna velocità configurabìl.\nCasuale: velocità casuale.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocità Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocità insü aplicada a la cadüda del barchet dopo avè brüsà in la lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocità X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocità de lacc lüng l'as X aplicada a la cadüda del barchet dopo avè brüsà in la lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocità Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocità de lacc lüng l'as Z aplicada a la cadüda del barchet dopo avè brüsà in la lava."
+}

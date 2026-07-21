@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Optiones Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Modum Activare",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic activat vel desactivat.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticki Immunitatis",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Numerus tickorum in quibus navis in lava non ardet.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modus Resilitionis Casus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Praedefinitus",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Proprius",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Fortuitus",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Praedefinitus: velocitate vanilla utitur\nProprius: velocitate configurabili utitur.\nFortuitus: velocitas fortuita.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocitas Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocitas sursum applicata ad casum navis postquam in lava ardet.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocitas X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocitas lateralis secundum axem X applicata ad casum navis postquam in lava ardet.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocitas Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocitas lateralis secundum axem Z applicata ad casum navis postquam in lava ardet."
+}

@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Stillingar",
+  "config.lava_boat_clutch.enable_mod": "Virkja Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Virkjar eða afvirkjar lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Ónæmis-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Fjöldi ticks þar sem báturinn brennur ekki í lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Hoppamóðus",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Sjálfgefið",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Sérsniðið",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Handahófskenndur",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Sjálfgefið: notar vanilla hraða\nSérsniðið: notar stillanlegann hraða.\nHandahófskenndur: handahófskenndur hraði.",
+  "config.lava_boat_clutch.bounce_drop_y": "Hraði Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Uppfellingarhraði beitt á fall bátsins eftir bruna í lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Hraði X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Hliðarhraði meðfram X-ás beitt á fall bátsins eftir bruna í lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Hraði Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Hliðarhraði meðfram Z-ás beitt á fall bátsins eftir bruna í lava."
+}

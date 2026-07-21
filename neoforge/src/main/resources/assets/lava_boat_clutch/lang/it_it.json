@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Impostazioni di Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Abilita Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Abilita o disabilita la lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick di Immunità",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Il numero di tick in cui la barca non brucia nella lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modalità Rimbalzo Caduta",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Predefinito",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizzato",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Casuale",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Predefinito: usa la velocità vanilla\nPersonalizzato: usa una velocità configurabile.\nCasuale: velocità casuale.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocità Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocità verso l'alto applicata alla caduta della barca dopo aver bruciato nella lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocità X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocità laterale lungo l'asse X applicata alla caduta della barca dopo aver bruciato nella lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocità Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocità laterale lungo l'asse Z applicata alla caduta della barca dopo aver bruciato nella lava."
+}

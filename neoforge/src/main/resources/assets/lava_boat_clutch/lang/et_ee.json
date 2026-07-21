@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Seaded",
+  "config.lava_boat_clutch.enable_mod": "Luba Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Lubab või keelab lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Immuunsuse Tikid",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Tikite arv, mille jooksul paat laavaas ei põle.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Kukkumispõrke Režiim",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Vaikimisi",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Kohandatud",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Juhuslik",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Vaikimisi: kasutab vanilla kiirust\nKohandatud: kasutab konfigureeritavat kiirust.\nJuhuslik: juhuslik kiirus.",
+  "config.lava_boat_clutch.bounce_drop_y": "Kiirus Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Ülespoole suunatud kiirus, mida rakendatakse paadi kukkumisele pärast laavaas põlemist.",
+  "config.lava_boat_clutch.bounce_drop_x": "Kiirus X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Külgmine kiirus mööda X-telge, mida rakendatakse paadi kukkumisele pärast laavaas põlemist.",
+  "config.lava_boat_clutch.bounce_drop_z": "Kiirus Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Külgmine kiirus mööda Z-telge, mida rakendatakse paadi kukkumisele pärast laavaas põlemist."
+}

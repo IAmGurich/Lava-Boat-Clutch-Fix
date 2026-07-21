@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix ക്രമീകരണങ്ങൾ",
+  "config.lava_boat_clutch.enable_mod": "Mod പ്രവർത്തനക്ഷമമാക്കുക",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic പ്രവർത്തനക്ഷമമോ നിഷ്ക്രിയമോ ആക്കുന്നു.",
+  "config.lava_boat_clutch.immunity_ticks": "പ്രതിരോധ ടിക്കുകൾ",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "ബോട്ട് ലാവയിൽ കത്താത്ത ടിക്കുകളുടെ എണ്ണം.",
+  "config.lava_boat_clutch.bounce_drop_mode": "ഡ്രോപ്പ് ബൗൺസ് മോഡ്",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "ഡിഫോൾട്ട്",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "കസ്റ്റം",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "ക്രമരഹിതം",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "ഡിഫോൾട്ട്: vanilla വേഗം ഉപയോഗിക്കുന്നു\nകസ്റ്റം: ക്രമീകരിക്കാവുന്ന വേഗം ഉപയോഗിക്കുന്നു.\nക്രമരഹിതം: ക്രമരഹിത വേഗത.",
+  "config.lava_boat_clutch.bounce_drop_y": "വേഗം Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "ബോട്ട് ലാവയിൽ കത്തിക്കഴിഞ്ഞ ശേഷം ഡ്രോപ്പിന് പ്രയോഗിക്കുന്ന മുകളിലേക്കുള്ള വേഗം.",
+  "config.lava_boat_clutch.bounce_drop_x": "വേഗം X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "ബോട്ട് ലാവയിൽ കത്തിക്കഴിഞ്ഞ ശേഷം ഡ്രോപ്പിന് X അക്ഷത്തിലൂടെ പ്രയോഗിക്കുന്ന പാർശ്വ വേഗം.",
+  "config.lava_boat_clutch.bounce_drop_z": "വേഗം Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "ബോട്ട് ലാവയിൽ കത്തിക്കഴിഞ്ഞ ശേഷം ഡ്രോപ്പിന് Z അക്ഷത്തിലൂടെ പ്രയോഗിക്കുന്ന പാർശ്വ വേഗം."
+}

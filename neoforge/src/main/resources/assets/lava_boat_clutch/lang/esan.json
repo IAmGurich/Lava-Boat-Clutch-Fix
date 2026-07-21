@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Configurasión de Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Activá er Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva la lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks de Inmunidá",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "La cantidá de ticks en los que er bote no ze quema en la lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modo de Rebote de Caía",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Predeterminá",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizao",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Aleatorio",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Predeterminá: usa velozidá vanilla\nPersonalizao: usa velozidá configurable.\nAleatorio: velocidá aleatoria.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velozidá Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velozidá hasia arriba aplicá a la caía der bote trá quemarse en la lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velozidá X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velozidá lateral a lo largo der eje X aplicá a la caía der bote trá quemarse en la lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velozidá Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velozidá lateral a lo largo der eje Z aplicá a la caía der bote trá quemarse en la lava."
+}
