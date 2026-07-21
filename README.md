@@ -16,7 +16,7 @@ This mod restores it. When a boat first touches lava, it receives a short immuni
 
 Lava Boat Clutch Fix is currently available for Fabric, Quilt or NeoForge on Minecraft: Java Edition 1.21.5 or newer.
 
-## Two Editions
+## Three Editions
 
 This mod comes in three editions, so you can pick the one that fits your setup:
 
@@ -28,7 +28,7 @@ The full experience with an in-game config screen.
 - <img src="assets/oak_boat.png" width="22"> **Item drop bounce** — the dropped boat item bounces upward out of the lava so it doesn't burn (default: vanilla)
 - <img src="assets/Fire.gif" width="22"> **No fire flicker** — fire particles are suppressed on the client for the first 4 ticks
 - <img src="assets/lever.png" width="22"> **Toggle on/off** — disable the mod at any time without removing it (default: enable mod)
-- ⚙️ **Fully configurable** — adjust everything via the in-game config screen (requires Cloth Config + Mod Menu)
+- ⚙️ **Fully configurable** — adjust everything via the in-game config screen
 - 🌐 **Localized** — this mod version supports a lot of languages!
 > Dependencies: on Fabric/Quilt the config screen requires Cloth Config + Mod Menu, on NeoForge the config screen is built in - no dependencies.
 
