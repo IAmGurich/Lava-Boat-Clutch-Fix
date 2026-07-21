@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Golow Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Gwul Mod Oberys",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Gwul oberys po disbrofya an lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Tikow Imunita",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Niver an tikow na los an skath yn lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Modus Lamm Koedha",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Ragdegys",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personelys",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Dre hap",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Ragdegys: us tros vanilla\nPersonelys: us tros kefunys.\nDre hap: kowlforgh dre hap.",
+  "config.lava_boat_clutch.bounce_drop_y": "Tros Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Tros wor-bynn gwrys orth koedha an skath wosa leski yn lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Tros X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Tros cornelyek war-hyd an aksel X gwrys orth koedha an skath wosa leski yn lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Tros Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Tros cornelyek war-hyd an aksel Z gwrys orth koedha an skath wosa leski yn lava."
+}

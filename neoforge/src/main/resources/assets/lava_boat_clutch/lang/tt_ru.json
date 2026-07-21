@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Параметрлары",
+  "config.lava_boat_clutch.enable_mod": "Модны Ачу",
+  "config.lava_boat_clutch.enable_mod.tooltip": "lava boat clutch mechanic ача яки ябa.",
+  "config.lava_boat_clutch.immunity_ticks": "Иммунитет Тиклары",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Кайыкның лавада янмаган тикларының саны.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Төшү Сикерү Режимы",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Стандарт",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Үзгәртелгән",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Очраклы",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Стандарт: vanilla тизлеген куллана\nҮзгәртелгән: конфигурацияланган тизлекне куллана.\nОчраклы: очраклы тизлек.",
+  "config.lava_boat_clutch.bounce_drop_y": "Тизлек Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Кайык лавада янганнан соң төшүгә куелган өскә таба тизлек.",
+  "config.lava_boat_clutch.bounce_drop_x": "Тизлек X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Кайык лавада янганнан соң төшүгә X уклары буенча куелган ян тизлек.",
+  "config.lava_boat_clutch.bounce_drop_z": "Тизлек Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Кайык лавада янганнан соң төшүгә Z уклары буенча куелган ян тизлек."
+}

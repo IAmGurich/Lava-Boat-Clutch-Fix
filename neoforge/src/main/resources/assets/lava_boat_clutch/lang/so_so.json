@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Goobaha Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Shaqaynsi Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Shaqaynsiyaa ama joojiyaa lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Tick-yada Difaaca",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Tirada tick-yada ee doontidu ku gutaan lavada.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Habka Xoogga Dhicista",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Caadiga",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Gaar",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Kadis",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Caadiga: isticmaalaa xawaaraha vanilla\nGaar: isticmaalaa xawaare la habeyn karo.\nKadis: isticmaalaa xawaare kadis ah.",
+  "config.lava_boat_clutch.bounce_drop_y": "Xawaaarka Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Xawaaraha kor u socda ee loo adeegsado dhicista doontida kadib gubashadii lavada.",
+  "config.lava_boat_clutch.bounce_drop_x": "Xawaaarka X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Xawaaraha dhinacyada ee xuddunta X ee loo adeegsado dhicista doontida kadib gubashadii lavada.",
+  "config.lava_boat_clutch.bounce_drop_z": "Xawaaarka Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Xawaaraha dhinacyada ee xuddunta Z ee loo adeegsado dhicista doontida kadib gubashadii lavada."
+}

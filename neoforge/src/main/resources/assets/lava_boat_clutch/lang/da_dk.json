@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Indstillinger",
+  "config.lava_boat_clutch.enable_mod": "Aktivér Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Aktiverer eller deaktiverer lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitets-Ticks",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Antallet af ticks, hvor båden ikke brænder i lavaen.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop-Studs-Tilstand",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Standard",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Brugerdefineret",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Tilfældig",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Standard: bruger vanilla-hastighed\nBrugerdefineret: bruger konfigurerbar hastighed.\nTilfældig: tilfældig hastighed.",
+  "config.lava_boat_clutch.bounce_drop_y": "Hastighed Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Opadgående hastighed påført bådens fald efter at den brænder i lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Hastighed X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Sidelæns hastighed langs X-aksen påført bådens fald efter at den brænder i lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Hastighed Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Sidelæns hastighed langs Z-aksen påført bådens fald efter at den brænder i lava."
+}

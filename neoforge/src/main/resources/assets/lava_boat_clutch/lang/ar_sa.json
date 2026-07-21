@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "إعدادات Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "تفعيل المود",
+  "config.lava_boat_clutch.enable_mod.tooltip": "يمكّن أو يعطّل lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "نبضات المناعة",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "عدد النبضات التي لا يحترق فيها القارب في اللافا.",
+  "config.lava_boat_clutch.bounce_drop_mode": "وضع ارتداد السقوط",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "افتراضي",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "مخصص",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "عشوائي",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "افتراضي: يستخدم سرعة الفانيلا\nمخصص: يستخدم سرعة قابلة للضبط.\nعشوائي: سرعة عشوائية.",
+  "config.lava_boat_clutch.bounce_drop_y": "السرعة Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "السرعة الصاعدة المطبقة على سقوط القارب بعد احتراقه في اللافا.",
+  "config.lava_boat_clutch.bounce_drop_x": "السرعة X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "السرعة الجانبية على المحور X المطبقة على سقوط القارب بعد احتراقه في اللافا.",
+  "config.lava_boat_clutch.bounce_drop_z": "السرعة Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "السرعة الجانبية على المحور Z المطبقة على سقوط القارب بعد احتراقه في اللافا."
+}

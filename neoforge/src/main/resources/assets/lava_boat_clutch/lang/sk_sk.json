@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Nastavenia Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Povoliť Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Zapína alebo vypína lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticky Imunity",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Počet tickov, počas ktorých člun nehorí v láve.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Režim Odrazu Pádu",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Predvolený",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Vlastný",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Náhodný",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Predvolený: používa vanilla rýchlosť\nVlastný: používa nastaviteľnú rýchlosť.\nNáhodný: náhodná rýchlosť.",
+  "config.lava_boat_clutch.bounce_drop_y": "Rýchlosť Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Rýchlosť nahor aplikovaná na pád člna po zhorení v láve.",
+  "config.lava_boat_clutch.bounce_drop_x": "Rýchlosť X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Bočná rýchlosť pozdĺž osi X aplikovaná na pád člna po zhorení v láve.",
+  "config.lava_boat_clutch.bounce_drop_z": "Rýchlosť Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Bočná rýchlosť pozdĺž osi Z aplikovaná na pád člna po zhorení v láve."
+}

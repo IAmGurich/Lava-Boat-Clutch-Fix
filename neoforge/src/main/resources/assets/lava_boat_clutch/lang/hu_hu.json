@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Lava Boat Clutch Fix Beállítások",
+  "config.lava_boat_clutch.enable_mod": "Mod Engedélyezése",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Engedélyezi vagy letiltja a lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Immunitás Tickek",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Azon tickek száma, amelyek alatt a csónak nem ég el a lávában.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Drop Pattanás Mód",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Alapértelmezett",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Egyéni",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Véletlenszerű",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Alapértelmezett: vanilla sebességet használ\nEgyéni: beállítható sebességet használ.\nVéletlenszerű: véletlenszerű sebesség.",
+  "config.lava_boat_clutch.bounce_drop_y": "Sebesség Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Felfelé irányuló sebesség, amely a csónak esésére vonatkozik miután elégett a lávában.",
+  "config.lava_boat_clutch.bounce_drop_x": "Sebesség X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "X tengely menti oldalirányú sebesség, amely a csónak esésére vonatkozik miután elégett a lávában.",
+  "config.lava_boat_clutch.bounce_drop_z": "Sebesség Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Z tengely menti oldalirányú sebesség, amely a csónak esésére vonatkozik miután elégett a lávában."
+}

@@ -1,0 +1,18 @@
+{
+  "config.lava_boat_clutch.title": "Paramètres de Lava Boat Clutch Fix",
+  "config.lava_boat_clutch.enable_mod": "Activar lo Mod",
+  "config.lava_boat_clutch.enable_mod.tooltip": "Activa o desactiva lo lava boat clutch mechanic.",
+  "config.lava_boat_clutch.immunity_ticks": "Ticks d'Immunitat",
+  "config.lava_boat_clutch.immunity_ticks.tooltip": "Lo nombre de ticks pendent los quals la barca brolha pas en lava.",
+  "config.lava_boat_clutch.bounce_drop_mode": "Mòde de Rebond de Tombar",
+  "config.lava_boat_clutch.bounce_drop_mode.default": "Per defaut",
+  "config.lava_boat_clutch.bounce_drop_mode.custom": "Personalizat",
+  "config.lava_boat_clutch.bounce_drop_mode.random": "Aleatòri",
+  "config.lava_boat_clutch.bounce_drop_mode.tooltip": "Per defaut: utiliza la velocitat vanilla\nPersonalizat: utiliza una velocitat configurable.\nAleatòri: velocitat aleatòria.",
+  "config.lava_boat_clutch.bounce_drop_y": "Velocitat Y",
+  "config.lava_boat_clutch.bounce_drop_y.tooltip": "Velocitat cap amont aplicada a la tomada de la barca aprèp que s'es brolhada en lava.",
+  "config.lava_boat_clutch.bounce_drop_x": "Velocitat X",
+  "config.lava_boat_clutch.bounce_drop_x.tooltip": "Velocitat lateral al lòng de l'axe X aplicada a la tomada de la barca aprèp que s'es brolhada en lava.",
+  "config.lava_boat_clutch.bounce_drop_z": "Velocitat Z",
+  "config.lava_boat_clutch.bounce_drop_z.tooltip": "Velocitat lateral al lòng de l'axe Z aplicada a la tomada de la barca aprèp que s'es brolhada en lava."
+}
