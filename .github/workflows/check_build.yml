@@ -19,12 +19,14 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-disabled: true
 
       - name: Make gradlew executable
         run: chmod +x gradlew
 
       - name: Build Fabric
-        run: ./gradlew :fabric:build --stacktrace
+        run: ./gradlew :fabric:build --stacktrace --refresh-dependencies
 
       - name: Build NeoForge
-        run: ./gradlew :neoforge:build --stacktrace
+        run: ./gradlew :neoforge:build --stacktrace --refresh-dependencies
