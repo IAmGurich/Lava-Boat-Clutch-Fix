@@ -37,7 +37,7 @@ The full experience with an in-game config screen.
 ## Raw edition
 
 The exact same mechanic with zero dependencies and zero config.
-- <img src="assets/lava_bucket.png" width="22"> **Lava immunity** — boats survive on lava for a configurable number of ticks
+- <img src="assets/lava_bucket.png" width="22"> **Lava immunity** — boats survive on lava for 3 ticks
 - <img src="assets/shield.png" width="15"> **Fire damage protection** — no fire damage to the boat during the immunity window
 - <img src="assets/oak_boat.png" width="22"> **Item drop bounce** — the dropped boat item bounces upward out of the lava so it doesn't burn
 - <img src="assets/Fire.gif" width="22"> **No fire flicker** — fire particles are suppressed on the client for the first 4 ticks
