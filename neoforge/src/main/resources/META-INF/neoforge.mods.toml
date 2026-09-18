@@ -5,7 +5,7 @@ issueTrackerURL = "https://github.com/IAmGurich/Lava-Boat-Clutch-Fix/issues"
 
 [[mods]]
 modId = "lava_boat_clutch"
-version = "5.1.0"
+version = "6.1.0"
 displayName = "Lava Boat Clutch Fix"
 displayURL = "https://modrinth.com/mod/lava-boat-clutch-fix"
 logoFile = "assets/lava_boat_clutch/icon.png"
@@ -18,13 +18,13 @@ config = "lava_boat_clutch.mixins.json"
 [[dependencies.lava_boat_clutch]]
 modId = "neoforge"
 type = "required"
-versionRange = "[26.2,26.3)"
+versionRange = "[26.3,26.4)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.lava_boat_clutch]]
 modId = "minecraft"
 type = "required"
-versionRange = "[26.2,26.3)"
+versionRange = "[26.3,26.4)"
 ordering = "NONE"
 side = "BOTH"
