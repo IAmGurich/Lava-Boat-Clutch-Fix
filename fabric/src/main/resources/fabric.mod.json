@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "lava_boat_clutch",
-  "version": "5.1.0",
+  "version": "6.1.0",
   "name": "Lava Boat Clutch Fix",
   "description": "Restores lava boat clutch mechanic that got fixed in 1.21.5",
   "authors": [
@@ -31,7 +31,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.18.4",
-    "minecraft": ">=26.2",
+    "minecraft": ">=26.3",
     "cloth-config": ">=26.2.155"
   },
   "suggests": {
